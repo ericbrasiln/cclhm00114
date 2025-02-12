@@ -1,0 +1,263 @@
+---
+title: "A Revolução de Santo Domingo e a Independência do Haiti"
+subtitle: "CCLHM0081 - História da América independente"
+author: Eric Brasil
+date: 2024-09-04
+lang: pt-br
+format:
+  revealjs: 
+    theme: black
+    slide-number: true
+    incremental: true 
+    chalkboard: 
+      buttons: true
+    preview-links: auto
+    #logo: logo.png
+    #css: styles.css
+    footer: "<a href=https://ericbrasil.com.br/>Eric Brasil</a> | <a href=https://ericbrasil.com.br/contact/>Entre em contato</a>"
+---
+
+<iframe src="https://www.youtube.com/embed/4UNblENo4hs" width="1090" height="618" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+---
+
+## Título 1 {.center}
+<F12>
+### **Abolição, Liberdade e Direitos Humanos**
+- **Primeira Revolução de Escravos Bem-sucedida**: A Revolução Haitiana (1791-1804) foi a primeira e única revolução de escravos que resultou na criação de um Estado livre e independente governado por ex-escravos.
+- **Impacto Global**: Desafiou as noções de inferioridade racial e influenciou movimentos abolicionistas em todo o mundo.
+- **Repercussões**: Causou medo entre as elites escravocratas das Américas, levando à repressão em outras colônias.
+
+::: notes
+- A Revolução Haitiana serviu como um ponto de virada na história global, provando que uma revolução de escravos poderia derrubar um sistema colonial e escravista.
+- Ela antecipou muitos dos debates modernos sobre liberdade, igualdade e direitos humanos.
+:::
+
+---
+
+## C. L. R. James e *Os Jacobinos Negros* {.center}
+
+### **Importância para a Historiografia**
+- **História Revolucionária**: *Os Jacobinos Negros* é uma obra seminal que coloca a Revolução Haitiana no centro da história das revoluções atlânticas.
+- **Perspectiva Decolonial**: James argumenta que a Revolução Haitiana foi tão importante quanto a Revolução Francesa, mas foi deliberadamente marginalizada.
+
+---
+
+## C. L. R. James e *Os Jacobinos Negros* {.center}
+
+- **Principais Pontos**:
+  - Conexão entre a Revolução Francesa e a Revolução Haitiana.
+  - O papel de Toussaint L'Ouverture como líder revolucionário.
+  - A luta pela liberdade como uma questão central da modernidade.
+
+::: notes
+- C. L. R. James foi um historiador e ativista caribenho que trouxe à tona a importância da Revolução Haitiana, muitas vezes esquecida ou marginalizada na historiografia ocidental.
+- *Os Jacobinos Negros* é fundamental para entender a revolução não apenas como um evento caribenho, mas como parte integral das revoluções atlânticas que moldaram o mundo moderno.
+:::
+
+---
+
+## Contexto Histórico da Escrita do Livro {.center}
+
+- **Escrito em 1938**: Durante um período de agitação global, com o avanço do colonialismo e os movimentos de descolonização emergindo.
+- **Luta Contra o Colonialismo**: James escreve como um militante anticolonialista, buscando conectar a Revolução Haitiana com as lutas contemporâneas contra o imperialismo.
+- **Impacto da Revolução Russa**: A obra também reflete as influências do marxismo e das revoluções proletárias no pensamento de James.
+
+::: notes
+O livro foi escrito em 1938, durante um período de intensa agitação política mundial. C.L.R. James utilizou a Revolução Haitiana para refletir sobre as lutas contra o colonialismo e a importância dos movimentos de libertação. A obra foi influenciada pelas revoluções marxistas, especialmente a Revolução Russa.
+:::
+
+---
+
+## Fontes Utilizadas por James {.center}
+
+- **Fontes Primárias**: Relatos de testemunhas oculares, documentos coloniais, correspondências oficiais.
+- **Historiografia Prévia**: James se apoia e critica historiadores anteriores, integrando novas interpretações e um enfoque marxista.
+- **Literatura Abolicionista**: Utiliza obras abolicionistas para entender a resistência e as narrativas dos escravizados.
+
+::: notes
+James utiliza uma ampla gama de fontes primárias, incluindo documentos coloniais e correspondências, bem como obras historiográficas anteriores. Sua análise é enriquecida pela crítica dessas fontes à luz de uma perspectiva marxista e abolicionista.
+:::
+
+---
+
+## Corrente Historiográfica e Diálogos de James {.center}
+
+- **Diálogo com o Marxismo**: James aplica uma análise marxista à Revolução Haitiana, destacando a luta de classes e o papel das massas.
+- **Oposição ao Colonialismo**: James se opõe às narrativas eurocêntricas que minimizam a importância da revolução e da resistência dos escravizados.
+- **Influência no Pensamento Pós-Colonial**: Sua obra é precursora de debates pós-coloniais e influenciou gerações de historiadores e ativistas.
+
+::: notes
+James dialoga fortemente com a tradição marxista, utilizando conceitos de luta de classes para interpretar a Revolução Haitiana. Ele se opõe às narrativas coloniais que marginalizam a revolução e propõe uma leitura que coloca a resistência dos escravizados no centro da história.
+:::
+
+---
+
+## {.center}
+
+[Link para apresentação geral sobre Revolução do Haiti](https://prezi.com/kizkmdimpyk7/ha-lutas-contra-o-cativeiro-lutas-pela-liberdade/)
+
+---
+
+## Cronologia da Revolução do Haiti {.center}
+
+---
+
+### **1789**
+- **26 de Agosto:** Declaração dos Direitos do Homem e do Cidadão na França.
+- **Outubro:** Circulação de notícias e discussões sobre a Revolução Francesa em São Domingos.
+
+### **1790**
+- **Outubro:** Reunião da Assembleia Colonial em São Domingos, reforçando os direitos dos colonos brancos.
+
+--- 
+
+### **1791**
+- **22 de Agosto:** Início da insurreição dos escravos no norte de São Domingos, marco do início da Revolução Haitiana.
+- **Outubro:** Batalhas entre escravos insurgentes e forças coloniais.
+
+### **1792**
+- **Abril:** A França decreta a igualdade de todos os homens livres nas colônias, tentando conter as rebeliões.
+
+---
+
+### **1793**
+- **Outubro:** A França aboliu a escravidão em todas as suas colônias.
+
+### **1794**
+- **4 de Fevereiro:** Abolição formal da escravidão em todas as colônias francesas pela Convenção Nacional em Paris.
+
+---
+
+### **1795**
+- **Julho:** Tratado de Basel – a Espanha cede a parte oriental da ilha de São Domingos à França.
+
+### **1798**
+- **Agosto:** Toussaint Louverture expulsa os britânicos da ilha e assume o controle de São Domingos.
+
+---
+
+### **1801**
+- **Julho:** Toussaint Louverture promulga uma constituição autonomista para São Domingos, proclamando-se governador vitalício.
+
+### **1802**
+- **Maio:** Napoleão Bonaparte envia uma grande expedição militar para retomar o controle da ilha e restabelecer a escravidão.
+- **Junho:** Louverture é capturado e deportado para a França.
+
+---
+
+### **1803**
+- **18 de Novembro:** Batalha de Vertières – última batalha da Revolução Haitiana, marcando a derrota definitiva das tropas francesas.
+
+### **1804**
+- **1 de Janeiro:** Proclamação da Independência do Haiti, estabelecendo o primeiro Estado negro livre das Américas e o segundo do Hemisfério Ocidental a se tornar independente.
+
+---
+
+## Georges Biassou (?-1801) {.center}
+
+![Georges Biassou](biassou.png)
+
+---
+
+### **Origem e Primeiros Passos** {.center}
+
+- **Líder Religioso e Militar**: Georges Biassou começou como líder de uma maroonagem (comunidade de escravos fugidos) e se destacou rapidamente como um dos principais líderes da revolta escrava em 1791.
+- **Aliança com os Espanhóis**: Em busca de apoio contra os colonos franceses, Biassou formou uma aliança com os espanhóis, que controlavam a parte oriental da ilha.
+
+---
+
+### **Contribuições para a Revolução** {.center}
+
+- **Liderança Militar**: Organizou exércitos de escravos e travou importantes batalhas contra as forças coloniais francesas.
+- **Papel na Revolução**: Apesar de sua aliança inicial com os espanhóis, a liderança de Biassou foi fundamental na resistência contra a opressão colonial, embora tenha sido posteriormente marginalizado.
+
+---
+
+### **Fim de Vida** {.center}
+
+- **Exílio e Morte**: Após a derrota dos espanhóis, Biassou se exilou em Cuba, onde viveu até sua morte em 1801.
+
+---
+
+## Toussaint Louverture (1746–1803) {.center}
+
+![Toussaint Louverture](toussaint.png)
+
+---
+
+### **Origem e Ascensão** {.center}
+
+- **De Escravo a Líder Revolucionário**: Toussaint Louverture nasceu escravo, mas ganhou sua liberdade antes do início da revolução e se tornou um líder estratégico e militarmente habilidoso.
+- **Aliança com a França**: Inicialmente, Louverture lutou ao lado dos espanhóis, mas depois se aliou aos franceses quando estes aboliram a escravidão em 1794.
+
+---
+
+### **Contribuições para a Revolução** {.center}
+
+- **Governador de São Domingos**: Em 1801, Louverture promulgou uma constituição que declarava São Domingos uma colônia autônoma, com ele como governador vitalício.
+- **Unificação da Ilha**: Ele unificou a ilha, expulsou os espanhóis e britânicos, e estabeleceu um regime que incentivava a agricultura de plantação sob trabalho pago.
+
+---
+
+### **Fim de Vida** {.center}
+
+- **Captura e Morte**: Em 1802, foi capturado por tropas de Napoleão e deportado para a França, onde morreu em uma prisão em 1803.
+
+---
+
+## Jean-Jacques Dessalines (1758–1806) {.center}
+
+![Jean-Jacques Dessalines](dessalines.png)
+
+---
+
+### **Origem e Ascensão** {.center}
+
+- **Ex-Soldado e General**: Dessalines começou como soldado sob o comando de Louverture e rapidamente subiu nas fileiras, sendo conhecido por sua crueldade no campo de batalha.
+- **Continuação da Luta**: Após a captura de Louverture, Dessalines assumiu a liderança da revolução e continuou a lutar contra os franceses.
+
+---
+
+### **Contribuições para a Revolução** {.center}
+
+- **Independência do Haiti**: Foi o principal líder na derrota final das tropas francesas em 1803, culminando na independência do Haiti em 1 de janeiro de 1804.
+- **Primeiro Imperador do Haiti**: Proclamou-se Imperador Jacques I do Haiti, estabelecendo o primeiro Estado independente negro das Américas.
+
+---
+
+### **Fim de Vida** {.center}
+
+- **Assassinato**: Seu governo autoritário gerou descontentamento, e ele foi assassinado em 1806 por rivais políticos.
+
+---
+
+## Discussão do Texto de Soares e Silva {.center}
+
+---
+
+## **Principais Temas** {.center}
+
+- **Especificidade da Revolução Haitiana**:
+  - **Contexto Colonial**: O Haiti, então São Domingos, era uma das colônias mais ricas do mundo devido ao trabalho escravo, com uma população majoritariamente composta por escravos africanos.
+  - **Ideais Iluministas**: A Revolução Francesa influenciou a elite letrada, mas a revolução foi principalmente conduzida pela maioria escravizada, que lutava por liberdade e contra a opressão.
+
+---
+
+## **Principais Temas** {.center}
+
+- **Participação Popular**:
+  - **Liderança de Toussaint L'Ouverture e Jean-Jacques Dessalines**: Ambos foram cruciais na mobilização dos escravos e na condução da revolução.
+  - **Fatores de Homogeneização**: A cultura africana e a religião voduista desempenharam papéis fundamentais na unificação dos escravos em torno da causa revolucionária.
+
+---
+
+## **Conclusões** {.center}
+
+- **Revolução Singular**: O Haiti foi a primeira nação latino-americana a conquistar a independência e a abolição da escravidão por meio de uma revolução liderada pelos próprios escravos.
+- **Impacto Duradouro**: A Revolução Haitiana desafiou as potências coloniais e serviu como um exemplo de resistência para movimentos de libertação em todo o mundo.
+
+::: notes
+- O texto de Soares e Silva destaca como a Revolução Haitiana foi moldada tanto pelas condições locais quanto pelas influências externas, mas sempre com um caráter profundamente enraizado na luta pela liberdade.
+- A unificação cultural e a rejeição da opressão externa foram elementos-chave para o sucesso da revolução.
+:::

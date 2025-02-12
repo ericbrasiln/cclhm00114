@@ -11,9 +11,9 @@ logo: imgs/banner_logos_hist.png
 toc: true
 ---
 
-| Código    | Disciplina                             | CH  | Dia | Horário  | Sala |
-|:---------:|:--------------------------------------:|:---:|:---:|:--------:|:----:|
-| CCLHM00114| Introdução à História Digital          | 60h | 5ª  | 14h-18h  | ?    |
+| Código    | Disciplina                             | CH  | Dia         | Horário  | Sala      |
+|:---------:|:--------------------------------------:|:---:|:-----------:|:--------:|:---------:|
+| CCLHM00114| Introdução à História Digital          | 60h | Quinta-fera | 14h-18h  | Auditório |
 
 # Ementa
 

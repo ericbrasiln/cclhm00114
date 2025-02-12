@@ -12,21 +12,21 @@ geometry:
 
 | Docente     | Período | CH  | Horário          | Sala | Contato |
 |:-----------:|:-------:|:---:|:----------------:|:----:|:---------------------------:|
-| Eric Brasil | 2024.1  | 60h | Quintas, 14h-18h | ?    | profericbrasil@unilab.edu.br|
+| Eric Brasil | 2024.1  | 60h | Quintas, 14h-18h | Auditório | profericbrasil@unilab.edu.br|
 
 
 ## Cronograma
 
 | Aula | Data         | Tema                                                | CH | Observação           |
 |------|--------------|-----------------------------------------------------|----|----------------------|
-| 1    | 13/02/2025   | Apresentação da disciplina                          | 4  | Aula remota          |
-| 2    | 20/02/2025   | História e tecnologia: do código Morse aos LLMs     | 4  | Lab. Informática     |
+| 1    | 13/02/2025   | Apresentação da disciplina: que história é essa?    | 4  | Presencial           |
+| 2    | 20/02/2025   | História e tecnologia: do código Morse aos LLMs     | 4  | Presencial           |
 | 3    | 27/02/2025   | Como a inteligência artificial "pensa" nosso curso? | 4  | Atividade remota     |
 | --   | 06/03/2025   | **Sem aula - Carnaval**                             | -- | --                   |
 | 4    | 13/03/2025   | Passado, futuro e presente do digital na História   | 4  | Presencial           |
 | 5    | 20/03/2025   | Fontes digitais, coleções e plataformas online      | 4  | Presencial           |
 | 6    | 27/03/2025   | Oficina I: Zotero                                   | 4  | Presencial           |
-| 7    | 03/04/2025   | Algoritmos, dataficação da sociedade e o ofício de Historiadores/as  | 4  | Presencial           |
+| 7    | 03/04/2025   | Algoritmos, dataficação da sociedade e o ofício de Historiadores/as | 4 | Presencial |
 | 8    | 10/04/2025   | Oficina II: OCR                                     | 4  | Presencial           |
 | 9    | 17/04/2025   | Ética e questões legais na pesquisa digital         | 4  | Presencial           |
 | 10   | 24/04/2025   | Oficina III: Inteligência Artificial                | 4  | Presencial           |
