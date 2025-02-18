@@ -1,0 +1,58 @@
+---
+title: "História e Tecnologia:  do código Morse aos LLMs"
+subtitle: "CCLHM00114 - Introdução à História Digital"
+author: Eric Brasil
+date: 2025-02-20
+lang: pt-br
+format:
+  revealjs: 
+    theme: simple
+    slide-number: true
+    incremental: true 
+    chalkboard: 
+      buttons: true
+    preview-links: auto
+    #logo: logo.png
+    #css: styles.css
+    footer: "<a href=https://ericbrasil.com.br/>Eric Brasil</a> | <a href=https://ericbrasil.com.br/contact/>Entre em contato</a>"
+---
+
+<iframe src="https://www.youtube.com/embed/VYOjWnS4cMY" width="1090" height="618" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+---
+
+## 1. Colonia de Povoamento X Colonia de Exploração? {.center}
+
+- Ibéricos x Anglos-Saxões
+- Clima e geografia
+- Origens do "atraso" ou "sucesso" das colônias
+
+---
+
+## 2. Inglaterra no século XVII {.center}
+
+- Ausência de um projeto colonial sistemático
+    - Tensões entre a Coroa e o Parlamento, entre nobreza e burguesia
+    - Tensões religiosas
+    - Inflação, fome, peste
+    - Aumento da população
+
+---
+
+## 3. Colonos ingleses na América {.center}
+
+- Companhias de comércio: empresas privadas e capitalistas
+- Órfãos, mulheres pobres
+- Servos por contrato (_indentured servants_)
+- Peregrinos (_pilgrims_) e puritanos: perseguição religiosa
+- Escravos africanos
+- Crescimento populacional
+
+---
+
+## {.center}
+
+![13 colônias](13col.jpg)
+
+---
+
