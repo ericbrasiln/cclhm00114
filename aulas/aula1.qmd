@@ -1,0 +1,74 @@
+---
+title: "Apresentação: Que história é essa?"
+subtitle: "CCLHM00114 - Introdução à História Digital"
+author: Eric Brasil
+date: 2025-02-13
+lang: pt-br
+format:
+  revealjs: 
+    theme: white
+    slide-number: true
+    incremental: true 
+    chalkboard: 
+      buttons: true
+    preview-links: auto
+    #logo: logo.png
+    #css: styles.css
+    footer: "<a href=https://ericbrasil.com.br/>Eric Brasil</a> | <a href=https://ericbrasil.com.br/contact/>Entre em contato</a>"
+---
+## {.center} 
+
+>O ciberspaco […] colonizou o mundo físico.[...] Perceber como as tecnologias digitais e as novas mídias são constitutivas da nossa experiência, das quais o cotidiano e apenas uma de suas manifestações. 
+
+[William Gibson, Google’s Earth](https://www.nytimes.com/2010/09/01/opinion/01gibson.html)
+
+![](https://media2.giphy.com/media/wypKXPQggwaCA/giphy.webp?cid=790b7611ivsfh6pfisdmz85shjtbrd7ojft3aiuecdzvffy0&ep=v1_gifs_search&rid=giphy.webp&ct=g)
+
+---
+
+## O que é essa disciplina? {.center}
+
+![](https://media1.giphy.com/media/3o6wNIV9FP28JIleyk/giphy.gif?cid=790b761122702fc03784413d1e84fbe31a5613b955b9bf24&rid=giphy.gif&ct=g)
+
+---
+
+## Humanidades Digitais: um campo de muitas disputas {.center}
+
+- Longa história das tecnologias com as pesquisas em Humanidades
+- Index Thomisticus de Roberto Busa em parceria com a IBM (1940-1970);
+- Linguística X Economia/estatística/serialização;
+- O termo Humanidades Digitais é recente, e ganha espaço a partir dos anos 2000.
+
+---
+
+## Pensando na História, onde estamos nessa conversa? {.center}
+
+- Cliometria, história econômica, análise de séries temporais, etc;
+- Nos afastamos dos computadores a partir de 1990?
+- Mas por motivos importantes: busca do desenvolvimento de uma história social vista de baixo.
+
+---
+
+## Humanidades digitais: um risco para o aprofundamento das desigualdades na pesquisa? {.center}
+
+
+- Risco de favorecer fontes e acervos dos grandes centros?
+- Retornar para uma história distante das experiências sociais dos homens e mulheres 'de baixo'?
+- É um risco também internamente para o Brasil.
+- Sem contar os riscos imbrincados nas tecnologias de Inteligência Artificial na elaboração de políticas públicas.
+
+---
+
+## Quem define o que é relevante? {.center}
+
+![](https://i.giphy.com/media/Xch9I90tRezyicQgma/giphy.webp)
+
+---
+
+## Já somos historiadores digitais? {.center}
+
+1. Bancos de dados (desde os anos 1980)
+2. Acervos digitalizados (mesmo que fruto de projetos sem financiamentos coerentes)
+3. História Oral e Memória
+4. História Pública, Ensino de História, História do Tempo Presente
+
