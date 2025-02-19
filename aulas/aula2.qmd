@@ -213,4 +213,97 @@ A tecnologia é uma forma de conhecimento.
 
 > Não existe relação sociedade-tecnologia, como se fossem duas coisas distintas. Nossas sociedades são tecnológicas, assim como nossas tecnologias são sociais. Somos seres sociotécnicos. (12)
 
+---
 
+## E a História Digital nisso tudo? {.center}
+
+SILVEIRA, Pedro Telles Da. A arqueologia de um nome. In: **História, técnica e novas mídias**: reflexões sobre a história na era digital. Tese de doutorado. Porto Alegre: UFRGS, 2018. pp 28-62
+
+
+Pensar sobre o termo história digital, sua história e relação com teoria e metodologia da disciplina. 
+
+---
+
+## Questões levantadas por Pedro Telles {.center}
+
+* A História Digital está presa na "narrativa de progresso técnológico"? (29)
+* "A história digital deve ser descrita como continuidade ou ruptura em ralação às práticas historiográficas anteriores?" (32)
+* "Seria a história digital um novo método, um novo campo de estudos ou uma renovação geral da historiografia?" (32)
+* Computador e internet = "queremos utilizar o computador, mas não sabemos como." (33)
+
+---
+
+## Questões levantadas por Pedro Telles {.center}
+
+* Quanto mais habituados a um objeto ou tecnologias mais bem sucedidas e consequentemente gastamos menos tempo refletindo sobre elas? (36)
+* A história digital está sempre na promessa de acontercer?
+* Está aprisionada pelo domínio das novas ferramentas e tecnologias?
+
+---
+
+## E as Humanidades Digitais? {.center}
+
+* seriam marcadas pela cisão entre teoria e prática? (39)
+* Imaginário em torno da computação:
+
+> Viesse para salvar as humanidades de si mesmas, o que não deixa de representar a crença na capacidade dos computadores realizarem aquilo que os seres humanos não podem fazer." (43)
+
+---
+
+## **Computadores fazem arte**. Fred Zero Quatro, 1996 {.center}
+
+:::: {.columns}
+
+::: {.column width="60%"}
+Computadores fazem arte
+
+Artistas fazem dinheiro [...]
+
+Computadores avançam
+
+Artistas pegam carona
+
+Cientistas criam o novo
+
+Artistas levam a fama
+:::
+
+::: {.column width="40%"}
+<iframe width="480" height="315" src="https://www.youtube.com/embed/KZg_m0z4NLI?si=0tOmuTnhPa1BMd1P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+:::
+
+::::
+
+---
+
+## O que muda com a proximidade entre historiografia e os computadores? {.center}
+
+As mudanças tecnológicas, a transformação conceitual de como se concebe um computador (não apenas computar, "mas, agora, passíveis de inúmeros e variados usos"), transforma também a relação entre história e computação = daí a distinção entre a História digital e as práticas historiográficas que usavam computadores antes do advento da internet e da difusão dos computadores pessoais.
+
+---
+
+## O que muda com a proximidade entre historiografia e os computadores? {.center}
+
+Mais do que as Humanidades Digitais, que teriam um caráter muito mais relacionado com "a natureza computacional das ferramentas digitais" (48), a História Digital poderia "resgatar uma concepção mais tradicional do trabalho histórico" a partir do desenvolvimento tecnológico, "centrado sobre o narrar, o interpretar e o compreender" (49). 
+
+---
+
+## O que muda com a proximidade entre historiografia e os computadores? {.center}
+
+Entretanto, na leitura de Pedro Telles, essa "realização ainda não foi inteiramente cumprida" (49).
+
+---
+
+## História e a Internet {.center}
+
+WEB 2.0 e os impactos na prática histórica:
+
+1. Comunicação e divulgação para grande público;
+2. Acesso a enorme quantidade de fontes documentais;
+3. Diluição da hierarquia entre os profissionais e os demais agentes interessados na história.
+
+---
+
+## Mas para onde vamos com os LLMs e a IA? {.center}
+
+<iframe width="1090" height="500" src="https://g1.globo.com/tecnologia/noticia/2025/01/20/musk-zuckerberg-e-bezos-ceos-de-big-techs-comparecem-a-posse-de-trump-nos-eua.ghtml" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
