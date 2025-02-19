@@ -1,20 +1,21 @@
 ---
-title: "História e Tecnologia:  do código Morse aos LLMs"
-subtitle: "CCLHM00114 - Introdução à História Digital"
-author: Eric Brasil
+title: "História e Tecnologia:<br>do código Morse aos LLMs<br>"
+subtitle: "<br>Aula 2<br>Prof. Eric Brasil"
+#author: Eric Brasil
 date: 2025-02-20
+date-format: full
 lang: pt-br
 format:
   revealjs: 
-    theme: white
+    theme: [default, custom.scss]
     slide-number: true
-    incremental: true 
+    #incremental: true 
     chalkboard: 
       buttons: true
-    preview-links: auto
+      #preview-links: auto
     #logo: logo.png
     #css: styles.css
-    footer: "<a href=https://ericbrasil.com.br/>Eric Brasil</a> | <a href=https://ericbrasil.com.br/contact/>Entre em contato</a>"
+    footer: "Eric Brasil | <a href=https://ericbrasil.com.br/contact/>Entre em contato</a> | CCLHM00114 - Introdução à História Digital"
 ---
 
 ## O que é tecnologia? {.center}
@@ -71,13 +72,13 @@ format:
 
 ---
 
-##  CONCEPÇÃO INTELECTUALISTA DA TECNOLOGIA (27) {.center}
+## Concepção intelectualista da tecnologia (27) {.center}
 
 As tecnologias derivam das reflexões teóricas científicas. Visão que hierarquiza ciência e tecnologia. Tecnologia seria apenas a aplicação ou consequência de teorias científicas.
 
 ---
 
-## CONCEPÇÃO UTILITARISTA DA TECNOLOGIA (28) {.center}
+## Concepção utilitarista da tecnologia (28) {.center}
 
 Tecnologia como sinônimo de técnica.
 
@@ -85,15 +86,15 @@ Tecnologia como sinônimo de técnica.
 
 ---
 
-## CONCEPÇÃO DA TECNOLOGIA COMO SINÔNIMO DE CIÊNCIA (28) {.center}
+## Concepção da tecnologia como sinônimo de ciência (28) {.center}
 
 > Compreende a tecnologia como Ciência Natural e Matemática, com as mesmas lógicas e mesmas formas de produção e concepção. (28)
 
 ---
 
-## CONCEPÇÃO INSTRUMENTALISTA (ARTEFATUAL) DA TECNOLOGIA (29) {.center}
+## Concepção instrumentalista (artefatual) da tecnologia (29) {.center}
 
-![](https://media1.giphy.com/media/l0G18BkChcRRctMZ2/giphy.gif?cid=ecf05e47t260cnzpmxpl6hdbkvnvjbxm88mgbopxoknjnt26&rid=giphy.gif&ct=g)
+![](https://media1.giphy.com/media/l0G18BkChcRRctMZ2/giphy.gif?cid=ecf05e47t260cnzpmxpl6hdbkvnvjbxm88mgbopxoknjnt26&rid=giphy.gif&ct=g){fig-align="center"}
 
 ::: notes
 > Entende a tecnologia como sendo simples ferramentas ou artefatos construídos para uma diversidade de tarefas. (29)
@@ -101,9 +102,9 @@ Tecnologia como sinônimo de técnica.
 
 ---
 
-### CONCEPÇÃO DE NEUTRALIDADE DA TECNOLOGIA (29) {.center}
+## Concepção de neutralidade da tecnologia (29) {.center}
 
-![](https://media3.giphy.com/media/Oc7Wl9OKlB3iM/giphy.gif?cid=ecf05e47h3zlaw5pl7iy1nf1ms2twsxe0trbtaoxd9tax46p&rid=giphy.gif&ct=g)
+![](https://media3.giphy.com/media/Oc7Wl9OKlB3iM/giphy.gif?cid=ecf05e47h3zlaw5pl7iy1nf1ms2twsxe0trbtaoxd9tax46p&rid=giphy.gif&ct=g){fig-align="center"}
 
 ::: notes
 > tecnologia está isenta de qualquer tipo de interesse particular tanto em sua concepção e desenvolvimento como nos resultados finais. (29)
@@ -113,9 +114,9 @@ Tecnologia como sinônimo de técnica.
 
 ---
 
-## CONCEPÇÃO DO DETERMINISMO TECNOLÓGICO (30) {.center}
+## Concepção do determinismo tecnológico (30) {.center}
 
-![](https://i.imgur.com/dNAH1KZ.gif)
+![](https://i.imgur.com/dNAH1KZ.gif){fig-align="center"}
 
 Autônoma, auto-evolutiva, "desprovida do controle dos seres humanos". 
 
@@ -125,7 +126,7 @@ Autônoma, auto-evolutiva, "desprovida do controle dos seres humanos".
 
 ---
 
-##  CONCEPÇÃO DE UNIVERSALIDADE DA TECNOLOGIA (31) {.center}
+##  Concepção de universalidade da tecnologia (31) {.center}
 
 > o caráter universal das leis científicas leva a uma concepção de que a tecnologia não requer uma contextualização social, nem tampouco devem ser levados em consideração os caracteres valorativos, tendo em vista que a tecnologia, como sendo fruto do desenvolvimento científico, é neutra (32)
 
@@ -133,23 +134,23 @@ Autônoma, auto-evolutiva, "desprovida do controle dos seres humanos".
 
 ### **O caso do teclado QWERTY** {.center}
 
-![](https://media3.giphy.com/media/XIqCQx02E1U9W/giphy.gif?cid=ecf05e478xgi7vrd4y6z66dcc46g261bgeqj9ok1sgaatkp0&amp;rid=giphy.gif&amp;ct=g)
+![](https://media3.giphy.com/media/XIqCQx02E1U9W/giphy.gif?cid=ecf05e478xgi7vrd4y6z66dcc46g261bgeqj9ok1sgaatkp0&amp;rid=giphy.gif&amp;ct=g){fig-align="center"}
 
 ---
 
-## OTIMISMO TECNOLÓGICO X PESSIMISMO TECNOLÓGICO (32) {.center}
+## Otimismo tecnológico x pessimismo tecnológico (32) {.center}
 
-![](https://media3.giphy.com/media/f1UH5LwVuWucM/giphy.gif?cid=ecf05e47kx6wnnnf9m6wg9c8k4a1cpe9kprem9pun2rglbxu&rid=giphy.gif&ct=g)
+![](https://media3.giphy.com/media/f1UH5LwVuWucM/giphy.gif?cid=ecf05e47kx6wnnnf9m6wg9c8k4a1cpe9kprem9pun2rglbxu&rid=giphy.gif&ct=g){fig-align="center"}
 
 ---
 
-## SOCIOSISTEMA: UM NOVO CONCEITO DE TECNOLOGIA (33) {.center}
+## Sociosistema: um novo conceito de tecnologia (33) {.center}
 
 > Em cada momento de desenvolvimento de um artefato tecnológico, especialmente quando este se consolida como produto, existe uma carga política concreta. (33)
 
 ---
 
-### _Ciência, Sociedade e Tecnologia_ {.center}
+## _Ciência, Sociedade e Tecnologia_ {.center}
 
 > As tecnologias, como formas de organização social, que envolvem o uso de artefatos ou certos modos de gestão de recursos se integram ao meio estabelecendo vínculos de interdependência funcional com outras tecnologias e diversos tipos de parâmetros sócio-econômicos e culturais. (35)
 
