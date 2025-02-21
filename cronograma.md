@@ -1,7 +1,13 @@
 ---
 title: "CCLHM00114 - Introdução à História Digital"
 subtitle: "Cronograma de aulas"
-lang: "pt-BR"
+author:
+    - name: Eric Brasil
+      email: profericbrasil@unilab.edu.br
+      orcid: 0000-0001-5067-8475
+      affiliation: Instituto de Humanidades e Letras - UNILAB
+date: today
+lang: pt-BR
 geometry:
     - top=1cm
     - bottom=2cm
@@ -39,3 +45,7 @@ geometry:
 [Voltar para a página inicial](https://ericbrasil.com.br/cclhm00114/)
 
 [Ir para o repositório da disciplina no GitHub](https://github.com/ericbrasiln/cclhm00114)
+
+---
+
+![](https://raw.githubusercontent.com/ericbrasiln/cclhm0076/refs/heads/main/imgs/banner_logos_hist.png)

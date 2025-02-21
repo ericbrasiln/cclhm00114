@@ -281,3 +281,7 @@ O campo das humanidades digitais: definições, limites e possibilidades. Desenv
 [Voltar para a página inicial](https://ericbrasil.com.br/cclhm00114/)
 
 [Ir para o repositório da disciplina no GitHub](https://github.com/ericbrasiln/cclhm00114)
+
+---
+
+![](https://raw.githubusercontent.com/ericbrasiln/cclhm0076/refs/heads/main/imgs/banner_logos_hist.png)
