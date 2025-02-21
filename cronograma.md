@@ -14,9 +14,6 @@ geometry:
 |:-----------:|:-------:|:---:|:----------------:|:----:|:---------------------------:|
 | Eric Brasil | 2024.1  | 60h | Quintas, 14h-18h | Auditório | profericbrasil@unilab.edu.br|
 
-
-## Cronograma
-
 ## Cronograma
 
 | Aula | Data         | Tema                                                | CH | Observação           |
@@ -39,4 +36,6 @@ geometry:
 | 14   | 29/05/2025   | Oficina V: Python básico                            | 4  | Presencial 🛠️       |
 | 15   | 30/05 a 04/06 | Trabalho final                                     | 4  | Avaliação final ⚠️   |
 
+[Voltar para a página inicial](https://ericbrasil.com.br/cclhm00114/)
 
+[Ir para o repositório da disciplina no GitHub](https://github.com/ericbrasiln/cclhm00114)
