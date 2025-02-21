@@ -27,7 +27,7 @@ O campo das humanidades digitais: definições, limites e possibilidades. Desenv
 |--------|-----------------------------------------|
 | 📖     | Aula teórica                            |
 | 💻     | Atividade remota                        |
-| 🔧     | Oficina prática                         |
+| 🛠️     | Oficina prática                         |
 | 🎯     | Objetivos da aula                       |
 | 📚     | Leituras obrigatórias e complementares  |
 | 📺     | Materiais de apoio (vídeos e tutoriais) |
@@ -91,7 +91,7 @@ O campo das humanidades digitais: definições, limites e possibilidades. Desenv
 - ZAAGSMA, G. On Digital History. _BMGN - Low Countries Historical Review_, v. 128, n. 4, p. 3–29, 16 dez. 2013.
 - GRAHAM, S.; MILLIGAN, I.; WEINGART, S. **Exploring big historical data: the historian’s macroscope**. Londres: Imperial College Press, 2015. pp. 31 - 35
 
-## AULA 5 (20/03/2025) 🔧
+## AULA 5 (20/03/2025) 🛠️
 
 ### Fontes digitais, coleções e plataformas online
 
@@ -109,7 +109,7 @@ O campo das humanidades digitais: definições, limites e possibilidades. Desenv
 
 - EM BREVE
 
-## AULA 6 (27/03/2025) 🔧
+## AULA 6 (27/03/2025) 🛠️
 
 ### Oficina I: Zotero
 
@@ -141,7 +141,7 @@ O campo das humanidades digitais: definições, limites e possibilidades. Desenv
 
 - NOBLE, Safiya Umoja. Introdução. In: **Algoritmos da opressão**. São Paulo: Editora Rua do Sabão, 2021. pp. 7-28
 
-## AULA 8 (10/04/2025) 🔧
+## AULA 8 (10/04/2025) 🛠️
 
 ### Oficina II: OCR
 
@@ -175,7 +175,7 @@ O campo das humanidades digitais: definições, limites e possibilidades. Desenv
 - BRASIL. Lei Geral de Proteção de Dados Pessoais (LGPD) - Lei n. 13.709/2018. Disponível [aqui](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm)
 - SALGANIK, Matthew J. **Bit by Bit: Social Research in the Digital Age**. Princeton University Press, 2019. (Capítulo 6, disponível [aqui](https://www.bitbybitbook.com/en/1st-ed/ethics/))
 
-## AULA 10 (24/04/2025) 🔧
+## AULA 10 (24/04/2025) 🛠️
 
 ### Oficina III: Inteligência Artificial
 
@@ -216,7 +216,7 @@ O campo das humanidades digitais: definições, limites e possibilidades. Desenv
 
 ---
 
-## AULA 12 (15/05/2025) 🔧
+## AULA 12 (15/05/2025) 🛠️
 
 ### Oficina IV: Versionamento e documentação
 
@@ -252,7 +252,7 @@ O campo das humanidades digitais: definições, limites e possibilidades. Desenv
 
 - EM BREVE
 
-## AULA 14 (29/05/2025) 🔧
+## AULA 14 (29/05/2025) 🛠️
 
 ### Oficina V: Python básico
 
