@@ -20,18 +20,18 @@ A disciplina aborda a interseção entre História e tecnologia, explorando desd
 
 ## Links, Documentos e Materiais
 
-- [Ementa da Disciplina](http://ericbrasil.com.br/cclhm00114/ementa)
-- [Cronograma de Aulas](https://ericbrasil.com.br/cclhm00114/cronograma)
-- [Slides das Aulas](https://ericbrasil.com.br/cclhm00114/aulas)
-- [Repositório no GitHub](https://github.com/ericbrasiln/cclhm00114)
-- [Referências Bibliográficas](https://ericbrasil.com.br/cclhm00114/refs.bib)
+- [📜 Ementa da Disciplina](http://ericbrasil.com.br/cclhm00114/ementa)
+- [🗓️ Cronograma de Aulas](https://ericbrasil.com.br/cclhm00114/cronograma)
+- [🎞️ Slides das Aulas](https://ericbrasil.com.br/cclhm00114/aulas)
+- [🗂️ Repositório no GitHub](https://github.com/ericbrasiln/cclhm00114)
+- [📚 Referências Bibliográficas](https://ericbrasil.com.br/cclhm00114/refs.bib)
 
 ## Contato
 
-- **Email:** [profericbrasil@unilab.edu.br](mailto:profericbrasil@unilab.edu.br)
-- **Site pessoal:** [ericbrasil.com.br](http://ericbrasil.com.br)
-- **ORCID:** [0000-0001-5067-8475](https://orcid.org/0000-0001-5067-8475)
-- **Lattes:** [6853705640900524](http://lattes.cnpq.br/6853705640900524)
+- **📧 Email:** [profericbrasil@unilab.edu.br](mailto:profericbrasil@unilab.edu.br)
+- **🌐 Site pessoal:** [ericbrasil.com.br](http://ericbrasil.com.br)
+- ![](https://orcid.filecamp.com/static/thumbs/03CaAkr1LaBp5PRz-small.png) **ORCID:** [0000-0001-5067-8475](https://orcid.org/0000-0001-5067-8475)
+- **🔗 Lattes:** [6853705640900524](http://lattes.cnpq.br/6853705640900524)
 
 ## Licença
 
