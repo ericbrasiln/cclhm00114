@@ -6,7 +6,7 @@
 /* Aplicar a fonte à apresentação */
 .reveal {
   font-family: 'Atkinson Hyperlegible Next', sans-serif;
-  background-color: #cbe86b; /* Fundo verde */
+  background-color: #f4c2c2; /* Fundo rosa pastel */
   color: #1c140d; /* Texto escuro */
 }
 
@@ -22,7 +22,7 @@
   font-family: 'Atkinson Hyperlegible Next', sans-serif;
   font-weight: 700;
   color: #1c140d; /* Texto escuro */
-  text-align: center; /* Centralizados */
+  text-align: left; /* Centralizados */
 }
 
 /* Alinhar título do primeiro slide à esquerda */
@@ -48,7 +48,7 @@
 .reveal ul li {
   font-family: 'Atkinson Hyperlegible Next', sans-serif;
   font-weight: 400;
-  font-size: 0.85em; /* Texto reduzido */
+  font-size: 1em; /* Texto reduzido */
   color: #1c140d; /* Texto escuro */
 }
 
@@ -65,5 +65,5 @@
 /* Estilizando os blocos de código */
 .reveal pre {
   background-color: #1c140d; /* Fundo escuro */
-  color: #cbe86b; /* Texto verde claro */
+  color: #f4c2c2; /* Texto rosa pastel */
 }

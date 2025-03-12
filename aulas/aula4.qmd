@@ -1,0 +1,123 @@
+---
+title: "Passado, futuro e presente do digital na História"
+subtitle: "<br>Aula 4<br>Prof. Eric Brasil"
+#author: Eric Brasil
+date: 2025-03-13
+date-format: full
+lang: pt-br
+format:
+  revealjs: 
+    theme: [default, custom.scss]
+    slide-number: true
+    #incremental: true 
+    chalkboard: 
+      buttons: true
+      #preview-links: auto
+    #logo: logo.png
+    #css: styles.css
+    footer: "Eric Brasil | <a href=https://ericbrasil.com.br/contact/>Entre em contato</a> | CCLHM00114 - Introdução à História Digital"
+---
+
+## Objetivos {.center}
+
+Nessa aula vamos debater acerca dos elementos constitutivos da disciplina História e sua relação com as transformações e continuidades na era digital.
+
+Buscamos avaliar o papel dos profissionais da História diante da sociedade contemporânea, assim como refletir sobre as mudanças de percepção do tempo e como isso pode afetar as formas de analisar e entender o passado e impactar nas formas de ensinar e narrar a História.
+
+---
+
+## O historiador do futuro ou será programador ou não será? {.center}
+
+FORTES, A.; ALVIM, L. G. M. Evidências, códigos e classificações: o ofício do historiador e o mundo digital. *Esboços: histórias em contextos globais*, v. 27, n. 45, p. 207–227, 19 jun. 2020. 
+
+---
+
+## Como definimos o ofício do Históriador/a?  {.center}
+
+---
+
+## Marc Bloch (2001) e E. P. Thompson (1981) {.center}
+
+1. Conhecimento histórico => análise de fontes, validado pelo diálogo com a realidade, voltado para orientação da ação humana no presente (p. 210)
+2. Fontes são epistemologicamente transformadas em conhecimento histórico pela formulação de problemas (Bloch) e perguntas que interrogam as evidências (Thompson)
+
+
+---
+
+## Questões centrais da virada digital na História {.center}
+
+1. Ampliação de fontes + ferramentas que auxiliam em análises 'de qualidade superior'
+2. Qual contribuição do ofício do historiador/a para o enfrentamento dos dilemas da sociedade contemporânea marcada por Big Data, Fake news e Inteligência Artificial?
+
+---
+
+## Codificar e classificar {.center}
+
+> De que modo as operações cognitivas referentes à linguagem realizadas pelo historiador são afetadas pelo desenvolvimento da tecnologia digital? (212)
+
+---
+
+## Processamento de Linguagem Natural (*NLP*) {.center}
+
+Computadores "lendo" e "entendendo" linguagem humana.
+
+---
+
+## O Instrumental de historiadoreas/as {.center}
+
+Manipular evidências, transformar em 'informações racionalmente classificadas', escrever narrativas: é ao mesmo tempo método e técnica, mas também sensibilidade, 'intuição alta' (nas palavras de Ginzburg)
+
+---
+
+## Produção de conhecimento histórico e a relevância na era Digital {.center}
+
+> Chegarão as máquinas a desenvolver esse tipo de “alta intuição”? Em que tipo de operação cognitiva a inteligência artificial já pode, hoje em dia, auxiliar a pesquisa histórica? (215)
+
+---
+
+
+## Inteligência Articifial, Processamento de Linguagem Natural e mais... {.center}
+
+- Análise textual (gramática, semântica, lexicográfica, etc.)
+- NER (Name Entity Recognition) - Nomes, entidades, etc.
+- Topic modeling - Modelagem de tópicos
+- Reconhecimento de Layout
+- Análise de redes
+- Georeferenciamento
+
+
+---
+
+## Big Data na História? {.center}
+
+GRAHAM, S.; MILLIGAN, I.; WEINGART, S. Exploring big historical data: the historian’s macroscope. Londres: Imperial College Press, 2015. pp. 31 - 35
+
+> Digital approaches to the past that sit within the digital humanities use our computational power to force us to look at the materials differently, to think about them playfully, and to explore what these sometimes jarring deformations could mean. (34)
+
+---
+
+## Temporalidade e tecnologia digital {.center}
+
+COSTA, Marcella A. F. DA. Tecnologia, temporalidade e história digital: interpelações ao historiador e ao professor de história. Revista Mosaico - Revista de História, v. 8, n. 2, p. 155–163, 15 dez. 2015.
+
+> Não lembro nem o que comi ontem...
+
+---
+
+## Ler, escrever e representar o passado: o que muda com a era digital? {.center}
+
+1. Temporalidade: "constitutivo e estruturados do conhecimento histórico" (159)
+   * como entender historicidade quando a orientação temporal é abalada no presente? (160)
+
+---
+
+## Ler, escrever e representar o passado: o que muda com a era digital? {.center}
+
+2. Presente: "o tempo-espaço no qual se ministram as tensões e se fazem a gestão e o equacionamento entre passado e futuro: é o espaço das demandas e da onde emergem questões políticas que nos interpelam."
+   * Que outros 'espaços de experiência' e 'horizontes de expectativa' a tecnologia possibilita construir? (160)
+
+---
+
+## Ler, escrever e representar o passado: o que muda com a era digital? {.center}
+
+3. Uso e problematização da tecnologia: descentralização da concepção de História como progresso linear.
