@@ -16,6 +16,7 @@ toc: true
 
 - **AULA 1 (13/02/2025) 📖** - [Apresentação da disciplina: que história é essa?](https://ericbrasil.com.br/cclhm00114/aulas/aula1)
 - **AULA 2 (20/02/2025) 📖** - [História e tecnologia: do código Morse aos LLMs](https://ericbrasil.com.br/cclhm00114/aulas/aula2)
+- **AULA4 (13/03/2025) 📖** - [Passado, futuro e presente do digital na História](https://ericbrasil.com.br/cclhm00114/aulas/aula4)
 
 ---
 
