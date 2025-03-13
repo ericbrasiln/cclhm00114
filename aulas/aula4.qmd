@@ -36,11 +36,174 @@ FORTES, A.; ALVIM, L. G. M. Evidências, códigos e classificações: o ofício 
 
 ---
 
-## Marc Bloch (2001) e E. P. Thompson (1981) {.center}
+## Marc Bloch e o Ofício do Historiador {.center}
 
-1. Conhecimento histórico => análise de fontes, validado pelo diálogo com a realidade, voltado para orientação da ação humana no presente (p. 210)
-2. Fontes são epistemologicamente transformadas em conhecimento histórico pela formulação de problemas (Bloch) e perguntas que interrogam as evidências (Thompson)
+Apologia da História ou O Ofício do Historiador (1949)  
+BLOCH, Marc. *Apologia da História ou O Ofício de Historiador.* Rio de Janeiro: Jorge Zahar Ed., 2001.
 
+---
+
+## O que é "O Ofício do Historiador"? {.center}
+
+- Ciência dos homens no tempo: compreender as transformações das sociedades humanas.  
+- Não apenas “relato do passado”, mas um trabalho ativo de busca e interpretação de vestígios.  
+- Segundo Bloch, o historiador se move entre a crítica das fontes, a análise dos contextos e a interpretação das mentalidades.
+
+---
+
+## Marc Bloch e a ideia de método {.center}
+
+- Bloch insiste que nenhum documento “fala” sozinho: o historiador faz perguntas, problematiza.  
+- A “observação histórica” é indireta: não é possível reproduzir o passado em laboratório, mas é possível interrogar os vestígios deixados pelas sociedades.  
+- A crítica das fontes é o caminho para reduzir erros e mentiras e aproximar-se da “verdade histórica”.
+
+---
+
+## A dimensão humana e temporal {.center}
+
+- O objeto central da história: o ser humano em sociedade.  
+- “O tempo é o plasma” em que os fenômenos acontecem; passado e presente se interpenetram.  
+- Perspectiva regressiva: conhecer o hoje ajuda a compreender o ontem, e vice-versa.
+
+---
+
+## Por que estudar o ofício do historiador? {.center}
+
+- Refletir sobre as bases teóricas que sustentam a prática histórica.  
+- Desenvolver espírito crítico: nenhum fato se explica por si só, é preciso investigar causas, contextos, intenções.  
+- Conectar os temas do passado às inquietações do presente, criando pontes e oferecendo sentido à realidade atual.
+
+---
+
+## A importância do questionamento crítico {.center}
+
+- Para Bloch, o historiador não pode ser um mero “colecionador” de fatos.  
+- A formulação de problemas: “O que quero saber?”, “O que os documentos não dizem explicitamente?”  
+- Combate ao anacronismo: evitar julgar o passado apenas com parâmetros do presente.
+
+---
+
+## Um ofício em contínua renovação {.center}
+
+- A história está sempre em construção, aberta a novos documentos e novos métodos.  
+- Bloch destaca a responsabilidade ética do historiador em relação à sociedade.  
+- A formação “técnica” (manuseio de fontes, métodos de crítica) e a “humanista” (entendimento profundo do ser humano) caminham juntas.
+
+---
+
+## Michel de Certeau e a “Operação Historiográfica” {.center}
+
+CERTEAU, M. de. *A Escrita da História.* Rio de Janeiro: Forense Universitária, 1982.
+
+---
+
+## O que é a “operação historiográfica”?  {.center}
+
+1. **Lugar social**: O historiador atua inserido em instituições (universidades, associações, grupos de pesquisa), com determinações políticas e culturais.
+2. **Prática**: Conjunto de técnicas e métodos que vão do manuseio de documentos até a análise e a redação final.
+3. **Escrita**: O texto histórico é uma construção literária, mas depende do trabalho e dos procedimentos adotados para produzir inteligibilidade do passado.
+
+---
+
+## A relação com o “outro” {.center}
+
+- A história é sempre encontro com um “outro” (o passado), mas em função de um presente.  
+- Há uma tensão entre **o desejo de “ressuscitar”** o que já morreu e a consciência de que só podemos fazê-lo a partir do **lugar social** e **metodológico** em que estamos inseridos.
+- Essa prática revela um “limite” ou um “fora” – aquilo que não se explica completamente em nossos métodos, mas que continuamente nos desafia.
+
+---
+
+## O lugar social  {.center}
+
+- **Instituição:** cada historiador está ligado a um espaço de produção: universidade, centros de pesquisa, arquivos etc.  
+- **Permissões e proibições:** o lugar institucional oferece crédito, possibilidades de investigação, mas também impõe regras, “etiquetas” e hierarquias.  
+- **Operação coletiva:** a escrita histórica não é só obra de um indivíduo; ela se faz em redes de pesquisadores, com critérios de validação específicos.
+
+---
+
+## A prática como técnica  {.center}
+
+- “Fazer história” implica **técnicas** (paleografia, crítica documental, análise estatística, etc.).  
+- A pesquisa histórica se sustenta em procedimentos que “socializam” a natureza (transformam fragmentos, restos e arquivos em fatos e problemas históricos).  
+- Assim, a história age na fronteira entre **natureza** (pistas materiais, dados brutos) e **cultura** (linguagem, métodos interpretativos).
+
+---
+
+## A “operação historiográfica” e o discurso  {.center}
+
+- **Construção de sentido:** o discurso histórico não é mero reflexo do passado; ele cria inteligibilidade a partir de vestígios.  
+- **Dimensão narrativa:** Certeau sublinha que a escrita é essencial: sem ela, a pesquisa fica invisível.  
+- **Tensão presente-passado:** ao falar do que já se foi, o historiador revela também algo do hoje e de si mesmo.
+
+---
+
+## A inversão escriturária  {.center}
+
+- Certeau descreve como, ao transformar fontes em relato, há um movimento de “inversão”:  
+  - O historiador seleciona, recorta, questiona vestígios.  
+  - Aquilo que originalmente não foi produzido para a história, vira “testemunho”; o passado converte-se num texto contemporâneo.  
+- **Escrita** não é repetição do real, mas transformação do real em texto.
+
+---
+
+## Uma prática aberta e relacional {.center}
+
+- A escrita da história é movida pela **relação** entre:
+  1. O lugar social do historiador e seus condicionamentos.  
+  2. As técnicas e métodos aplicados às fontes.  
+  3. A produção de um discurso que faz o passado “falar” no presente.
+
+---
+
+## E. P. Thompson e o Ofício do Historiador {.center}
+
+THOMPSON, E. P. *A miséria da teoria ou um planetário de erros.* Rio de Janeiro: Zahar, 1981.
+
+---
+
+## História como processo humano {.center}
+
+- Thompson rejeita a visão da história como um conjunto de **leis estruturais fixas**.  
+- Defende que a história é feita por sujeitos ativos, que lutam e transformam suas próprias condições.  
+- Enfatiza a **experiência vivida** como parte essencial da análise histórica.
+
+---
+
+## O conceito de experiência {.center}
+
+- A experiência é central para a metodologia de Thompson.  
+- Diferente de uma estrutura rígida, a experiência é fluida, transformando sujeitos históricos ao longo do tempo.  
+- Ele critica a visão de que os indivíduos são apenas "vetores" de forças estruturais invisíveis.
+
+---
+
+## História e teoria: uma relação tensa {.center}
+
+- Thompson critica os que tratam a teoria como algo isolado da pesquisa empírica.  
+- Para ele, a teoria deve estar enraizada nos **dados históricos concretos**.  
+- Teorias que ignoram a realidade concreta correm o risco de se tornarem **abstratas e dogmáticas**.
+
+---
+
+## O papel do historiador {.center}
+
+- O historiador deve estar comprometido com um método crítico e atento às fontes.  
+- Deve evitar imposições teóricas rígidas que ignorem a complexidade dos processos históricos.  
+- Thompson argumenta que o historiador deve ser um **artesão**, e não um tecnocrata da teoria.
+
+---
+
+## História como ação e experiência {.center}
+
+- A história não deve ser reduzida a um conjunto de categorias abstratas.  
+- O historiador deve lidar com a complexidade dos processos reais e com a subjetividade dos agentes históricos.  
+- A história é feita de **conflitos, escolhas e lutas**, e não apenas de estruturas e regras fixas.
+
+---
+
+## Relação com o digital {.center}
+
+FORTES, A.; ALVIM, L. G. M. Evidências, códigos e classificações: o ofício do historiador e o mundo digital. *Esboços: histórias em contextos globais*, v. 27, n. 45, p. 207–227, 19 jun. 2020.
 
 ---
 
@@ -92,15 +255,13 @@ Manipular evidências, transformar em 'informações racionalmente classificadas
 
 GRAHAM, S.; MILLIGAN, I.; WEINGART, S. Exploring big historical data: the historian’s macroscope. Londres: Imperial College Press, 2015. pp. 31 - 35
 
-> Digital approaches to the past that sit within the digital humanities use our computational power to force us to look at the materials differently, to think about them playfully, and to explore what these sometimes jarring deformations could mean. (34)
+> As abordagens digitais para o passado que se inserem nas humanidades digitais utilizam nosso poder computacional para nos forçar a olhar os materiais de maneira diferente, a pensar sobre eles de forma lúdica e a explorar o que essas deformações, por vezes desconcertantes, podem significar. (34)
 
 ---
 
 ## Temporalidade e tecnologia digital {.center}
 
 COSTA, Marcella A. F. DA. Tecnologia, temporalidade e história digital: interpelações ao historiador e ao professor de história. Revista Mosaico - Revista de História, v. 8, n. 2, p. 155–163, 15 dez. 2015.
-
-> Não lembro nem o que comi ontem...
 
 ---
 
