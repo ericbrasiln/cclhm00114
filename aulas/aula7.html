@@ -364,16 +364,38 @@ Seu navegador não suporta vídeo HTML5.
 </ul>
 <p>Exemplos: GPT-4, Claude, Gemini, LLaMA</p>
 </section>
+<section id="o-que-são-redes-neurais" class="slide level2 center">
+<h2>O que são redes neurais?</h2>
+<p>🧠 Inspiradas no cérebro humano, redes neurais são estruturas matemáticas que:</p>
+<ul>
+<li>Recebem <strong>entradas</strong> (textos, imagens, números)</li>
+<li>Processam essas entradas em <strong>camadas</strong> de nós (neurônios artificiais)</li>
+<li>Aprendem a <strong>reconhecer padrões</strong> e gerar saídas (respostas)</li>
+</ul>
+<p>📈 Com o tempo, ajustam seus pesos internos para melhorar os resultados.</p>
+<p>➡️ Redes neurais profundas (deep learning) são a base dos <strong>LLMs</strong><br>
+quanto mais camadas, mais complexas as tarefas que podem realizar.</p>
+</section>
+<section id="como-funciona-uma-rede-neural" class="slide level2 center">
+<h2>Como funciona uma rede neural?</h2>
+
+<img data-src="assets/redes-neurais_ChatGPT_20250409_184658.png" class="r-stretch quarto-figure-center"><p class="caption">Esquema de rede neural: Cada nó aprende a reconhecer padrões e contribui para a geração de uma resposta final.</p></section>
 <section id="como-funciona-o-treinamento" class="slide level2 center">
 <h2>Como funciona o treinamento?</h2>
-<p>🧪 Fase 1: <strong>Pré-treinamento</strong><br>
+<p>🧪 <strong>Fase 1: Pré-treinamento</strong><br>
 - Exposição massiva a textos da web, livros, códigos, etc.<br>
 - O modelo aprende <strong>padrões estatísticos da linguagem</strong></p>
-<p>🛠️ Fase 2: <strong>Ajustes (fine-tuning)</strong><br>
-- Ajuste supervisionado com curadoria humana<br>
-- Adaptação a tarefas específicas ou contextos (ex: setor público)</p>
-<p>[Fase 3: pós?]</p>
+<p>🛠️ <strong>Fase 2: Ajustes (fine-tuning)</strong><br>
+- Ajuste supervisionado com dados anotados<br>
+- Adaptação a contextos específicos (ex: setor público, jurídico)</p>
+<p>🎯 <strong>Fase 3: Alinhamento final (instruction tuning / RLHF)</strong><br>
+- Intervenção humana para ajustar comportamento, ética e segurança<br>
+- Ensina o modelo a <strong>seguir instruções</strong> e evitar respostas perigosas ou enganosas</p>
 </section>
+<section id="section-1" class="slide level2 center">
+<h2></h2>
+
+<img data-src="assets/LLM_ChatGPT_20250409_185754.png" class="r-stretch quarto-figure-center"><p class="caption">Treinamento de LLMs</p></section>
 <section id="como-se-estrutura-um-chatbot-com-ia" class="slide level2 center">
 <h2>Como se estrutura um chatbot com IA?</h2>
 <ul>
@@ -384,6 +406,101 @@ Seu navegador não suporta vídeo HTML5.
 </ul>
 <p>💬 O chatbot parece “inteligente”, mas apenas <strong>prevê a próxima palavra provável</strong></p>
 </section>
+<section id="onde-rodam-os-chatbots-a-infraestrutura-dos-llms" class="slide level2 center">
+<h2>Onde rodam os chatbots? A infraestrutura dos LLMs</h2>
+<p>🖥️ Modelos como o ChatGPT são executados em <strong>megaestruturas computacionais</strong> com:</p>
+<ul>
+<li>Milhares de <strong>GPUs especializadas</strong> (ex: NVIDIA A100)</li>
+<li>Ambientes distribuídos em <strong>data centers de alta performance</strong></li>
+<li>Refrigeração avançada e uso intensivo de energia</li>
+</ul>
+<p>🏢 A OpenAI utiliza a infraestrutura da Microsoft (Azure AI Supercomputing Center)<br>
+📍 Exemplo: um supercomputador com <strong>10.000 GPUs</strong> conectadas por redes de alta velocidade</p>
+</section>
+<section id="qual-o-custo-disso" class="slide level2 center">
+<h2>Qual o custo disso?</h2>
+<p>💰 Treinar um modelo como o GPT-4: <strong>+100 milhões de dólares</strong></p>
+<p>💡 Manter um modelo como o ChatGPT online:</p>
+<ul>
+<li>Altíssimo consumo de energia (relação direta com o uso)</li>
+<li>Custos operacionais por <strong>milhão de tokens gerados</strong></li>
+<li>Impacto ambiental relacionado à <strong>pegada de carbono digital</strong></li>
+</ul>
+<p>⚠️ Usar IA generativa tem um custo <strong>invisível ao usuário, mas real</strong></p>
+</section>
+<section id="os-limites-físicos-da-ia-o-caso-ghibli-e-os-servidores-da-openai" class="slide level2 center">
+<h2>Os limites físicos da IA: o caso Ghibli e os servidores da OpenAI</h2>
+<p>🎨 Em abril de 2025, viralizou o uso do GPT-4o para gerar imagens no estilo do <strong>Studio Ghibli</strong><br>
+🚨 Resultado: <strong>sobrecarga nos servidores da OpenAI</strong><br>
+🔥 Sam Altman afirmou que os “GPUs estão derretendo” (figurativamente…)</p>
+<p>🖥️ Por quê?</p>
+<p>Fonte: <a href="https://www.digitaltrends.com/computing/openais-gpus-are-melting-over-viral-ghibli-trend-limits-for-paid-users-enforced/">Digital Trends</a></p>
+<aside class="notes">
+<ul>
+<li>Geração de imagem com IA exige <strong>altíssima carga computacional</strong></li>
+<li>GPUs em data centers trabalham no limite térmico e elétrico</li>
+<li>A demanda foi tão grande que a OpenAI <strong>limitou usuários pagos</strong></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="o-custo-invisível-de-gerar-imagens-com-ia" class="slide level2 center">
+<h2>O custo invisível de gerar imagens com IA</h2>
+<p>💡 Cada imagem gerada = energia + processamento + refrigeração</p>
+<p>⚠️ Geração massiva = aquecimento global digital</p>
+<aside class="notes">
+<p>🧭 Como pesquisadores e educadores, devemos refletir sobre:</p>
+<ul>
+<li>Sustentabilidade</li>
+<li>Uso consciente</li>
+<li>Transparência sobre os impactos da tecnologia</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="o-impacto-ambiental-da-ia-generativa" class="slide level2 center">
+<h2>🌍 O impacto ambiental da IA Generativa</h2>
+<ul>
+<li>⚡ <strong>Eletricidade</strong> → Treinamento e uso em tempo real<br>
+</li>
+<li>💧 <strong>Água</strong> → Refrigeração de data centers<br>
+</li>
+<li>🧱 <strong>Recursos naturais</strong> → Mineração para GPUs</li>
+</ul>
+<p>📉 Exemplo: O treinamento do GPT-3 consumiu <strong>1.287 MWh</strong> (equivalente a 120 casas por 1 ano)</p>
+<p>🔥 Emissões estimadas: <strong>552 toneladas de CO₂</strong></p>
+<p>Fonte: <a href="https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117">MIT News (2025)</a></p>
+</section>
+<section id="a-nuvem-é-física-e-insustentável" class="slide level2 center">
+<h2>A “nuvem” é física – e insustentável</h2>
+<div class="column" style="width:48%;">
+<p>🏭 Data centers consomem mais energia do que muitos países</p>
+<p>📊 Em 2022, eles usaram 460 TWh – entre Arábia Saudita e França</p>
+<p>📈 Projeção para 2026: <strong>1.050 TWh</strong> (5º maior “país” consumidor)</p>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<p>💧 Cada kWh consome cerca de <strong>2 litros de água</strong> para refrigeração</p>
+<p>⚠️ A IA que usamos hoje compromete a biodiversidade e intensifica a crise climática.</p>
+</div></section>
 <section class="slide level2">
 
 <h3 class="columns" id="modelos-fechados-vs-modelos-abertos">Modelos Fechados vs Modelos Abertos</h3>
@@ -519,13 +636,18 @@ Seu navegador não suporta vídeo HTML5.
 </section>
 <section id="princípios-básicos-de-bom-uso" class="slide level2 center">
 <h2>Princípios básicos de bom uso</h2>
+<div class="column" style="width:48%;">
 <p>✅ <strong>Revisar tudo o que a IA produz</strong><br>
 ✅ <strong>Identificar claramente o que foi gerado por IA</strong><br>
 ✅ <strong>Validar dados, fontes e argumentos</strong><br>
 ✅ <strong>Manter a autoria humana e a responsabilidade final</strong></p>
-<p>❌ Nunca publicar textos gerados por IA <strong>sem revisão</strong><br>
-❌ Não usar IA para fraudar ou ocultar autoria</p>
-</section>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<p>❌ Nunca publicar textos gerados por IA <strong>sem revisão</strong></p>
+<p>❌ Não usar IA para fraudar ou ocultar autoria</p>
+<p>❌ Não buscar respostas para temas totalmente desconhecidos</p>
+</div></section>
 <section id="questões-éticas" class="slide level2 center">
 <h2>Questões Éticas</h2>
 <p>⚖️ Ética no uso da IAG envolve:</p>
@@ -737,7 +859,7 @@ Como as mensagens expressam negacionismo histórico sobre 1964?</code></pre>
 <span id="cb2-9"><a href=""></a><span class="fu">}</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>🧩 Isso permite análises qualitativas, categorização e visualização posterior.</p>
 </section>
-<section id="section-1" class="slide level2 center">
+<section id="section-2" class="slide level2 center">
 <h2></h2>
 
 <img data-src="assets/RAG_GPT_20250409_155055.png" class="r-stretch quarto-figure-center"><p class="caption">Diagrama ilustrando o fluxo de um sistema RAG para análise de mensagens sobre o golpe de 1964, com vetorizaçāo, consulta semântica e geração de resposta com base em dados reais.</p></section>

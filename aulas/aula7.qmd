@@ -192,17 +192,46 @@ Exemplos: GPT-4, Claude, Gemini, LLaMA
 
 ---
 
+## O que são redes neurais? {.center}
+
+🧠 Inspiradas no cérebro humano, redes neurais são estruturas matemáticas que:
+
+- Recebem **entradas** (textos, imagens, números)
+- Processam essas entradas em **camadas** de nós (neurônios artificiais)
+- Aprendem a **reconhecer padrões** e gerar saídas (respostas)
+
+📈 Com o tempo, ajustam seus pesos internos para melhorar os resultados.
+
+➡️ Redes neurais profundas (deep learning) são a base dos **LLMs**  
+quanto mais camadas, mais complexas as tarefas que podem realizar.
+
+---
+
+## Como funciona uma rede neural? {.center}
+
+![Esquema de rede neural: Cada nó aprende a reconhecer padrões e contribui para a geração de uma resposta final.](assets/redes-neurais_ChatGPT_20250409_184658.png)
+
+---
+
 ## Como funciona o treinamento? {.center}
 
-🧪 Fase 1: **Pré-treinamento**  
+🧪 **Fase 1: Pré-treinamento**  
 - Exposição massiva a textos da web, livros, códigos, etc.  
 - O modelo aprende **padrões estatísticos da linguagem**
 
-🛠️ Fase 2: **Ajustes (fine-tuning)**  
-- Ajuste supervisionado com curadoria humana  
-- Adaptação a tarefas específicas ou contextos (ex: setor público)
+🛠️ **Fase 2: Ajustes (fine-tuning)**  
+- Ajuste supervisionado com dados anotados  
+- Adaptação a contextos específicos (ex: setor público, jurídico)
 
-[Fase 3: pós?]
+🎯 **Fase 3: Alinhamento final (instruction tuning / RLHF)**  
+- Intervenção humana para ajustar comportamento, ética e segurança  
+- Ensina o modelo a **seguir instruções** e evitar respostas perigosas ou enganosas
+
+---
+
+## {.center}
+
+![Treinamento de LLMs](assets/LLM_ChatGPT_20250409_185754.png)
 
 ---
 
@@ -216,6 +245,105 @@ Exemplos: GPT-4, Claude, Gemini, LLaMA
 💬 O chatbot parece “inteligente”, mas apenas **prevê a próxima palavra provável**
 
 ---
+
+## Onde rodam os chatbots? A infraestrutura dos LLMs {.center}
+
+🖥️ Modelos como o ChatGPT são executados em **megaestruturas computacionais** com:
+
+- Milhares de **GPUs especializadas** (ex: NVIDIA A100)
+- Ambientes distribuídos em **data centers de alta performance**
+- Refrigeração avançada e uso intensivo de energia
+
+🏢 A OpenAI utiliza a infraestrutura da Microsoft (Azure AI Supercomputing Center)  
+📍 Exemplo: um supercomputador com **10.000 GPUs** conectadas por redes de alta velocidade
+
+---
+
+## Qual o custo disso? {.center}
+
+💰 Treinar um modelo como o GPT-4: **+100 milhões de dólares**
+
+💡 Manter um modelo como o ChatGPT online:
+
+- Altíssimo consumo de energia (relação direta com o uso)
+- Custos operacionais por **milhão de tokens gerados**
+- Impacto ambiental relacionado à **pegada de carbono digital**
+
+⚠️ Usar IA generativa tem um custo **invisível ao usuário, mas real**
+
+---
+
+## Os limites físicos da IA: o caso Ghibli e os servidores da OpenAI {.center}
+
+🎨 Em abril de 2025, viralizou o uso do GPT-4o para gerar imagens no estilo do **Studio Ghibli**  
+🚨 Resultado: **sobrecarga nos servidores da OpenAI**  
+🔥 Sam Altman afirmou que os “GPUs estão derretendo” (figurativamente...)
+
+🖥️ Por quê?
+
+Fonte: [Digital Trends](https://www.digitaltrends.com/computing/openais-gpus-are-melting-over-viral-ghibli-trend-limits-for-paid-users-enforced/)
+
+:::notes
+
+- Geração de imagem com IA exige **altíssima carga computacional**
+- GPUs em data centers trabalham no limite térmico e elétrico
+- A demanda foi tão grande que a OpenAI **limitou usuários pagos**
+:::
+
+---
+
+## O custo invisível de gerar imagens com IA {.center}
+
+💡 Cada imagem gerada = energia + processamento + refrigeração
+
+⚠️ Geração massiva = aquecimento global digital
+
+:::notes
+🧭 Como pesquisadores e educadores, devemos refletir sobre:
+
+- Sustentabilidade
+- Uso consciente
+- Transparência sobre os impactos da tecnologia
+:::
+
+---
+
+## 🌍 O impacto ambiental da IA Generativa {.center}
+
+- ⚡ **Eletricidade** → Treinamento e uso em tempo real  
+- 💧 **Água** → Refrigeração de data centers  
+- 🧱 **Recursos naturais** → Mineração para GPUs
+
+📉 Exemplo: O treinamento do GPT-3 consumiu **1.287 MWh** (equivalente a 120 casas por 1 ano)  
+
+🔥 Emissões estimadas: **552 toneladas de CO₂**
+
+Fonte: [MIT News (2025)](https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117)
+
+---
+
+## A “nuvem” é física – e insustentável {.center}
+
+::: {.column width="48%"}
+🏭 Data centers consomem mais energia do que muitos países  
+
+📊 Em 2022, eles usaram 460 TWh – entre Arábia Saudita e França  
+
+📈 Projeção para 2026: **1.050 TWh** (5º maior “país” consumidor)
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+
+💧 Cada kWh consome cerca de **2 litros de água** para refrigeração
+
+⚠️ A IA que usamos hoje compromete a biodiversidade e intensifica a crise climática.
+:::
+
+---
+
 
 ### Modelos Fechados vs Modelos Abertos {.columns}
 <br>
@@ -379,13 +507,24 @@ Exemplos: GPT-4, Claude, Gemini, LLaMA
 
 ## Princípios básicos de bom uso {.center}
 
+::: {.column width="48%"}
 ✅ **Revisar tudo o que a IA produz**  
 ✅ **Identificar claramente o que foi gerado por IA**  
 ✅ **Validar dados, fontes e argumentos**  
 ✅ **Manter a autoria humana e a responsabilidade final**
 
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
 ❌ Nunca publicar textos gerados por IA **sem revisão**  
+
 ❌ Não usar IA para fraudar ou ocultar autoria
+
+❌ Não buscar respostas para temas totalmente desconhecidos
+:::
 
 ---
 
