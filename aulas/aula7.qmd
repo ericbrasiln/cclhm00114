@@ -1,0 +1,649 @@
+---
+title: "Inteligência Artificial e Pesquisa Histórica"
+subtitle: "<br>Oficina III<br>Prof. Eric Brasil"
+date: 2025-04-08
+date-format: full
+lang: pt-br
+format:
+  revealjs: 
+    theme: [default, custom.scss]
+    slide-number: true
+    chalkboard: 
+      buttons: true
+    footer: "Eric Brasil | <a href=https://ericbrasil.com.br/contact/>Entre em contato</a> | CCLHM00114 - Introdução à História Digital"
+---
+
+## O que é Inteligência Artificial? {.center}
+
+>Alguém arrisca uma definição?
+
+---
+
+## Russel e Norvig (2004): quatro abordagens {.center}
+
+🧠 **Pensar como seres humanos**  
+> “Máquinas com mentes, no sentido total e literal.” Haugeland (1985)
+
+🤖 **Agir como seres humanos**  
+> “A arte de criar máquinas que executam funções que exigem inteligência humana.”  Kurzweil (1990)
+
+---
+
+## Russel e Norvig (2004): quatro abordagens {.center}
+
+🧠⚙️ **Pensar racionalmente**  
+> “Estudo das computações que tornam possível perceber, raciocinar e agir.” Winston (1992)
+
+⚙️ **Agir racionalmente**  
+> “Estudo do projeto de agentes inteligentes.” Poole et al. (1998)
+
+📌 As abordagens se dividem entre:  
+- 🧪 Enfoques empíricos e humanos (interdisciplinares)  
+- 🔢 Enfoques lógico-racionalistas (computação, matemática)
+
+---
+
+## Alan Turing e a pergunta fundamental {.center}
+
+> “Can machines think?” [*Computing Machinery and Intelligence* (1950)](https://doi.org/10.1093/mind/LIX.236.433)
+
+- Essa pergunta é substituída por outra:  
+  **Uma máquina pode imitar um ser humano a ponto de enganar um observador?**
+
+- Essa proposta dá origem ao que hoje chamamos de **Teste de Turing**.
+
+---
+
+## Quem foi Alan Turing? {.columns}
+
+::: {.column width="70%"}
+
+- **Alan Mathison Turing** (1912–1954)  
+- Matemático britânico, pioneiro na computação;
+- Criou o conceito de **máquina universal** – base dos computadores;
+- Atuou no projeto **Enigma**, quebrando códigos nazistas;
+- Propôs o **Teste de Turing** (Jogo da Imitação, 1950);
+:::
+
+::: {.column width="30%"}
+![Alan Turing aos 16 anos.](https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg)
+:::
+
+---
+
+## Perseguição estatal {.center}
+
+- Em 1952, Turing foi condenado por **homossexualidade**, então considerada crime no Reino Unido;
+- Foi submetido à **castração química** como pena alternativa à prisão;
+- Morreu em 1954, em circunstâncias interpretadas como **suicídio**.
+
+---
+
+## 🏳️‍🌈 **Reconhecimento póstumo** {.columns}
+
+::: {.column width="60%"}
+
+- Em 2009, o governo britânico emitiu um pedido público de desculpas;
+- Em 2013, recebeu **perdão póstumo oficial** da Rainha Elizabeth II;
+- Hoje é símbolo da luta por direitos LGBTQIA+ e liberdade científica.
+:::
+
+::: {.column width="40%"}
+![Estátua de Alan Turing](https://upload.wikimedia.org/wikipedia/commons/1/1a/Alan_Turing_by_Stephen_Kettle_2007.jpg)
+:::
+
+---
+
+## O Jogo da Imitação {.center}
+
+🎮 **Três participantes**:
+
+- A: um homem  
+- B: uma mulher  
+- C: um interrogador (humano), isolado dos demais
+
+✉️ **Comunicação apenas por texto.**  
+C tenta descobrir quem é A e quem é B.
+
+---
+
+## A máquina entra em cena {.center}
+
+🧠 Substituímos um dos humanos (A ou B) por uma **máquina**.
+
+❓ O interrogador consegue descobrir quem é a máquina?
+
+📌 Se **não consegue distinguir** com frequência maior que o acaso...
+
+> ... então **a máquina “pensa”** — no sentido funcional proposto por Turing.
+
+---
+
+## Importância do Jogo da Imitação {.center}
+
+✅ Evita debates abstratos sobre “consciência” ou “alma”  
+✅ Foca em **comportamento observável**  
+✅ É um marco na história da inteligência artificial
+
+> "Estamos interessados não no que a máquina **é**,  
+mas **no que ela faz**." Turing (1950)
+
+---
+
+## 🎬 O teste Voight-Kampff em Blade Runner {.center}
+
+<video controls width="100%" src="assets/blade_runner_1080p.webm" crossorigin="anonymous">
+  <track src="assets/blade_runner_1080p.vtt" kind="subtitles" srclang="pt" label="Português" default />
+  Seu navegador não suporta vídeo HTML5.
+</video>
+
+
+---
+
+## 🎬 O teste Voight-Kampff em Blade Runner {.center}
+
+- Utilizado para identificar **replicantes** (androides avançados);
+- Mede **reações emocionais** (expressões faciais, dilatação da pupila, etc.);
+- Distingue humanos de máquinas pela **capacidade empática**;
+- Foco: **resposta afetiva e moral**.
+
+---
+
+## {.center}
+
+> Qual a diferença entre esse teste e o Jogo da Imitação de Turing?
+
+---
+
+## Inteligência Artificial Generativa em 2025 {.center}
+
+A IA Generativa é um ramo da IA capaz de criar conteúdos novos, como:
+
+- 📝 Textos
+- 🎨 Imagens
+- 🗣️ Áudio
+- 📹 Vídeo
+- 🧠 Códigos de software
+
+
+---
+
+## Características Gerais da IAG {.center}
+
+- Baseia-se em modelos avançados que identificam padrões em grandes volumes de dados.
+- Aprende com dados massivos
+- Produz conteúdo original e coerente
+- Funciona com base em **probabilidades**, sem consciência
+- Pode **alucinar** (gerar erros ou invenções convincentes)
+- Requer **validação humana constante**
+
+---
+
+## O que são LLMs? {.center}
+
+📚 **LLM** = *Large Language Model* (Modelo de Linguagem de Grande Escala)
+
+São redes neurais treinadas com bilhões de palavras para:
+
+- Entender e gerar linguagem natural
+- Realizar tarefas complexas de texto (resumos, respostas, análises)
+
+Exemplos: GPT-4, Claude, Gemini, LLaMA
+
+---
+
+## Como funciona o treinamento? {.center}
+
+🧪 Fase 1: **Pré-treinamento**  
+- Exposição massiva a textos da web, livros, códigos, etc.  
+- O modelo aprende **padrões estatísticos da linguagem**
+
+🛠️ Fase 2: **Ajustes (fine-tuning)**  
+- Ajuste supervisionado com curadoria humana  
+- Adaptação a tarefas específicas ou contextos (ex: setor público)
+
+[Fase 3: pós?]
+
+---
+
+## Como se estrutura um chatbot com IA? {.center}
+
+- **Modelo base (LLM)**: entende e gera respostas
+- **Interface (chat)**: onde ocorre a interação
+- **Regras e filtros**: para segurança e adequação
+- **Memória contextual (opcional)**: para lembrar o que foi dito
+
+💬 O chatbot parece “inteligente”, mas apenas **prevê a próxima palavra provável**
+
+---
+
+### Modelos Fechados vs Modelos Abertos {.columns}
+<br>
+
+::: {.column width="50%"}
+**🔒 Modelos Fechados**
+
+- Desenvolvidos por grandes empresas (OpenAI, Google)
+- Acesso via APIs
+- Pouca transparência (caixa-preta)
+- Exemplos: GPT-4, Claude, Gemini
+:::
+
+::: {.column width="50%"}
+**🔓 Modelos Abertos**
+
+- Código-fonte acessível e personalizável
+- Executáveis localmente
+- Maior controle e privacidade
+- Exemplos: LLaMA 3 (Meta), Mistral, Sabia-7B (Maritaca)
+:::
+
+---
+
+## Como escolher entre modelos? {.center}
+<br>
+
+::: {.column width="48%"}
+📌 Depende de:
+
+- ⚙️ Infraestrutura disponível
+- 🛡️ Requisitos de segurança e privacidade
+- 🎯 Nível de personalização desejado
+- 💰 Custo e acessibilidade
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+📍 Modelos abertos são preferíveis quando há:  
+✔️ Necessidade de controle  
+✔️ Regras rígidas de privacidade  
+✔️ Desejo de transparência e auditabilidade
+:::
+
+---
+
+## IA Generativa ≠ IA Geral {.center}
+
+🤖 **IA Generativa (IAG)**  
+- Especializada em criação de conteúdos  
+- Usa padrões aprendidos em grandes volumes de dados  
+- Não tem consciência nem compreensão
+
+🧠 **IA Geral (AGI)**  
+- Habilidade de aprender qualquer tarefa cognitiva  
+- Equivalente (ou superior) à inteligência humana  
+- Ainda é **teórica**
+
+---
+
+## E a Singularidade? {.center}
+
+🌌 **Singularidade Tecnológica**  
+- Futuro hipotético onde a IA supera amplamente a inteligência humana  
+- Mudanças imprevisíveis e irreversíveis na sociedade
+
+⚠️ Não é consenso entre especialistas  
+⚠️ Mais presente em narrativas de ficção e futurologia
+
+---
+
+## Alucinações na IA Generativa {.center}
+
+🧠 A IAG pode gerar respostas **incorretas ou inventadas**, ainda que pareçam confiáveis.
+
+### Causas comuns:
+- Perguntas ambíguas
+- Dados incompletos ou enviesados
+- Falta de atualização do modelo
+- Tendência a “completar” informações
+
+🔎 Exigem validação humana constante.
+
+---
+
+## Direitos Autorais e Propriedade Intelectual {.center}
+
+::: {.column width="48%"}
+📚 Modelos de IAG podem reproduzir:
+
+- Trechos de obras protegidas
+- Estilos e estruturas de autores reais
+- Conteúdos derivados sem autorização
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+⚖️ Riscos:
+
+- Plágio
+- Violação de direitos autorais
+- Responsabilidade legal da instituição ou autor
+:::
+
+---
+
+## Vazamento de Dados e Acessos Indevidos {.center}
+
+::: {.column width="48%"}
+💾 Riscos principais:
+
+- Restituição acidental de dados sensíveis no output
+- Armazenamento inadequado das interações
+- Compartilhamento em servidores externos
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+🔐 Medidas preventivas:
+
+- Não inserir dados reais em plataformas não homologadas
+- Preferir modelos abertos ou locais
+- Aplicar anonimização e mascaramento de dados
+:::
+
+---
+
+## Viéses na IA Generativa {.center}
+
+🔍 Tipos de viés identificados:
+
+- **Viés de contexto**: falha ao interpretar corretamente
+- **Viés de automação**: confiança cega nas respostas
+- **Viés de representatividade**: grupos sub-representados
+- **Viés de exclusão**: ausência total de certos grupos
+
+💡 Causa: dados de treinamento com desigualdades  
+⚠️ Consequência: reprodução de discriminação e injustiças
+
+---
+
+## IA Generativa na vida acadêmica {.center}
+
+📚 Potenciais usos:
+
+- Escrita de rascunhos e revisão textual
+- Assistência na leitura e análise de textos
+- Geração de ideias, resumos, estruturas
+- Tradução e adaptação linguística
+- Criação de materiais didáticos
+
+⚠️ Requer uso **ético**, **crítico** e com **transparência**.
+
+---
+
+## Princípios básicos de bom uso {.center}
+
+✅ **Revisar tudo o que a IA produz**  
+✅ **Identificar claramente o que foi gerado por IA**  
+✅ **Validar dados, fontes e argumentos**  
+✅ **Manter a autoria humana e a responsabilidade final**
+
+❌ Nunca publicar textos gerados por IA **sem revisão**  
+❌ Não usar IA para fraudar ou ocultar autoria
+
+---
+
+## Questões Éticas {.center}
+
+⚖️ Ética no uso da IAG envolve:
+
+- 📌 Conformidade com a LGPD e direitos autorais
+- 🔍 Transparência sobre o uso de IA
+- 🧩 Inclusão e respeito à diversidade
+- 🧠 Evitar reprodução de preconceitos e estereótipos
+- 🗣️ Assumir responsabilidade pelo conteúdo final
+
+🧭 Ética = julgamento contextual, responsabilidade e cuidado
+
+---
+
+## Como usar? {.center}
+
+💬 Use com clareza e propósito:
+
+- Planeje o que deseja gerar (defina objetivos)
+- Elabore bons **prompts** (comandos claros)
+- Revise criticamente os resultados
+- Cite o uso da ferramenta, quando apropriado
+
+📎 "Parte do conteúdo deste trabalho foi gerado com o auxílio de IA generativa."
+
+---
+
+## Exemplos de uso da IAG na vida acadêmica {.center}
+
+📌 IAG pode ser usada para **otimizar tarefas** sem substituir o trabalho intelectual:
+
+- 📖 Assistente de leitura
+- 📝 Revisor de textos
+- 📊 Apoio à análise de dados
+- 👨‍🏫 Preparação de aulas
+- 🌍 Tradução de materiais
+
+---
+
+## Assistente de leitura {.center}
+
+📘 Aplicações:
+
+- Geração de resumos iniciais
+- Reformulação de trechos difíceis
+- Sugestões de questões a partir do texto
+
+⚠️ Cuidados:
+
+- Não substituir a leitura crítica
+- Verificar fidelidade ao texto original
+
+---
+
+## Revisor de textos {.center}
+
+📝 A IA pode:
+
+- Corrigir gramática e ortografia
+- Sugerir reformulações
+- Ajudar na normalização de referências
+
+⚠️ Boas práticas:
+
+- Revisar sempre as sugestões
+- Comparar versões para aprender com o processo
+- Não publicar sem passar por revisão crítica
+
+---
+
+## Análise de dados e visualização {.center}
+
+📊 Aplicações:
+
+- Geração de gráficos e tabelas
+- Sugestões de interpretação inicial
+- Apoio a análises qualitativas com IA (ex: codificação)
+
+⚠️ Cuidados:
+
+- Validar os resultados com conhecimento de método
+- Cuidado com “interpretações fabricadas”
+
+---
+
+## Preparação de aulas e materiais didáticos {.center}
+
+👨‍🏫 IAG pode ajudar a:
+
+- Gerar planos de aula
+- Criar perguntas e atividades
+- Adaptar linguagem para diferentes públicos
+
+⚠️ O conteúdo gerado deve:
+
+- Ser adaptado ao contexto da turma
+- Passar por revisão ética e pedagógica
+
+---
+
+## Tradução de materiais acadêmicos {.center}
+
+🌍 IAG pode:
+
+- Ajudar na tradução de artigos e documentos
+- Facilitar a escrita em segunda língua
+
+⚠️ Cuidados:
+
+- Evitar traduções literais
+- Revisar tecnicamente o vocabulário
+- Verificar coerência textual
+
+---
+
+## RAG e pesquisa histórica {.center}
+
+📚 **RAG** = *Retrieval-Augmented Generation* (Geração Aumentada por Recuperação)
+
+🔍 Combina:
+
+- Um modelo LLM (como GPT)
+- Com uma **base de dados própria ou curada** (textos, documentos, arquivos)
+
+🧠 Resultado:
+
+- Respostas mais precisas e contextualizadas
+- Acesso a informações não presentes no modelo original
+
+---
+
+## RAG aplicado à pesquisa com fontes {.center}
+
+👩‍🏫 Exemplos na área de História:
+
+- Interrogar acervos documentais digitais
+- Explorar padrões em jornais históricos
+- Analisar cartas, atas, relatórios com auxílio da IA
+- Buscar referências cruzadas em bases massivas
+
+---
+
+## RAG aplicado à pesquisa com fontes {.center}
+
+🛠️ Exige:
+
+- Curadoria da base de dados
+- Técnicas de pré-processamento (OCR, limpeza)
+- Infraestrutura para acoplar modelo + repositório
+
+---
+
+## Vantagens e limitações do RAG {.center}
+
+<small>💡 Ideal para pesquisadores que trabalham com grandes corpora textuais e fontes digitais</small>
+
+::: {.column width="48%"}
+✅ Vantagens:
+
+- Geração baseada em **dados reais e específicos**
+- Evita alucinações comuns em modelos genéricos
+- Permite reprodutibilidade e auditoria
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+⚠️ Limitações:
+
+- Requer infraestrutura técnica
+- Necessita validação humana
+- A eficácia depende da **qualidade da base consultada**
+
+:::
+
+---
+
+## RAG na pesquisa histórica: um exemplo prático {.center}
+
+📄 Dataset: 10 mil mensagens extraídas da API do Telegram  
+📍 Tema: discurso de grupos de extrema direita sobre o golpe militar de 1964  
+🎯 Objetivo: investigar **formas de negacionismo histórico**
+
+💡 Vamos usar um sistema **RAG com modelo aberto**, executado em **servidor local**.
+
+---
+
+## Arquitetura RAG com modelo aberto {.center}
+
+🧠 Modelo: LLaMA 3 ou Mistral (Hugging Face)  
+💾 Execução local com `llama.cpp`, `text-generation-webui` ou `Ollama`  
+🔍 Repositório vetorial: `FAISS` ou `ChromaDB`  
+⚙️ Framework: `LangChain` ou `Haystack`
+
+> Nenhum dado é enviado para a nuvem: o processamento ocorre no próprio servidor.
+
+---
+
+## Etapa 1: Vetorização e Indexação {.center}
+
+🔣 As mensagens são convertidas em **vetores numéricos (embeddings)** com:
+
+- Modelos como `sentence-transformers`, `Instructor`, `GTE`  
+- Fragmentação em **blocos (chunks)** com metadados (ex: data, autor, grupo)
+
+📦 Vetores são armazenados num índice vetorial (FAISS/ChromaDB)
+
+🔁 Isso permite buscas por **similaridade semântica**, e não por palavras-chave
+
+---
+
+## Etapa 2: Prompt ancorado em dados reais {.center}
+
+🧾 Consulta:  
+> “Como as mensagens desse grupo negam que houve um golpe militar em 1964?”
+
+🔄 Processo:
+1. A pergunta é convertida em embedding
+2. Recuperamos os `n` trechos mais similares
+3. Geramos o **prompt final**:
+
+```
+Contexto:
+<mensagens recuperadas>
+
+Pergunta:
+Como as mensagens expressam negacionismo histórico sobre 1964?
+```
+
+---
+
+## Etapa 3: Resposta estruturada (formato JSON) {.center}
+
+📤 Para análise automatizada e reuso acadêmico, configuramos o retorno em JSON:
+
+```json
+{
+  "resposta": "As mensagens negam o golpe ao chamá-lo de revolução...",
+  "fontes": [
+    {"mensagem": "...", "data": "2023-04-01", "grupo": "Grupo A"},
+    {"mensagem": "...", "data": "2023-04-02", "grupo": "Grupo B"}
+  ],
+  "categoria": "Negacionismo histórico",
+  "evidencia": "linguagem revisionista, referências a 'revolução de 64'"
+}
+```
+
+🧩 Isso permite análises qualitativas, categorização e visualização posterior.
+
+---
+
+## {.center}
+
+![Diagrama ilustrando o fluxo de um sistema RAG para análise de mensagens sobre o golpe de 1964, com vetorizaçāo, consulta semântica e geração de resposta com base em dados reais.](assets/RAG_GPT_20250409_155055.png)
+
+---
+
