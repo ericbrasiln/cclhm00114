@@ -983,3 +983,19 @@ Como as mensagens expressam negacionismo histórico sobre 1964?
 
 ---
 
+## {.columns}
+
+::: {.column width="30%"}
+<br>
+<br>
+
+![](assets/IA-BOT_ChatGPT_20250410_091806.png)
+:::
+
+::: {.column width="70%"}
+🛠️ Toda a formatação, os textos e as imagens desta apresentação foram gerados com o apoio do ChatGPT, entre os dias **10 e 11 de abril de 2025**, a partir de instruções fornecidas por Eric Brasil.
+
+🤖 O conteúdo foi produzido de forma colaborativa, com base em materiais acadêmicos e fontes públicas, e reflete escolhas editoriais e pedagógicas orientadas pelo autor.
+
+:::
+
