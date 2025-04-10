@@ -396,6 +396,14 @@ Fonte: [Digital Trends](https://www.digitaltrends.com/computing/openais-gpus-are
 
 ---
 
+## {.center}
+
+![](assets/ghibli.jpg)
+
+Fonte: [Smillew Rahcuef via X](https://x.com/Smillew_Rahcuef/status/1905309950240288808)
+
+---
+
 ## 🌍 O impacto ambiental da IA Generativa {.center}
 
 - ⚡ **Eletricidade** → Treinamento e uso em tempo real  
@@ -483,7 +491,8 @@ Fonte: [MIT News (2025)](https://news.mit.edu/2025/explained-generative-ai-envir
 
 🧠 A IAG pode gerar respostas **incorretas ou inventadas**, ainda que pareçam confiáveis.
 
-### Causas comuns:
+**Causas comuns:**
+
 - Perguntas ambíguas
 - Dados incompletos ou enviesados
 - Falta de atualização do modelo
@@ -519,7 +528,7 @@ Fonte: [MIT News (2025)](https://news.mit.edu/2025/explained-generative-ai-envir
 ## Vazamento de Dados e Acessos Indevidos {.center}
 
 ::: {.column width="48%"}
-💾 Riscos principais:
+**💾 Riscos principais:**
 
 - Restituição acidental de dados sensíveis no output
 - Armazenamento inadequado das interações
@@ -530,7 +539,7 @@ Fonte: [MIT News (2025)](https://news.mit.edu/2025/explained-generative-ai-envir
 :::
 
 ::: {.column width="48%"}
-🔐 Medidas preventivas:
+**🔐 Medidas preventivas:**
 
 - Não inserir dados reais em plataformas não homologadas
 - Preferir modelos abertos ou locais
@@ -541,7 +550,7 @@ Fonte: [MIT News (2025)](https://news.mit.edu/2025/explained-generative-ai-envir
 
 ## Viéses na IA Generativa {.center}
 
-🔍 Tipos de viés identificados:
+🔍 **Tipos de viés identificados:**
 
 - **Viés de contexto**: falha ao interpretar corretamente
 - **Viés de automação**: confiança cega nas respostas
@@ -555,7 +564,7 @@ Fonte: [MIT News (2025)](https://news.mit.edu/2025/explained-generative-ai-envir
 
 ## IA Generativa na vida acadêmica {.center}
 
-📚 Potenciais usos:
+📚 **Potenciais usos:**
 
 - Escrita de rascunhos e revisão textual
 - Assistência na leitura e análise de textos
@@ -595,7 +604,7 @@ Fonte: [MIT News (2025)](https://news.mit.edu/2025/explained-generative-ai-envir
 
 ## Questões Éticas {.center}
 
-⚖️ Ética no uso da IAG envolve:
+⚖️ **Ética no uso da IAG envolve:**
 
 - 📌 Conformidade com a LGPD e direitos autorais
 - 🔍 Transparência sobre o uso de IA
@@ -609,7 +618,7 @@ Fonte: [MIT News (2025)](https://news.mit.edu/2025/explained-generative-ai-envir
 
 ## Como usar? {.center}
 
-💬 Use com clareza e propósito:
+💬 **Use com clareza e propósito:**
 
 - Planeje o que deseja gerar (defina objetivos)
 - Elabore bons **prompts** (comandos claros)
@@ -695,7 +704,7 @@ Fonte: [MLA Style Center – Citing Generative AI](https://style.mla.org/citing-
 
 ::: {.columns}
 ::: {.column width="48%"}
-📝 A IA pode:
+📝 **A IA pode:**
 
 - Corrigir gramática e ortografia
 - Sugerir reformulações
@@ -708,7 +717,7 @@ Fonte: [MLA Style Center – Citing Generative AI](https://style.mla.org/citing-
 :::
 
 ::: {.column width="48%"}
-⚠️ Boas práticas:
+⚠️ **Boas práticas:**
 
 - Revisar sempre as sugestões
 - Comparar versões para aprender com o processo
@@ -724,7 +733,7 @@ Fonte: [MLA Style Center – Citing Generative AI](https://style.mla.org/citing-
 ::: {.columns}
 ::: {.column width="48%"}
 
-📊 Aplicações:
+📊 **Aplicações:**
 
 - Geração de gráficos e tabelas
 - Sugestões de interpretação inicial
@@ -737,7 +746,7 @@ Fonte: [MLA Style Center – Citing Generative AI](https://style.mla.org/citing-
 :::
 
 ::: {.column width="48%"}
-⚠️ Cuidados:
+⚠️ **Cuidados:**
 
 - Validar os resultados com conhecimento de método
 - Cuidado com “interpretações fabricadas”
@@ -752,7 +761,7 @@ Fonte: [MLA Style Center – Citing Generative AI](https://style.mla.org/citing-
 ::: {.columns}
 ::: {.column width="48%"}
 
-👨‍🏫 IAG pode ajudar a:
+👨‍🏫 **IAG pode ajudar a:**
 
 - Gerar planos de aula
 - Criar perguntas e atividades
@@ -765,7 +774,7 @@ Fonte: [MLA Style Center – Citing Generative AI](https://style.mla.org/citing-
 :::
 
 ::: {.column width="48%"}
-⚠️ O conteúdo gerado deve:
+⚠️ **O conteúdo gerado deve:**
 
 - Ser adaptado ao contexto da turma
 - Passar por revisão ética e pedagógica
@@ -780,7 +789,7 @@ Fonte: [MLA Style Center – Citing Generative AI](https://style.mla.org/citing-
 ::: {.columns}
 ::: {.column width="48%"}
 
-🌍 IAG pode:
+🌍 **IAG pode:**
 
 - Ajudar na tradução de artigos e documentos
 - Facilitar a escrita em segunda língua
@@ -792,7 +801,7 @@ Fonte: [MLA Style Center – Citing Generative AI](https://style.mla.org/citing-
 :::
 
 ::: {.column width="48%"}
-⚠️ Cuidados:
+⚠️ **Cuidados:**
 
 - Evitar traduções literais
 - Revisar tecnicamente o vocabulário
@@ -809,7 +818,7 @@ Fonte: [MLA Style Center – Citing Generative AI](https://style.mla.org/citing-
 
 ::: {.columns}
 ::: {.column width="48%"}
-🔍 Combina:
+🔍 **Combina:**
 
 - Um modelo LLM (como GPT)
 - Com uma **base de dados própria ou curada** (textos, documentos, arquivos)
@@ -821,7 +830,7 @@ Fonte: [MLA Style Center – Citing Generative AI](https://style.mla.org/citing-
 :::
 
 ::: {.column width="48%"}
-🧠 Resultado:
+🧠 **Resultado:**
 
 - Respostas mais precisas e contextualizadas
 - Acesso a informações não presentes no modelo original
@@ -833,7 +842,7 @@ Fonte: [MLA Style Center – Citing Generative AI](https://style.mla.org/citing-
 
 ## RAG aplicado à pesquisa com fontes {.center}
 
-👩‍🏫 Exemplos na área de História:
+👩‍🏫 **Exemplos na área de História:**
 
 - Interrogar acervos documentais digitais
 - Explorar padrões em jornais históricos
@@ -844,7 +853,7 @@ Fonte: [MLA Style Center – Citing Generative AI](https://style.mla.org/citing-
 
 ## RAG aplicado à pesquisa com fontes {.center}
 
-🛠️ Exige:
+🛠️ **Exige:**
 
 - Curadoria da base de dados
 - Técnicas de pré-processamento (OCR, limpeza)
@@ -857,7 +866,7 @@ Fonte: [MLA Style Center – Citing Generative AI](https://style.mla.org/citing-
 <small>💡 Ideal para pesquisadores que trabalham com grandes corpora textuais e fontes digitais</small>
 
 ::: {.column width="48%"}
-✅ Vantagens:
+✅ **Vantagens:**
 
 - Geração baseada em **dados reais e específicos**
 - Evita alucinações comuns em modelos genéricos
@@ -868,7 +877,7 @@ Fonte: [MLA Style Center – Citing Generative AI](https://style.mla.org/citing-
 :::
 
 ::: {.column width="48%"}
-⚠️ Limitações:
+⚠️ **Limitações:**
 
 - Requer infraestrutura técnica
 - Necessita validação humana
@@ -891,38 +900,54 @@ Fonte: [MLA Style Center – Citing Generative AI](https://style.mla.org/citing-
 ## Arquitetura RAG com modelo aberto {.center}
 
 🧠 Modelo: LLaMA 3 ou Mistral (Hugging Face)  
-💾 Execução local com `llama.cpp`, `text-generation-webui` ou `Ollama`  
+💾 Execução local com `Ollama`  
 🔍 Repositório vetorial: `FAISS` ou `ChromaDB`  
-⚙️ Framework: `LangChain` ou `Haystack`
+⚙️ Framework: `LangChain`
 
 > Nenhum dado é enviado para a nuvem: o processamento ocorre no próprio servidor.
 
 ---
 
-## Etapa 1: Vetorização e Indexação {.center}
+### Etapa 1: Vetorização e Indexação {.center}
+<br>
 
-🔣 As mensagens são convertidas em **vetores numéricos (embeddings)** com:
+🔣 As mensagens são convertidas em **vetores numéricos (embeddings)**
 
-- Modelos como `sentence-transformers`, `Instructor`, `GTE`  
-- Fragmentação em **blocos (chunks)** com metadados (ex: data, autor, grupo)
 
 📦 Vetores são armazenados num índice vetorial (FAISS/ChromaDB)
 
 🔁 Isso permite buscas por **similaridade semântica**, e não por palavras-chave
 
+:::notes
+
+- Modelos como `sentence-transformers`, `Instructor`, `GTE`  
+- Fragmentação em **blocos (chunks)** com metadados (ex: data, autor, grupo)
+:::
+
 ---
 
-## Etapa 2: Prompt ancorado em dados reais {.center}
+### Etapa 2: Prompt ancorado em dados reais {.center}
 
-🧾 Consulta:  
-> “Como as mensagens desse grupo negam que houve um golpe militar em 1964?”
+::: {.column width="48%"}
+<br>
+🧾 **Consulta:**
 
-🔄 Processo:
+>“Como as mensagens desse grupo negam que houve um golpe militar em 1964?”
+
+:::
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+🔄 **Processo:**
+
 1. A pergunta é convertida em embedding
 2. Recuperamos os `n` trechos mais similares
 3. Geramos o **prompt final**:
 
-```
+:::
+
+```txt
 Contexto:
 <mensagens recuperadas>
 
@@ -932,7 +957,7 @@ Como as mensagens expressam negacionismo histórico sobre 1964?
 
 ---
 
-## Etapa 3: Resposta estruturada (formato JSON) {.center}
+### Etapa 3: Resposta estruturada (formato JSON) {.center}
 
 📤 Para análise automatizada e reuso acadêmico, configuramos o retorno em JSON:
 
