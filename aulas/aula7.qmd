@@ -13,9 +13,20 @@ format:
     footer: "Eric Brasil | <a href=https://ericbrasil.com.br/contact/>Entre em contato</a> | CCLHM00114 - Introdução à História Digital"
 ---
 
-## O que é Inteligência Artificial? {.center}
+## O que é Inteligência Artificial? {.columns}
+<br>
 
->Alguém arrisca uma definição?
+::: {.column width="40%"}
+![](assets/IA-BOT_ChatGPT_20250410_091806.png)
+:::
+
+::: {.column width="60%"}
+<br>
+<br>
+
+>💬 Alguém arrisca uma definição?
+
+:::
 
 ---
 
@@ -37,7 +48,12 @@ format:
 ⚙️ **Agir racionalmente**  
 > “Estudo do projeto de agentes inteligentes.” Poole et al. (1998)
 
-📌 As abordagens se dividem entre:  
+---
+
+## Russel e Norvig (2004): quatro abordagens {.center}
+
+📌 **As abordagens se dividem entre:**
+
 - 🧪 Enfoques empíricos e humanos (interdisciplinares)  
 - 🔢 Enfoques lógico-racionalistas (computação, matemática)
 
@@ -130,7 +146,7 @@ mas **no que ela faz**." Turing (1950)
 
 ---
 
-## 🎬 O teste Voight-Kampff em Blade Runner {.center}
+## Blade Runner (1982), dir. Ridley Scott {.center}
 
 <video controls width="100%" src="assets/blade_runner_1080p.webm" crossorigin="anonymous">
   <track src="assets/blade_runner_1080p.vtt" kind="subtitles" srclang="pt" label="Português" default />
@@ -140,21 +156,86 @@ mas **no que ela faz**." Turing (1950)
 
 ---
 
-## 🎬 O teste Voight-Kampff em Blade Runner {.center}
+### O teste Voight-Kampff em Blade Runner (1982) {.center}
 
+![Utilizado para identificar **replicantes**, distingue humanos de máquinas pela **capacidade empática**](assets/bladerunner.gif)
+
+:::notes
 - Utilizado para identificar **replicantes** (androides avançados);
 - Mede **reações emocionais** (expressões faciais, dilatação da pupila, etc.);
 - Distingue humanos de máquinas pela **capacidade empática**;
 - Foco: **resposta afetiva e moral**.
+:::
+
+---
+
+### Her (2013), dir. Spike Jonze {.center}
+
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDNpbjV2cnZ2MmwydXNkZDc0ZHVtNGtrZTB4YnFxZXlwbzRvdXBqayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/unyYJeETm09laXfGui/giphy.gif" width="80%" />
+
+> 🧠 O que significa “amar” uma IA?  
+>
+> Até que ponto uma consciência artificial pode ser considerada uma *pessoa*?
+
+---
+
+### Ex Machina (2014), dir. Alex Garland {.center}
+
+![](assets/gif_ava.gif)
+
+> 👁️ A IA passa no Teste de Turing — mas ela está realmente *consciente*?  
+>
+>  ❤️O afeto é um critério válido para reconhecer inteligência?
+
+---
+
+## Pensar a partir da ficção científica {.columns}
+
+<br>
+
+::: {.column width="40%"}
+![](assets/IA-BOT_ChatGPT_20250410_091806.png)
+:::
+
+::: {.column width="60%"}
+<br>
+
+> 💬 As ideias de Turing sobre pensamento artificial ainda fazem sentido diante das questões levantadas pela ficção científica?
+
+:::
+
+---
+
+## IA Generativa ≠ IA Geral {.center}
+
+🤖 **IA Generativa (IAG)**  
+- Especializada em criação de conteúdos  
+- Usa padrões aprendidos em grandes volumes de dados  
+- Não tem consciência nem compreensão
+
+🧠 **IA Geral (AGI)**  
+- Habilidade de aprender qualquer tarefa cognitiva  
+- Equivalente (ou superior) à inteligência humana  
+- Ainda é **teórica**
+
+---
+
+## E a Singularidade? {.center}
+
+🌌 **Singularidade Tecnológica**  
+- Futuro hipotético onde a IA supera amplamente a inteligência humana  
+- Mudanças imprevisíveis e irreversíveis na sociedade
+
+⚠️ Não é consenso entre especialistas  
+⚠️ Mais presente em narrativas de ficção e futurologia
 
 ---
 
 ## {.center}
 
-> Qual a diferença entre esse teste e o Jogo da Imitação de Turing?
+![IA Generativa, IA Geral e Singularidade ](assets/HQ_ChatGPT_20250410_103434.png)
 
 ---
-
 ## Inteligência Artificial Generativa em 2025 {.center}
 
 A IA Generativa é um ramo da IA capaz de criar conteúdos novos, como:
@@ -164,7 +245,6 @@ A IA Generativa é um ramo da IA capaz de criar conteúdos novos, como:
 - 🗣️ Áudio
 - 📹 Vídeo
 - 🧠 Códigos de software
-
 
 ---
 
@@ -200,10 +280,12 @@ Exemplos: GPT-4, Claude, Gemini, LLaMA
 - Processam essas entradas em **camadas** de nós (neurônios artificiais)
 - Aprendem a **reconhecer padrões** e gerar saídas (respostas)
 
+:::notes
 📈 Com o tempo, ajustam seus pesos internos para melhorar os resultados.
 
 ➡️ Redes neurais profundas (deep learning) são a base dos **LLMs**  
 quanto mais camadas, mais complexas as tarefas que podem realizar.
+:::
 
 ---
 
@@ -219,9 +301,17 @@ quanto mais camadas, mais complexas as tarefas que podem realizar.
 - Exposição massiva a textos da web, livros, códigos, etc.  
 - O modelo aprende **padrões estatísticos da linguagem**
 
+---
+
+## Como funciona o treinamento? {.center}
+
 🛠️ **Fase 2: Ajustes (fine-tuning)**  
 - Ajuste supervisionado com dados anotados  
 - Adaptação a contextos específicos (ex: setor público, jurídico)
+
+---
+
+## Como funciona o treinamento? {.center}
 
 🎯 **Fase 3: Alinhamento final (instruction tuning / RLHF)**  
 - Intervenção humana para ajustar comportamento, ética e segurança  
@@ -254,8 +344,10 @@ quanto mais camadas, mais complexas as tarefas que podem realizar.
 - Ambientes distribuídos em **data centers de alta performance**
 - Refrigeração avançada e uso intensivo de energia
 
+:::notes
 🏢 A OpenAI utiliza a infraestrutura da Microsoft (Azure AI Supercomputing Center)  
 📍 Exemplo: um supercomputador com **10.000 GPUs** conectadas por redes de alta velocidade
+:::
 
 ---
 
@@ -270,6 +362,18 @@ quanto mais camadas, mais complexas as tarefas que podem realizar.
 - Impacto ambiental relacionado à **pegada de carbono digital**
 
 ⚠️ Usar IA generativa tem um custo **invisível ao usuário, mas real**
+
+:::notes
+💡 Cada imagem gerada = energia + processamento + refrigeração
+
+⚠️ Geração massiva = aquecimento global digital
+
+🧭 Como pesquisadores e educadores, devemos refletir sobre:
+
+- Sustentabilidade
+- Uso consciente
+- Transparência sobre os impactos da tecnologia
+:::
 
 ---
 
@@ -288,22 +392,6 @@ Fonte: [Digital Trends](https://www.digitaltrends.com/computing/openais-gpus-are
 - Geração de imagem com IA exige **altíssima carga computacional**
 - GPUs em data centers trabalham no limite térmico e elétrico
 - A demanda foi tão grande que a OpenAI **limitou usuários pagos**
-:::
-
----
-
-## O custo invisível de gerar imagens com IA {.center}
-
-💡 Cada imagem gerada = energia + processamento + refrigeração
-
-⚠️ Geração massiva = aquecimento global digital
-
-:::notes
-🧭 Como pesquisadores e educadores, devemos refletir sobre:
-
-- Sustentabilidade
-- Uso consciente
-- Transparência sobre os impactos da tecnologia
 :::
 
 ---
@@ -346,7 +434,6 @@ Fonte: [MIT News (2025)](https://news.mit.edu/2025/explained-generative-ai-envir
 
 
 ### Modelos Fechados vs Modelos Abertos {.columns}
-<br>
 
 ::: {.column width="50%"}
 **🔒 Modelos Fechados**
@@ -369,10 +456,9 @@ Fonte: [MIT News (2025)](https://news.mit.edu/2025/explained-generative-ai-envir
 ---
 
 ## Como escolher entre modelos? {.center}
-<br>
 
 ::: {.column width="48%"}
-📌 Depende de:
+📌 **Depende de:**
 
 - ⚙️ Infraestrutura disponível
 - 🛡️ Requisitos de segurança e privacidade
@@ -384,36 +470,12 @@ Fonte: [MIT News (2025)](https://news.mit.edu/2025/explained-generative-ai-envir
 :::
 
 ::: {.column width="48%"}
-📍 Modelos abertos são preferíveis quando há:  
+📍 **Modelos abertos são preferíveis quando há:**
+
 ✔️ Necessidade de controle  
 ✔️ Regras rígidas de privacidade  
 ✔️ Desejo de transparência e auditabilidade
 :::
-
----
-
-## IA Generativa ≠ IA Geral {.center}
-
-🤖 **IA Generativa (IAG)**  
-- Especializada em criação de conteúdos  
-- Usa padrões aprendidos em grandes volumes de dados  
-- Não tem consciência nem compreensão
-
-🧠 **IA Geral (AGI)**  
-- Habilidade de aprender qualquer tarefa cognitiva  
-- Equivalente (ou superior) à inteligência humana  
-- Ainda é **teórica**
-
----
-
-## E a Singularidade? {.center}
-
-🌌 **Singularidade Tecnológica**  
-- Futuro hipotético onde a IA supera amplamente a inteligência humana  
-- Mudanças imprevisíveis e irreversíveis na sociedade
-
-⚠️ Não é consenso entre especialistas  
-⚠️ Mais presente em narrativas de ficção e futurologia
 
 ---
 
@@ -434,7 +496,7 @@ Fonte: [MIT News (2025)](https://news.mit.edu/2025/explained-generative-ai-envir
 ## Direitos Autorais e Propriedade Intelectual {.center}
 
 ::: {.column width="48%"}
-📚 Modelos de IAG podem reproduzir:
+📚 **Modelos de IAG podem reproduzir:**
 
 - Trechos de obras protegidas
 - Estilos e estruturas de autores reais
@@ -445,7 +507,7 @@ Fonte: [MIT News (2025)](https://news.mit.edu/2025/explained-generative-ai-envir
 :::
 
 ::: {.column width="48%"}
-⚖️ Riscos:
+⚖️ **Riscos:**
 
 - Plágio
 - Violação de direitos autorais
@@ -508,10 +570,13 @@ Fonte: [MIT News (2025)](https://news.mit.edu/2025/explained-generative-ai-envir
 ## Princípios básicos de bom uso {.center}
 
 ::: {.column width="48%"}
-✅ **Revisar tudo o que a IA produz**  
-✅ **Identificar claramente o que foi gerado por IA**  
-✅ **Validar dados, fontes e argumentos**  
-✅ **Manter a autoria humana e a responsabilidade final**
+✅ Revisar tudo o que a IA produz  
+
+✅ Identificar claramente o que foi gerado por IA  
+
+✅ Validar dados, fontes e argumentos  
+
+✅ Manter a autoria humana e a responsabilidade final
 
 :::
 
@@ -551,7 +616,41 @@ Fonte: [MIT News (2025)](https://news.mit.edu/2025/explained-generative-ai-envir
 - Revise criticamente os resultados
 - Cite o uso da ferramenta, quando apropriado
 
-📎 "Parte do conteúdo deste trabalho foi gerado com o auxílio de IA generativa."
+---
+
+## Como citar? {.center}
+
+📚 A MLA recomenda citar ferramentas de IA generativa sempre que:
+
+- 📌 Você incorporar conteúdo gerado pela IA (texto, imagem, dados etc.);
+- 🛠️ Utilizar a IA para funções como revisão, tradução ou edição textual.
+
+⚠️ A autoria deve continuar sendo **humana**.
+
+---
+
+### 🧩 Elementos da citação no modelo MLA: {.center}
+
+- **Título da fonte**: o conteúdo gerado (ex: “Resumo gerado para introdução”)
+- **Título do container**: nome da IA (ex: *ChatGPT*)
+- **Versão**: exata, se possível (ex: GPT-4o, abril de 2025)
+- **Editora**: empresa responsável (ex: OpenAI)
+- **Data**: da geração do conteúdo
+- **Local**: URL da ferramenta (ex: https://chat.openai.com)
+
+Fonte: [MLA Style Center – Citing Generative AI](https://style.mla.org/citing-generative-ai/)
+
+---
+
+## 📎 Exemplo de nota de uso de IA {.center}
+
+> Foi utilizado o modelo GPT-4o da empresa OpenAI, com o plano ChatGPT Plus, para revisão ortográfica, gramatical e sintática e apoio na formatação das referências. Ressalta-se que todo o conteúdo analítico, argumentativo e as ideias centrais do texto são de responsabilidade exclusiva do autor. As consultas foram realizadas entre os dias 03 e 16 de fevereiro e entre 6 e 8 de abril de 2025.
+
+---
+
+## 📝 Exemplo de citação em estilo MLA {.center}
+
+📌 "Revisão ortográfica, gramatical e sintática de texto acadêmico." *ChatGPT*, version GPT-4o, OpenAI, 8 Apr. 2025, https://chat.openai.com/.
 
 ---
 
@@ -569,36 +668,61 @@ Fonte: [MIT News (2025)](https://news.mit.edu/2025/explained-generative-ai-envir
 
 ## Assistente de leitura {.center}
 
-📘 Aplicações:
+::: {.columns}
+::: {.column width="48%"}
+📘 **Aplicações:**
 
 - Geração de resumos iniciais
 - Reformulação de trechos difíceis
 - Sugestões de questões a partir do texto
+:::
 
-⚠️ Cuidados:
+::: {.column width="4%"}
+
+:::
+
+::: {.column width="48%"}
+⚠️ **Cuidados:**
 
 - Não substituir a leitura crítica
 - Verificar fidelidade ao texto original
+:::
+:::
 
 ---
 
 ## Revisor de textos {.center}
 
+::: {.columns}
+::: {.column width="48%"}
 📝 A IA pode:
 
 - Corrigir gramática e ortografia
 - Sugerir reformulações
 - Ajudar na normalização de referências
 
+:::
+
+::: {.column width="4%"}
+
+:::
+
+::: {.column width="48%"}
 ⚠️ Boas práticas:
 
 - Revisar sempre as sugestões
 - Comparar versões para aprender com o processo
 - Não publicar sem passar por revisão crítica
 
+:::
+:::
+
 ---
 
 ## Análise de dados e visualização {.center}
+
+::: {.columns}
+::: {.column width="48%"}
 
 📊 Aplicações:
 
@@ -606,14 +730,27 @@ Fonte: [MIT News (2025)](https://news.mit.edu/2025/explained-generative-ai-envir
 - Sugestões de interpretação inicial
 - Apoio a análises qualitativas com IA (ex: codificação)
 
+:::
+
+::: {.column width="4%"}
+
+:::
+
+::: {.column width="48%"}
 ⚠️ Cuidados:
 
 - Validar os resultados com conhecimento de método
 - Cuidado com “interpretações fabricadas”
 
+:::
+:::
+
 ---
 
 ## Preparação de aulas e materiais didáticos {.center}
+
+::: {.columns}
+::: {.column width="48%"}
 
 👨‍🏫 IAG pode ajudar a:
 
@@ -621,25 +758,48 @@ Fonte: [MIT News (2025)](https://news.mit.edu/2025/explained-generative-ai-envir
 - Criar perguntas e atividades
 - Adaptar linguagem para diferentes públicos
 
+:::
+
+::: {.column width="4%"}
+
+:::
+
+::: {.column width="48%"}
 ⚠️ O conteúdo gerado deve:
 
 - Ser adaptado ao contexto da turma
 - Passar por revisão ética e pedagógica
 
+:::
+:::
+
 ---
 
 ## Tradução de materiais acadêmicos {.center}
+
+::: {.columns}
+::: {.column width="48%"}
 
 🌍 IAG pode:
 
 - Ajudar na tradução de artigos e documentos
 - Facilitar a escrita em segunda língua
 
+:::
+
+::: {.column width="4%"}
+
+:::
+
+::: {.column width="48%"}
 ⚠️ Cuidados:
 
 - Evitar traduções literais
 - Revisar tecnicamente o vocabulário
 - Verificar coerência textual
+
+:::
+:::
 
 ---
 
@@ -647,15 +807,27 @@ Fonte: [MIT News (2025)](https://news.mit.edu/2025/explained-generative-ai-envir
 
 📚 **RAG** = *Retrieval-Augmented Generation* (Geração Aumentada por Recuperação)
 
+::: {.columns}
+::: {.column width="48%"}
 🔍 Combina:
 
 - Um modelo LLM (como GPT)
 - Com uma **base de dados própria ou curada** (textos, documentos, arquivos)
 
+:::
+
+::: {.column width="4%"}
+
+:::
+
+::: {.column width="48%"}
 🧠 Resultado:
 
 - Respostas mais precisas e contextualizadas
 - Acesso a informações não presentes no modelo original
+
+:::
+:::
 
 ---
 
