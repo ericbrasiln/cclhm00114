@@ -1,0 +1,73 @@
+---
+title: "Atividade Remota – Aula 9 (17/04/2025)"
+subtitle: "Ética e o uso de Inteligência Artificial Generativa (IAG) no ensino e na pesquisa"
+author: "Professor: Eric Brasil"
+email: profericbrasil@unilab.edu.br
+institute: "Licenciatura em História, IHLM-UNILAB"
+date: "2025-04-17"
+description: "Atividade remota para a disciplina Introdução à História Digital. A atividade vale 2,0 ponto e deve ser entregue até 15/05/2025."
+lang: pt-BR
+toc: true
+---
+
+
+|Tipo | Tema | Pontos | Prazo |Observações|
+|--------|----------------------|-----|------------|---------------------|
+| Remota | Ética e o uso de Inteligência Artificial Generativa (IAG) no ensino e na pesquisa.| 2,0 | 15/05/2025 | Atividade individual; entregar via SIGAA |
+
+## 💻 Aula 9 – Substituição de atividade presencial
+
+### Tema  
+Ética e o uso de Inteligência Artificial Generativa (IAG) no ensino e na pesquisa.
+
+---
+
+## 📚 Leituras obrigatórias
+
+- **FRANCO, Diego; VIEGAS, Luis Eduardo; RÖHE, Anderson.** *Guia Ético para a Inteligência Artificial Generativa no Ensino Superior*. _TECCOGS – Revista Digital de Tecnologias Cognitivas_, n. 28, 2023, p. 108-117. [link](blob:https://revistas.pucsp.br/9b559064-ea75-4bf1-a7de-0a8da961c480)
+
+- **BRASIL.** *Lei Geral de Proteção de Dados Pessoais (LGPD)* – Lei n. 13.709/2018  
+  📎 Disponível em: <https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm>
+
+---
+
+## 🎯 Objetivo
+
+Refletir criticamente sobre dilemas éticos e legais envolvendo o uso de IAG no ensino e na pesquisa acadêmica, a partir da análise de um **caso concreto** à luz da LGPD e das diretrizes do *Guia Ético para a IAG no Ensino Superior*.
+
+---
+
+## 📝 Instruções
+
+1. Faça a leitura atenta dos textos obrigatórios.
+
+2. Pesquise na imprensa (jornais, revistas, sites confiáveis) **um caso concreto** que envolva o uso de inteligência artificial no contexto educacional ou acadêmico.  
+   Exemplos: uso de ChatGPT em trabalhos acadêmicos, denúncias de plágio, uso indevido de dados, experimentos não consentidos etc.
+
+3. Redija um **texto analítico** entre **500 e 800 palavras**, contendo os seguintes elementos:
+
+   - **Resumo do caso escolhido**, com link ou referência.
+   - **Justificativa da escolha do caso**: por que ele foi escolhido e sua relevância.
+   - **Análise crítica**, abordando:
+     - Relações com os **princípios da LGPD** (indicar artigos ou fundamentos legais pertinentes).
+     - Pontos de convergência com o *Guia Ético para a IAG no Ensino Superior*:
+       - responsabilidade institucional,
+       - transparência e consentimento,
+       - proteção de dados,
+       - impactos sobre o ensino e a pesquisa.
+
+---
+
+## 📤 Entrega
+
+- **Prazo final:** 15 de maio de 2025 (quinta-feira)
+- **Valor:** até **2 pontos** na nota final
+- **Formato:** PDF (`.pdf`)
+- **Envio:** pela plataforma da disciplina
+
+---
+
+:::{.callout-note}
+💡 Dica: escolha um caso que envolva **implicações éticas claras** e que dialogue com os desafios enfrentados por docentes, discentes e instituições no uso de IA em contextos acadêmicos.
+:::
+

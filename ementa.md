@@ -111,7 +111,7 @@ O campo das humanidades digitais: definições, limites e possibilidades. Desenv
 
 ## AULA 6 (27/03/2025) 🛠️
 
-### Oficina I: Zotero
+### Oficina I: Zotero (parte 1)
 
 🎯 **Objetivos**
 
@@ -123,15 +123,19 @@ O campo das humanidades digitais: definições, limites e possibilidades. Desenv
 - [Zotero do Zero: Tutorial de instalação do Zotero no Windows 10](https://youtu.be/CPdhyKboKC0?si=OO4C5tIuOdrxHpwg)
 - [Workshop de Zotero](https://youtu.be/I5ohkh5d51Y?si=mbdsxWZ3VrEAIewm)
 
-## AULA 7 (03/04/2025) 📖
+## AULA 7 (03/04/2025) 🛠️
 
-### Algoritmos, dataficação da sociedade e o ofício de historiadores/as
+### Oficina I: Zotero (parte 2)
+
+## AULA 8 (10/04/2025) 🛠️
+
+### Oficina II: Inteligência Artificial
 
 🎯 **Objetivos**
 
-- Compreender o conceito de dataficação e seu impacto na sociedade contemporânea.
-- Refletir sobre como algoritmos influenciam a pesquisa histórica e o acesso à informação.
-- Discutir as relações entre big data, historiografia e produção do conhecimento histórico.
+- Explorar ferramentas de IA generativa aplicadas à pesquisa histórica.
+- Avaliar os impactos da IA na produção e análise de fontes históricas.
+- Experimentar o uso de modelos de linguagem para história digital.
 
 📚 **Leitura obrigatória**
 
@@ -141,9 +145,27 @@ O campo das humanidades digitais: definições, limites e possibilidades. Desenv
 
 - NOBLE, Safiya Umoja. Introdução. In: **Algoritmos da opressão**. São Paulo: Editora Rua do Sabão, 2021. pp. 7-28
 
-## AULA 8 (10/04/2025) 🛠️
+## AULA 9 (17/04/2025) 💻
 
-### Oficina II: OCR
+### Atividade Remota – Ética e o uso de Inteligência Artificial Generativa (IAG) no ensino e na pesquisa
+
+📚 **Leituras obrigatórias**
+
+- **FRANCO, Diego; VIEGAS, Luis Eduardo; RÖHE, Anderson.** *Guia Ético para a Inteligência Artificial Generativa no Ensino Superior*. *TECCOGS – Revista Digital de Tecnologias Cognitivas*, n. 28, 2023, p. 108-117.
+
+- **BRASIL.** *Lei Geral de Proteção de Dados Pessoais (LGPD)* – Lei n. 13.709/2018  
+  📎 Disponível em: [https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm)
+
+🎯 **Objetivo da atividade**
+Refletir criticamente sobre dilemas éticos e legais envolvendo o uso de IAG no ensino e na pesquisa acadêmica, a partir da análise de um caso concreto à luz da LGPD e das diretrizes do *Guia Ético para a IAG no Ensino Superior*.
+
+Mais informações [nesse link](https://ericbrasil.com.br/cclhm00114/atividades/at02) ou no Sigaa.
+
+---
+
+## AULA 10 (24/04/2025) 🛠️
+
+### Oficina III: OCR
 
 🎯 **Objetivos**
 
@@ -155,45 +177,6 @@ O campo das humanidades digitais: definições, limites e possibilidades. Desenv
 
 - [Tutorial - gImageReader (OCR para Windows 10)](https://youtu.be/_7eqj01Hn0M)
 - [Link para download do gImageReader](https://github.com/manisandro/gImageReader)
-
-## AULA 9 (17/04/2025) 📖
-
-### Ética e questões legais na pesquisa digital
-
-🎯 **Objetivos**
-
-- Discutir questões de privacidade, segurança e ética no uso de dados digitais.
-- Refletir sobre as implicações legais da coleta e uso de dados na pesquisa histórica.
-- Analisar casos de ética em humanidades digitais e o impacto de legislações como a LGPD.
-
-📚 **Leitura obrigatória**
-
-- ZUBOFF, Shoshana. **A Era do Capitalismo de Vigilância**. Rio de Janeiro: Intrínseca, 2021. (Trechos selecionados)
-
-📚 **Leituras complementares**
-
-- BRASIL. Lei Geral de Proteção de Dados Pessoais (LGPD) - Lei n. 13.709/2018. Disponível [aqui](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm)
-- SALGANIK, Matthew J. **Bit by Bit: Social Research in the Digital Age**. Princeton University Press, 2019. (Capítulo 6, disponível [aqui](https://www.bitbybitbook.com/en/1st-ed/ethics/))
-
-## AULA 10 (24/04/2025) 🛠️
-
-### Oficina III: Inteligência Artificial
-
-🎯 **Objetivos**
-
-- Explorar ferramentas de IA generativa aplicadas à pesquisa histórica.
-- Avaliar os impactos da IA na produção e análise de fontes históricas.
-- Experimentar o uso de modelos de linguagem para história digital.
-
-📚 **Leitura obrigatória**
-
-- EM BREVE
-
-📚 **Leituras complementares**
-
-- EM BREVE
-
-📺 **Materiais de Apoio**
 
 ## AULA 11 (08/05/2025) 📖
 
@@ -213,8 +196,6 @@ O campo das humanidades digitais: definições, limites e possibilidades. Desenv
 
 -  BRASIL, Eric; VALVERDE, Priscila; VELOSO, Ana Carolina. Desafios e expectativas da prática da história na Era Digital: : percepções de docentes de história nas instituições de ensino superior na Bahia. *Boletim do Tempo Presente*, v. 13, n. 2, p. 140–171, 2024. 
 
-
----
 
 ## AULA 12 (15/05/2025) 🛠️
 
