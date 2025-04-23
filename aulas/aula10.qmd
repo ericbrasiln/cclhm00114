@@ -1,6 +1,6 @@
 ---
-title: "Reconhecimento Óptico de Caracteres (OCR) e Inteligência Artificial "
-subtitle: "<br>Oficina III<br>Prof. Eric Brasil"
+title: "Oficina III: OCR e a Pesquisa Histórica"
+subtitle: "<br>Aula 10<br>Prof. Eric Brasil"
 date: 2025-04-24
 date-format: full
 lang: pt-br
@@ -12,7 +12,23 @@ format:
       buttons: true
     footer: "Eric Brasil | <a href=https://ericbrasil.com.br/contact/>Entre em contato</a> | CCLHM00114 - Introdução à História Digital"
     highlight-style: kate
-    logo: "assets/ChatGPT2025042_111501.png"
+    logo: "assets/ChatGPT_20250423_142039.png"
+---
+
+### Acesse a apresentação da Oficina III com o QR Code abaixo {.center}
+
+::: {.column width="48%"}
+![](assets/ChatGPT_20250423_142039.png)
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+
+![](assets/qrcode_aula10.png)
+:::
+
 ---
 
 ## Sobre esta apresentação {.center}
@@ -90,7 +106,7 @@ Realizar OCR de forma individualizada, sem acompanhamento especializado, muitas 
 
 ---
 
-## Dificuldades em jornais históricos digitalizados {.center}
+### Dificuldades em jornais históricos digitalizados {.center}
 
 Esses desafios se tornam ainda maiores no caso dos jornais históricos, pois possuem características que dificultam o processo:
 
@@ -104,6 +120,7 @@ Esses desafios se tornam ainda maiores no caso dos jornais históricos, pois pos
 ## Definição de Estratégias: Volume e Qualidade dos Dados {.center}
 
 As estratégias de tratamento das imagens de jornais digitalizados variam de acordo com:
+
 - **Volume e qualidade das páginas digitalizadas**
 - **Disponibilidade de tempo, recursos e conhecimento técnico**
 
@@ -119,7 +136,7 @@ Antes de iniciar o processo de OCR, avalie o conjunto de dados considerando:
 
 ---
 
-## Avaliação do seu dataset {.center}
+## {.center}
 
 2. **Qualidade da digitalização:**  
   - Imagens possuem resolução elevada?  
@@ -127,7 +144,7 @@ Antes de iniciar o processo de OCR, avalie o conjunto de dados considerando:
 
 ---
 
-## Avaliação do seu dataset {.center}
+## {.center}
 
 3. **Recursos disponíveis:**  
   - Há financiamento específico para tratamento das imagens?
@@ -142,7 +159,7 @@ Três encaminhamentos principais:
 
 ---
 
-### ⚙️Estratégia A: Grande volume de dados (>1000 imagens) {.center}
+### ⚙️ Estratégia A: Grande volume de dados  {.center}
 
 - Use **ferramentas de linha de comando** para OCR (ex: Tesseract).
 - Se necessário, aplique ferramentas de **pré-processamento** (ex: OCR-D).
@@ -151,24 +168,13 @@ Três encaminhamentos principais:
 
 ---
 
-### 🖱️Estratégia B: Volumes reduzidos (<1000 imagens) {.center}
+### 🖱️ Estratégia B: Volumes reduzidos {.center}
+<br>
 
-- Utilize o **gImageReader** (interface gráfica, código aberto).
+- Utilize o **gImageReader** (interface gráfica, código aberto) ou outro programa de OCR com interface gráfica.
 - Ideal para tratamento manual, permitindo correções personalizadas.
 - Requer menos conhecimento técnico e permite correção manual dos resultados.
 - Não exige treinamento de modelos específicos.
-
----
-
-## Observação importante {.center}
-
-O que é considerado “grande volume” depende das especificidades de cada pesquisa:  
-
-- Métodos, teoria, infraestrutura disponível.
-
-- Aqui, **mil imagens** é um corte prático e arbitrário, mas avalie sempre suas necessidades.
-
-O fundamental é adaptar a estratégia **às suas possibilidades e objetivos**.
 
 ---
 
@@ -181,7 +187,19 @@ O fundamental é adaptar a estratégia **às suas possibilidades e objetivos**.
 
 ---
 
-## ⚙️Exemplos práticos: Estratégia A {.center}
+### ⚠️ Observação importante {.center}
+
+O que é considerado “grande volume” depende das especificidades de cada pesquisa:  
+
+- Métodos, teoria, infraestrutura disponível.
+
+- Aqui, **mil imagens** é um corte prático e arbitrário, mas avalie sempre suas necessidades.
+
+O fundamental é adaptar a estratégia **às suas possibilidades e objetivos**.
+
+---
+
+## ⚙️Estratégia A: Exemplos práticos {.center}
 
 Caso sua pesquisa demande o tratamento e análise de **milhares de páginas digitalizadas** de jornais históricos,  
 o encaminhamento mais acertado é a utilização de **interfaces de linha de comando**  
@@ -198,33 +216,13 @@ Ferramentas de linha de comando permitem:
 
 - **Automatizar o processamento em larga escala**
 - Integrar etapas como: pré-processamento, OCR, pós-processamento e exportação dos resultados
-- Gerar datasets em formatos variados (.txt, .csv, .xml, .pdf)
-- Exemplo: uso combinado de [OCR-D](https://ocr-d.de/), [Tesseract](https://github.com/tesseract-ocr/tesseract), [Imagemagick](https://imagemagick.org/)
+- Gerar datasets em formatos variados (.txt, .csv, .xml)
 
 ---
 
-## ⚙️Exemplo de comando básico: Tesseract {.center}
+## ⚙️Exemplo básico com Tesseract {.center}
 
-Processando uma única imagem:
-
-```bash
-tesseract pagina001.tif resultado_001 -l por
-```
-- `pagina001.tif`: imagem de entrada
-- `resultado_001`: nome do arquivo de saída (formato .txt por padrão)
-- `-l por`: modelo de idioma (português)
-
----
-
-## ⚙️Exemplo prático: OCR em lote com Tesseract (terminal) {.center}
-
-### Cenário
-- Pasta com várias imagens `.jpg` (cada uma corresponde a uma página de um capítulo de livro)
-- Objetivo: gerar um arquivo `.txt` para cada imagem, usando Tesseract em português
-
----
-
-### Passo 0: Instale o Tesseract e o idioma português {.center}
+Instale o Tesseract e o idioma português:
 
 **No Ubuntu (Linux):**
 
@@ -233,11 +231,38 @@ sudo apt update
 sudo apt install tesseract-ocr tesseract-ocr-por
 ```
 
+---
+
+## ⚙️Exemplo básico com Tesseract {.center}
+
+Instale o Tesseract e o idioma português:
+
 **No Windows (PowerShell):**
 
 - Baixe o instalador em: [https://github.com/tesseract-ocr/tesseract/releases](https://github.com/tesseract-ocr/tesseract/releases)
 - Durante a instalação, selecione o idioma português (Portuguese - por).
 - Após instalar, adicione o caminho do Tesseract ao PATH do sistema, se necessário.
+
+---
+
+## ⚙️Exemplo básico com Tesseract {.center}
+
+Processando uma única imagem:
+
+```bash
+tesseract ex01.jpg ex01 -l por
+```
+- `ex01.jpg`: imagem de entrada
+- `ex01`: nome do arquivo de saída (formato .txt por padrão)
+- `-l por`: modelo de idioma (português)
+
+---
+
+## ⚙️Exemplo prático: OCR em lote com Tesseract (terminal) {.center}
+
+### Cenário
+- Pasta com várias imagens `.jpeg` (cada uma corresponde a uma página de um capítulo de livro)
+- Objetivo: gerar um arquivo `.txt` para cada imagem, usando Tesseract em português
 
 ---
 
@@ -251,12 +276,12 @@ cd /caminho/para/sua/pasta
 ### Passo 2: Execute o OCR em todas as imagens JPG {.center}
 
 ```bash
-for img in *.jpg; do
-  tesseract "$img" "${img%.jpg}" -l por
+for img in *.jpeg; do
+  tesseract "$img" "${img%.jpeg}" -l por
 done
 ```
 - `"$img"`: arquivo de entrada (imagem)
-- `"${img%.jpg}"`: nome do arquivo de saída, mesmo nome da imagem mas extensão `.txt`
+- `"${img%.jpeg}"`: nome do arquivo de saída, mesmo nome da imagem mas extensão `.txt`
 - `-l por`: usa o modelo de idioma português
 
 ---

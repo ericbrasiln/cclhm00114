@@ -9,7 +9,7 @@
 <link href="aula10_files/libs/quarto-html/quarto-syntax-highlighting-0faa666cb0924b792d297ddf0645cd97.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.43">
 
-  <title>Reconhecimento Óptico de Caracteres (OCR) e Inteligência Artificial</title>
+  <title>Oficina III: OCR e a Pesquisa Histórica</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -195,14 +195,24 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Reconhecimento Óptico de Caracteres (OCR) e Inteligência Artificial</h1>
-  <p class="subtitle"><br>Oficina III<br>Prof.&nbsp;Eric Brasil</p>
+  <h1 class="title">Oficina III: OCR e a Pesquisa Histórica</h1>
+  <p class="subtitle"><br>Aula 10<br>Prof.&nbsp;Eric Brasil</p>
 
 <div class="quarto-title-authors">
 </div>
 
   <p class="date">quinta-feira, 24 de abril de 2025</p>
 </section>
+<section class="slide level2">
+
+<h3 class="center" id="acesse-a-apresentação-da-oficina-iii-com-o-qr-code-abaixo">Acesse a apresentação da Oficina III com o QR Code abaixo</h3>
+<div class="column" style="width:48%;">
+<p><img data-src="assets/ChatGPT_20250423_142039.png"></p>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<p><img data-src="assets/qrcode_aula10.png"></p>
+</div></section>
 <section id="sobre-esta-apresentação" class="slide level2 center">
 <h2>Sobre esta apresentação</h2>
 <p><br></p>
@@ -252,8 +262,9 @@
 <p>Entretanto, esse não é um processo simples: demanda conhecimento computacional, máquinas potentes e investimento de tempo e capital.</p>
 <p>Realizar OCR de forma individualizada, sem acompanhamento especializado, muitas vezes se torna um desafio quase intransponível.</p>
 </section>
-<section id="dificuldades-em-jornais-históricos-digitalizados" class="slide level2 center">
-<h2>Dificuldades em jornais históricos digitalizados</h2>
+<section class="slide level2">
+
+<h3 class="center" id="dificuldades-em-jornais-históricos-digitalizados">Dificuldades em jornais históricos digitalizados</h3>
 <p>Esses desafios se tornam ainda maiores no caso dos jornais históricos, pois possuem características que dificultam o processo:</p>
 <ul>
 <li><strong>Baixa qualidade da digitalização</strong></li>
@@ -264,7 +275,11 @@
 </section>
 <section id="definição-de-estratégias-volume-e-qualidade-dos-dados" class="slide level2 center">
 <h2>Definição de Estratégias: Volume e Qualidade dos Dados</h2>
-<p>As estratégias de tratamento das imagens de jornais digitalizados variam de acordo com: - <strong>Volume e qualidade das páginas digitalizadas</strong> - <strong>Disponibilidade de tempo, recursos e conhecimento técnico</strong></p>
+<p>As estratégias de tratamento das imagens de jornais digitalizados variam de acordo com:</p>
+<ul>
+<li><strong>Volume e qualidade das páginas digitalizadas</strong></li>
+<li><strong>Disponibilidade de tempo, recursos e conhecimento técnico</strong></li>
+</ul>
 </section>
 <section id="avaliação-do-seu-dataset" class="slide level2 center">
 <h2>Avaliação do seu dataset</h2>
@@ -279,8 +294,8 @@
 <li>Ou é um conjunto reduzido, até mil imagens, permitindo intervenção individualizada?</li>
 </ul>
 </section>
-<section id="avaliação-do-seu-dataset-1" class="slide level2 center">
-<h2>Avaliação do seu dataset</h2>
+<section id="section" class="slide level2 center">
+<h2></h2>
 <ol start="2" type="1">
 <li><strong>Qualidade da digitalização:</strong><br>
 </li>
@@ -291,8 +306,8 @@
 <li>Já foram pré-processadas (ruídos, manchas, curvas corrigidas, etc)?</li>
 </ul>
 </section>
-<section id="avaliação-do-seu-dataset-2" class="slide level2 center">
-<h2>Avaliação do seu dataset</h2>
+<section id="section-1" class="slide level2 center">
+<h2></h2>
 <ol start="3" type="1">
 <li><strong>Recursos disponíveis:</strong><br>
 </li>
@@ -309,7 +324,7 @@ Três encaminhamentos principais:</p>
 </section>
 <section class="slide level2">
 
-<h3 class="center" id="estratégia-a-grande-volume-de-dados-1000-imagens">⚙️Estratégia A: Grande volume de dados (&gt;1000 imagens)</h3>
+<h3 class="center" id="estratégia-a-grande-volume-de-dados">⚙️ Estratégia A: Grande volume de dados</h3>
 <ul>
 <li>Use <strong>ferramentas de linha de comando</strong> para OCR (ex: Tesseract).</li>
 <li>Se necessário, aplique ferramentas de <strong>pré-processamento</strong> (ex: OCR-D).</li>
@@ -319,22 +334,14 @@ Três encaminhamentos principais:</p>
 </section>
 <section class="slide level2">
 
-<h3 class="center" id="estratégia-b-volumes-reduzidos-1000-imagens">🖱️Estratégia B: Volumes reduzidos (&lt;1000 imagens)</h3>
+<h3 class="center" id="estratégia-b-volumes-reduzidos">🖱️ Estratégia B: Volumes reduzidos</h3>
+<p><br></p>
 <ul>
-<li>Utilize o <strong>gImageReader</strong> (interface gráfica, código aberto).</li>
+<li>Utilize o <strong>gImageReader</strong> (interface gráfica, código aberto) ou outro programa de OCR com interface gráfica.</li>
 <li>Ideal para tratamento manual, permitindo correções personalizadas.</li>
 <li>Requer menos conhecimento técnico e permite correção manual dos resultados.</li>
 <li>Não exige treinamento de modelos específicos.</li>
 </ul>
-</section>
-<section id="observação-importante" class="slide level2 center">
-<h2>Observação importante</h2>
-<p>O que é considerado “grande volume” depende das especificidades de cada pesquisa:</p>
-<ul>
-<li><p>Métodos, teoria, infraestrutura disponível.</p></li>
-<li><p>Aqui, <strong>mil imagens</strong> é um corte prático e arbitrário, mas avalie sempre suas necessidades.</p></li>
-</ul>
-<p>O fundamental é adaptar a estratégia <strong>às suas possibilidades e objetivos</strong>.</p>
 </section>
 <section class="slide level2">
 
@@ -348,8 +355,18 @@ Três encaminhamentos principais:</p>
 </ul></li>
 </ul>
 </section>
-<section id="exemplos-práticos-estratégia-a" class="slide level2 center">
-<h2>⚙️Exemplos práticos: Estratégia A</h2>
+<section class="slide level2">
+
+<h3 class="center" id="observação-importante">⚠️ Observação importante</h3>
+<p>O que é considerado “grande volume” depende das especificidades de cada pesquisa:</p>
+<ul>
+<li><p>Métodos, teoria, infraestrutura disponível.</p></li>
+<li><p>Aqui, <strong>mil imagens</strong> é um corte prático e arbitrário, mas avalie sempre suas necessidades.</p></li>
+</ul>
+<p>O fundamental é adaptar a estratégia <strong>às suas possibilidades e objetivos</strong>.</p>
+</section>
+<section id="estratégia-a-exemplos-práticos" class="slide level2 center">
+<h2>⚙️Estratégia A: Exemplos práticos</h2>
 <p>Caso sua pesquisa demande o tratamento e análise de <strong>milhares de páginas digitalizadas</strong> de jornais históricos,<br>
 o encaminhamento mais acertado é a utilização de <strong>interfaces de linha de comando</strong><br>
 que reúnam múltiplas ferramentas para:</p>
@@ -364,17 +381,33 @@ que reúnam múltiplas ferramentas para:</p>
 <ul>
 <li><strong>Automatizar o processamento em larga escala</strong></li>
 <li>Integrar etapas como: pré-processamento, OCR, pós-processamento e exportação dos resultados</li>
-<li>Gerar datasets em formatos variados (.txt, .csv, .xml, .pdf)</li>
-<li>Exemplo: uso combinado de <a href="https://ocr-d.de/">OCR-D</a>, <a href="https://github.com/tesseract-ocr/tesseract">Tesseract</a>, <a href="https://imagemagick.org/">Imagemagick</a></li>
+<li>Gerar datasets em formatos variados (.txt, .csv, .xml)</li>
 </ul>
 </section>
-<section id="exemplo-de-comando-básico-tesseract" class="slide level2 center">
-<h2>⚙️Exemplo de comando básico: Tesseract</h2>
-<p>Processando uma única imagem:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href=""></a><span class="ex">tesseract</span> pagina001.tif resultado_001 <span class="at">-l</span> por</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="exemplo-básico-com-tesseract" class="slide level2 center">
+<h2>⚙️Exemplo básico com Tesseract</h2>
+<p>Instale o Tesseract e o idioma português:</p>
+<p><strong>No Ubuntu (Linux):</strong></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href=""></a><span class="fu">sudo</span> apt update</span>
+<span id="cb1-2"><a href=""></a><span class="fu">sudo</span> apt install tesseract-ocr tesseract-ocr-por</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="exemplo-básico-com-tesseract-1" class="slide level2 center">
+<h2>⚙️Exemplo básico com Tesseract</h2>
+<p>Instale o Tesseract e o idioma português:</p>
+<p><strong>No Windows (PowerShell):</strong></p>
 <ul>
-<li><code>pagina001.tif</code>: imagem de entrada</li>
-<li><code>resultado_001</code>: nome do arquivo de saída (formato .txt por padrão)</li>
+<li>Baixe o instalador em: <a href="https://github.com/tesseract-ocr/tesseract/releases">https://github.com/tesseract-ocr/tesseract/releases</a></li>
+<li>Durante a instalação, selecione o idioma português (Portuguese - por).</li>
+<li>Após instalar, adicione o caminho do Tesseract ao PATH do sistema, se necessário.</li>
+</ul>
+</section>
+<section id="exemplo-básico-com-tesseract-2" class="slide level2 center">
+<h2>⚙️Exemplo básico com Tesseract</h2>
+<p>Processando uma única imagem:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href=""></a><span class="ex">tesseract</span> ex01.jpg ex01 <span class="at">-l</span> por</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li><code>ex01.jpg</code>: imagem de entrada</li>
+<li><code>ex01</code>: nome do arquivo de saída (formato .txt por padrão)</li>
 <li><code>-l por</code>: modelo de idioma (português)</li>
 </ul>
 </section>
@@ -382,21 +415,8 @@ que reúnam múltiplas ferramentas para:</p>
 <h2>⚙️Exemplo prático: OCR em lote com Tesseract (terminal)</h2>
 <h3 id="cenário">Cenário</h3>
 <ul>
-<li>Pasta com várias imagens <code>.jpg</code> (cada uma corresponde a uma página de um capítulo de livro)</li>
+<li>Pasta com várias imagens <code>.jpeg</code> (cada uma corresponde a uma página de um capítulo de livro)</li>
 <li>Objetivo: gerar um arquivo <code>.txt</code> para cada imagem, usando Tesseract em português</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 class="center" id="passo-0-instale-o-tesseract-e-o-idioma-português">Passo 0: Instale o Tesseract e o idioma português</h3>
-<p><strong>No Ubuntu (Linux):</strong></p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href=""></a><span class="fu">sudo</span> apt update</span>
-<span id="cb2-2"><a href=""></a><span class="fu">sudo</span> apt install tesseract-ocr tesseract-ocr-por</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><strong>No Windows (PowerShell):</strong></p>
-<ul>
-<li>Baixe o instalador em: <a href="https://github.com/tesseract-ocr/tesseract/releases">https://github.com/tesseract-ocr/tesseract/releases</a></li>
-<li>Durante a instalação, selecione o idioma português (Portuguese - por).</li>
-<li>Após instalar, adicione o caminho do Tesseract ao PATH do sistema, se necessário.</li>
 </ul>
 </section>
 <section class="slide level2">
@@ -405,12 +425,12 @@ que reúnam múltiplas ferramentas para:</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href=""></a><span class="bu">cd</span> /caminho/para/sua/pasta</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><br></p>
 <h3 class="center" id="passo-2-execute-o-ocr-em-todas-as-imagens-jpg">Passo 2: Execute o OCR em todas as imagens JPG</h3>
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href=""></a><span class="cf">for</span> img <span class="kw">in</span> <span class="pp">*</span>.jpg<span class="kw">;</span> <span class="cf">do</span></span>
-<span id="cb4-2"><a href=""></a>  <span class="ex">tesseract</span> <span class="st">"</span><span class="va">$img</span><span class="st">"</span> <span class="st">"</span><span class="va">${img</span><span class="op">%</span>.jpg<span class="va">}</span><span class="st">"</span> <span class="at">-l</span> por</span>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href=""></a><span class="cf">for</span> img <span class="kw">in</span> <span class="pp">*</span>.jpeg<span class="kw">;</span> <span class="cf">do</span></span>
+<span id="cb4-2"><a href=""></a>  <span class="ex">tesseract</span> <span class="st">"</span><span class="va">$img</span><span class="st">"</span> <span class="st">"</span><span class="va">${img</span><span class="op">%</span>.jpeg<span class="va">}</span><span class="st">"</span> <span class="at">-l</span> por</span>
 <span id="cb4-3"><a href=""></a><span class="cf">done</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li><code>"$img"</code>: arquivo de entrada (imagem)</li>
-<li><code>"${img%.jpg}"</code>: nome do arquivo de saída, mesmo nome da imagem mas extensão <code>.txt</code></li>
+<li><code>"${img%.jpeg}"</code>: nome do arquivo de saída, mesmo nome da imagem mas extensão <code>.txt</code></li>
 <li><code>-l por</code>: usa o modelo de idioma português</li>
 </ul>
 </section>
@@ -677,7 +697,7 @@ Ou seja, é uma ferramenta open source que <strong>aplica IA (especificamente de
 </section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
-<p><img src="assets/ChatGPT2025042_111501.png" class="slide-logo"></p>
+<p><img src="assets/ChatGPT_20250423_142039.png" class="slide-logo"></p>
 <div class="footer footer-default">
 <p>Eric Brasil | <a href="https://ericbrasil.com.br/contact/">Entre em contato</a> | CCLHM00114 - Introdução à História Digital</p>
 </div>
