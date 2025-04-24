@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabela Quantitativa OCR</title>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Atkinson Hyperlegible Next', sans-serif;
+      background: #f4c2c2;
+      color: #1c140d;
+      margin: 0;
+      padding: 0;
+    }
+    .tabela-scroll { overflow-x: auto; }
+    table {
+      border-collapse: collapse;
+      min-width: 760px;
+      margin: 24px auto 8px auto;
+      background: #fff8fa;
+      box-shadow: 2px 4px 16px #0001;
+      font-size: 1em;
+    }
+    th, td {
+      border: 1px solid #aaa;
+      padding: 6px 12px;
+      text-align: center;
+      vertical-align: middle;
+      color: #1c140d;
+    }
+    th {
+      background: #ffe0ea;
+      font-weight: 700;
+    }
+    tr:nth-child(even) { background: #faeaea; }
+    caption {
+      font-size: 1.18em;
+      font-weight: bold;
+      margin-bottom: 6px;
+      background: #f4c2c2;
+      padding: 8px 0;
+      color: #1c140d;
+    }
+    .legenda {
+      margin: 20px auto 0 auto;
+      background: #ffe0ea;
+      padding: 10px 16px;
+      border-radius: 8px;
+      width: 85%;
+      text-align: left;
+      font-size: 1em;
+      color: #1c140d;
+    }
+    .legenda-title {
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.08em;
+      margin-bottom: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="tabela-scroll">
+    <table>
+      <caption>Tabela quantitativa dos resultados de OCR</caption>
+      <tr>
+        <th>Método</th>
+        <th>Distância de Levenshtein</th>
+        <th>Taxa de erro (%)</th>
+        <th>Blocos de diferença (SeqDif)</th>
+        <th>Observação Qualitativa</th>
+      </tr>
+      <tr>
+        <td>Tesseract</td>
+        <td>~45</td>
+        <td>~4%</td>
+        <td>~12</td>
+        <td>Erros pequenos de acento e segmentação</td>
+      </tr>
+      <tr>
+        <td>EasyOCR</td>
+        <td>~130</td>
+        <td>~11%</td>
+        <td>~28</td>
+        <td>Muitos erros de letra, acento e ruído</td>
+      </tr>
+      <tr>
+        <td>ChatGPT-4o</td>
+        <td>~10</td>
+        <td>~0,9%</td>
+        <td>~3</td>
+        <td>Resultado quase idêntico ao padrão-ouro</td>
+      </tr>
+    </table>
+  </div>
+  <div class="legenda">
+    <div class="legenda-title">Legenda dos indicadores:</div>
+    <ul>
+      <li><strong>Distância de Levenshtein:</strong> número mínimo de operações (inserção, deleção, substituição) para transformar o texto OCR no padrão-ouro (quanto menor, melhor).</li>
+      <li><strong>Taxa de erro (%):</strong> distância de Levenshtein dividida pelo tamanho do texto padrão-ouro.</li>
+      <li><strong>SeqDif:</strong> número de blocos de diferença em comparação de sequência (quanto menor, melhor).</li>
+      <li><strong>Observação Qualitativa:</strong> breve resumo do desempenho.</li>
+    </ul>
+  </div>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabela Comparativa OCR</title>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Atkinson Hyperlegible Next', sans-serif;
+      background: #f4c2c2;
+      color: #1c140d;
+      margin: 0;
+      padding: 0;
+    }
+    .tabela-scroll { overflow-x: auto; }
+    table {
+      border-collapse: collapse;
+      min-width: 900px;
+      margin: 24px auto 8px auto;
+      background: #fff8fa;
+      box-shadow: 2px 4px 16px #0001;
+      font-size: 1em;
+    }
+    th, td {
+      border: 1px solid #aaa;
+      padding: 6px 8px;
+      text-align: left;
+      vertical-align: top;
+      color: #1c140d;
+    }
+    th {
+      background: #ffe0ea;
+      font-weight: 700;
+    }
+    tr:nth-child(even) { background: #faeaea; }
+    caption {
+      font-size: 1.18em;
+      font-weight: bold;
+      margin-bottom: 6px;
+      background: #f4c2c2;
+      padding: 8px 0;
+      color: #1c140d;
+    }
+  </style>
+</head>
+<body>
+  <div class="tabela-scroll">
+    <table>
+      <caption>Tabela comparativa dos resultados de OCR</caption>
+      <tr>
+        <th>Linha</th>
+        <th>Gold Standard</th>
+        <th>Tesseract</th>
+        <th>EasyOCR</th>
+        <th>ChatGPT-4o</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Campo Belo,8 de Março de 1935</td>
+        <td>Campo Belo,8 de Março de 1935</td>
+        <td>Campo Belo,8 de Março de 1935</td>
+        <td>Campo Belo, 8 de Março de 1935</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Meu caro Ramos:   um abraço.</td>
+        <td>Meu caro Ramos: um abraço,</td>
+        <td>Veu caro Remos: um abraço,</td>
+        <td>Meu caro Ramos: um abraço.</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Aí seguem os originaes do livro de Edison.Fiz as emendas que</td>
+        <td>AÍ seguem os originaes do livro de Edison.Fiz as emendas que</td>
+        <td>A{ seguem 03 origlnaes do lívro de Edison.Fiz as emendas que</td>
+        <td>Aí seguem os originaes do livro de Edison. Fiz as emendas que</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>o autor pediu.São aliás muito poucas.Juntei aos originaes um de-</td>
+        <td>o autor pediu.São alias muito poucas.Juntei aos originses um de-</td>
+        <td>autor pedlu.São allas multo poucas .Juntel a0s origina0s u de-</td>
+        <td>o autor pediu. São aliás muito poucas. Juntei aos originaes um desenho de Santa Rosa, desenho que deve sair entre as paginas indicadas.</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>senho de Santa Rosa ,desenho que deve sair entre as paginas indi-</td>
+        <td>senho de Santa Rosa ,desenho que deve sair entre as paginas indie</td>
+        <td>senho de Santa Rosa desenho qu6 deve sair entre 89 pegInas indi-</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>cadas.Quanto xxx ás fotografias devem estar aó no Rio á minha es-</td>
+        <td>cadas Quanto ams às fotografias devem estar af no Rio á minha es-</td>
+        <td>cadas.Quanto Anx as fotolrafias devem @star af no Rio minha 68 - pera,</td>
+        <td>Quanto xxx ás fotografias devem estar aí no Rio á minha espera.</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>pera.Irei para aó mais ou menos no dia 15,deante do que,v. deve</td>
+        <td>pera.Irei para aí mais ou menos no dia 1S5,deante do que,v. deve</td>
+        <td>Irel para aí me1s ou menos no dia 15,deante do que,V , deve</td>
+        <td>Irei para aí mais ou menos no dia 15, deante do que, v. deve</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>mandar os originaes para São Paulo,caso seja esta sua intenção,</td>
+        <td>mandar os originaes para São Paulo, caso sejas esta sua intenção,</td>
+        <td>mandar 08 orlgInaes para São Paulo,caso seja esta sua Int enção,</td>
+        <td>mandar os originaes para São Paulo, caso seja esta sua intenção,</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>que as fotografias irão depois.Eu gostei do livro,especialmente</td>
+        <td>que as fotografias irão depois.Eu gostei do livro, especialmente</td>
+        <td>que 0s fotograflas irao dopois Eu gostei do livro,especlalmente</td>
+        <td>que as fotografias irão depois. Eu gostei do livro, especialmente</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>devido ao documentario inedito.Peço-lhe que faça tudo que estiver</td>
+        <td>devido ao documentario inedito.Peço-lhe que faça tudo que estiver</td>
+        <td>devldo a0 docunentario Inedito Peço-lho que faça tudo que estiver</td>
+        <td>devido ao documentario inedito. Peço-lhe que faça tudo que estiver</td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
