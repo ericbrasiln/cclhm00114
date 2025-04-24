@@ -214,7 +214,7 @@ A imagem ao lado (`ex01.jpg`) foi usada para ilustrar os exemplos práticos das 
 
 ---
 
-## 🖱️Exemplos práticos: Estratégia B {.center}
+## 🖱️Exemplos práticos: Estratégia A {.center}
 
 Caso sua pesquisa demande o tratamento e análise de **centenas de páginas digitalizadas** de jornais históricos,  
 o encaminhamento mais acertado é a utilização de **interfaces gráficas de usuário (GUIs)**.
@@ -630,3 +630,21 @@ Apesar dos avanços das ferramentas e técnicas de OCR, alguns desafios permanec
 
 ---
 
+## {.center}
+
+:::{.columns}
+::: {.column width="40%"}
+![](assets/IA-BOT_ChatGPT_20250410_091806.png){width=100% .center}
+:::
+
+::: {.column width="60%"}
+<br>
+**Obrigado pela participação!**
+
+Qualquer dúvida ou sugestão, entre em contato:
+
+[ericbrasil.com.br/contact](https://ericbrasil.com.br/contact)
+
+Até a próxima aula!
+:::
+:::
