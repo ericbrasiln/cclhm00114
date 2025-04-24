@@ -6,8 +6,9 @@
 <script src="aula10_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="aula10_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="aula10_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="aula10_files/libs/quarto-html/quarto-syntax-highlighting-0faa666cb0924b792d297ddf0645cd97.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.6.43">
+<link href="aula10_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="aula10_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.5.57">
 
   <title>Oficina III: OCR e a Pesquisa Histórica</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -95,13 +96,211 @@
     code span.vs { color: #bf0303; } /* VerbatimString */
     code span.wa { color: #bf0303; } /* Warning */
   </style>
-  <link rel="stylesheet" href="aula10_files/libs/revealjs/dist/theme/quarto-f62f8fb441399b7e37a7f0ded2db4d49.css">
+  <link rel="stylesheet" href="aula10_files/libs/revealjs/dist/theme/quarto.css">
   <link href="aula10_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="aula10_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="aula10_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
   <link href="aula10_files/libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
   <link href="aula10_files/libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="aula10_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+
+  .callout {
+    margin-top: 1em;
+    margin-bottom: 1em;  
+    border-radius: .25rem;
+  }
+
+  .callout.callout-style-simple { 
+    padding: 0em 0.5em;
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    display: flex;
+  }
+
+  .callout.callout-style-default {
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+  }
+
+  .callout .callout-body-container {
+    flex-grow: 1;
+  }
+
+  .callout.callout-style-simple .callout-body {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-style-default .callout-body {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-titled.callout-style-simple .callout-body {
+    margin-top: 0.2em;
+  }
+
+  .callout:not(.callout-titled) .callout-body {
+      display: flex;
+  }
+
+  .callout:not(.no-icon).callout-titled.callout-style-simple .callout-content {
+    padding-left: 1.6em;
+  }
+
+  .callout.callout-titled .callout-header {
+    padding-top: 0.2em;
+    margin-bottom: -0.2em;
+  }
+
+  .callout.callout-titled .callout-title  p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+    
+  .callout.callout-titled.callout-style-simple .callout-content  p {
+    margin-top: 0;
+  }
+
+  .callout.callout-titled.callout-style-default .callout-content  p {
+    margin-top: 0.7em;
+  }
+
+  .callout.callout-style-simple div.callout-title {
+    border-bottom: none;
+    font-size: .9rem;
+    font-weight: 600;
+    opacity: 75%;
+  }
+
+  .callout.callout-style-default  div.callout-title {
+    border-bottom: none;
+    font-weight: 600;
+    opacity: 85%;
+    font-size: 0.9rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-default div.callout-content {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-simple .callout-icon::before {
+    height: 1rem;
+    width: 1rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+  }
+
+  .callout.callout-style-default .callout-icon::before {
+    height: 0.9rem;
+    width: 0.9rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+  }
+
+  .callout-title {
+    display: flex
+  }
+    
+  .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  .callout.no-icon::before {
+    display: none !important;
+  }
+
+  .callout.callout-titled .callout-body > .callout-content > :last-child {
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
+  }
+
+  .callout.callout-titled .callout-icon::before {
+    margin-top: .5rem;
+    padding-right: .5rem;
+  }
+
+  .callout:not(.callout-titled) .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  /* Callout Types */
+
+  div.callout-note {
+    border-left-color: #4582ec !important;
+  }
+
+  div.callout-note .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEU0lEQVRYCcVXTWhcVRQ+586kSUMMxkyaElstCto2SIhitS5Ek8xUKV2poatCcVHtUlFQk8mbaaziwpWgglJwVaquitBOfhQXFlqlzSJpFSpIYyXNjBNiTCck7x2/8/LeNDOZxDuEkgOXe++553zfefee+/OYLOXFk3+1LLrRdiO81yNqZ6K9cG0P3MeFaMIQjXssE8Z1JzLO9ls20MBZX7oG8w9GxB0goaPrW5aNMp1yOZIa7Wv6o2ykpLtmAPs/vrG14Z+6d4jpbSKuhdcSyq9wGMPXjonwmESXrriLzFGOdDBLB8Y6MNYBu0dRokSygMA/mrun8MGFN3behm6VVAwg4WR3i6FvYK1T7MHo9BK7ydH+1uurECoouk5MPRyVSBrBHMYwVobG2aOXM07sWrn5qgB60rc6mcwIDJtQrnrEr44kmy+UO9r0u9O5/YbkS9juQckLed3DyW2XV/qWBBB3ptvI8EUY3I9p/67OW+g967TNr3Sotn3IuVlfMLVnsBwH4fsnebJvyGm5GeIUA3jljERmrv49SizPYuq+z7c2H/jlGC+Ghhupn/hcapqmcudB9jwJ/3jvnvu6vu5lVzF1fXyZuZZ7U8nRmVzytvT+H3kilYvH09mLWrQdwFSsFEsxFVs5fK7A0g8gMZjbif4ACpKbjv7gNGaD8bUrlk8x+KRflttr22JEMRUbTUwwDQScyzPgedQHZT0xnx7ujw2jfVfExwYHwOsDTjLdJ2ebmeQIlJ7neo41s/DrsL3kl+W2lWvAga0tR3zueGr6GL78M3ifH0rGXrBC2aAR8uYcIA5gwV8zIE8onoh8u0Fca/ciF7j1uOzEnqcIm59sEXoGc0+z6+H45V1CvAvHcD7THztu669cnp+L0okAeIc6zjbM/24LgGM1gZk7jnRu1aQWoU9sfUOuhrmtaPIO3YY1KLLWZaEO5TKUbMY5zx8W9UJ6elpLwKXbsaZ4EFl7B4bMtDv0iRipKoDQT2sNQI9b1utXFdYisi+wzZ/ri/1m7QfDgEuvgUUEIJPq3DhX/5DWNqIXDOweC2wvIR90Oq3lDpdMIgD2r0dXvGdsEW5H6x6HLRJYU7C69VefO1x8Gde1ZFSJLfWS1jbCnhtOPxmpfv2LXOA2Xk2tvnwKKPFuZ/oRmwBwqRQDcKNeVQkYcOjtWVBuM/JuYw5b6isojIkYxyYAFn5K7ZBF10fea52y8QltAg6jnMqNHFBmGkQ1j+U43HMi2xMar1Nv0zGsf1s8nUsmUtPOOrbFIR8bHFDMB5zL13Gmr/kGlCkUzedTzzmzsaJXhYawnA3UmARpiYj5ooJZiUoxFRtK3X6pgNPv+IZVPcnwbOl6f+aBaO1CNvPW9n9LmCp01nuSaTRF2YxHqZ8DYQT6WsXT+RD6eUztwYLZ8rM+rcPxamv1VQzFUkzFXvkiVrySGQgJNvXHJAxiU3/NwiC03rSf05VBaPtu/Z7/B8Yn/w7eguloAAAAAElFTkSuQmCC');
+  }
+
+  div.callout-note.callout-style-default .callout-title {
+    background-color: #dae6fb
+  }
+
+  div.callout-important {
+    border-left-color: #d9534f !important;
+  }
+
+  div.callout-important .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEKklEQVRYCcVXTWhcVRS+575MJym48A+hSRFr00ySRQhURRfd2HYjk2SSTokuBCkU2o0LoSKKraKIBTcuFCoidGFD08nkBzdREbpQ1EDNIv8qSGMFUboImMSZd4/f9zJv8ibJMC8xJQfO3HPPPef7zrvvvnvviIkpC9nsw0UttFunbUhpFzFtarSd6WJkStVMw5xyVqYTvkwfzuf/5FgtkVoB0729j1rjXwThS7Vio+Mo6DNnvLfahoZ+i/o32lULuJ3NNiz7q6+pyAUkJaFF6JwaM2lUJlV0MlnQn5aTRbEu0SEqHUa0A4AdiGuB1kFXRfVyg5d87+Dg4DL6m2TLAub60ilj7A1Ec4odSAc8X95sHh7+ZRPCFo6Fnp7HfU/fBng/hi10CjCnWnJjsxvDNxWw0NfV6Rv5GgP3I3jGWXumdTD/3cbEOP2ZbOZp69yniG3FQ9z1jD7bnBu9Fc2tKGC2q+uAJOQHBDRiZX1x36o7fWBs7J9ownbtO+n0/qWkvW7UPIfc37WgT6ZGR++EOJyeQDSb9UB+DZ1G6DdLDzyS+b/kBCYGsYgJbSQHuThGKRcw5xdeQf8YdNHsc6ePXrlSYMBuSIAFTGAtQo+VuALo4BX83N190NWZWbynBjhOHsmNfFWLeL6v+ynsA58zDvvAC8j5PkbOcXCMg2PZFk3q8MjI7WAG/Dp9AwP7jdGBOOQkAvlFUB+irtm16I1Zw9YBcpGTGXYmk3kQIC/Cds55l+iMI3jqhjAuaoe+am2Jw5GT3Nbz3CkE12NavmzN5+erJW7046n/CH1RO/RVa8lBLozXk9uqykkGAyRXLWlLv5jyp4RFsG5vGVzpDLnIjTWgnRy2Rr+tDKvRc7Y8AyZq10jj8DqXdnIRNtFZb+t/ZRtXcDiVnzpqx8mPcDWxgARUqx0W1QB9MeUZiNrV4qP+Ehc+BpNgATsTX8ozYKL2NtFYAHc84fG7ndxUPr+AR/iQSns7uSUufAymwDOb2+NjK27lEFocm/EE2WpyIy/Hi66MWuMKJn8RvxIcj87IM5Vh9663ziW36kR0HNenXuxmfaD8JC7tfKbrhFr7LiZCrMjrzTeGx+PmkosrkNzW94ObzwocJ7A1HokLolY+AvkTiD/q1H0cN48c5EL8Crkttsa/AXQVDmutfyku0E7jShx49XqV3MFK8IryDhYVbj7Sj2P2eBxwcXoe8T8idsKKPRcnZw1b+slFTubwUwhktrfnAt7J++jwQtLZcm3sr9LQrjRzz6cfMv9aLvgmnAGvpoaGLxM4mAEaLV7iAzQ3oU0IvD5x9ix3yF2RAAuYAOO2f7PEFWCXZ4C9Pb2UsgDeVnFSpbFK7/IWu7TPTvBqzbGdCHOJQSxiEjt6IyZmxQyEJHv6xyQsYk//moVFsN2zP6fRImjfq7/n/wFDguUQFNEwugAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-important.callout-style-default .callout-title {
+    background-color: #f7dddc
+  }
+
+  div.callout-warning {
+    border-left-color: #f0ad4e !important;
+  }
+
+  div.callout-warning .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAETklEQVRYCeVWW2gcVRg+58yaTUnizqbipZeX4uWhBEniBaoUX1Ioze52t7sRq6APio9V9MEaoWlVsFasRq0gltaAPuxms8lu0gcviE/FFOstVbSIxgcv6SU7EZqmdc7v9+9mJtNks51NTUH84ed889/PP+cmxP+d5FIbMJmNbpREu4WUkiTtCicKny0l1pIKmBzovF2S+hIJHX8iEu3hZJ5lNZGqyRrGSIQpq15AzF28jgpeY6yk6GVdrfFqdrD6Iw+QlB8g0YS2g7dyQmXM/IDhBhT0UCiRf59lfqmmDvzRt6kByV/m4JjtzuaujMUM2c5Z2d6JdKrRb3K2q6mA+oYVz8JnDdKPmmNthzkAk/lN63sYPgevrguc72aZX/L9C6x09GYyxBgCX4NlvyGUHOKELlm5rXeR1kchuChJt4SSwyddZRXgvwMGvYo4QSlk3/zkHD8UHxwVJA6zjZZqP8v8kK8OWLnIZtLyCAJagYC4rTGW/9Pqj92N/c+LUaAj27movwbi19tk/whRCIE7Q9vyI6yvRpftAKVTdUjOW40X3h5OXsKCdmFcx0xlLJoSuQngnrJe7Kcjm4OMq9FlC7CMmScQANuNvjfP3PjGXDBaUQmbp296S5L4DrpbrHN1T87ZVEZVCzg1FF0Ft+dKrlLukI+/c9ENo+TvlTDbYFvuKPtQ9+l052rXrgKoWkDAFnvh0wTOmYn8R5f4k/jN/fZiCM1tQx9jQQ4ANhqG4hiL0qIFTGViG9DKB7GYzgubnpofgYRwO+DFjh0Zin2m4b/97EDkXkc+f6xYAPX0KK2I/7fUQuwzuwo/L3AkcjugPNixC8cHf0FyPjWlItmLxWw4Ou9YsQCr5fijMGoD/zpdRy95HRysyXA74MWOnscpO4j2y3HAVisw85hX5+AFBRSHt4ShfLFkIMXTqyKFc46xdzQM6XbAi702a7sy04J0+feReMFKp5q9esYLCqAZYw/k14E/xcLLsFElaornTuJB0svMuJINy8xkIYuL+xPAlWRceH6+HX7THJ0djLUom46zREu7tTkxwmf/FdOZ/sh6Q8qvEAiHpm4PJ4a/doJe0gH1t+aHRgCzOvBvJedEK5OFE5jpm4AGP2a8Dxe3gGJ/pAutug9Gp6he92CsSsWBaEcxGx0FHytmIpuqGkOpldqNYQK8cSoXvd+xLxXADw0kf6UkJNFtdo5MOgaLjiQOQHcn+A6h5NuL2s0qsC2LOM75PcF3yr5STuBSAcGG+meA14K/CI21HcS4LBT6tv0QAh8Dr5l93AhZzG5ZJ4VxAqdZUEl9z7WJ4aN+svMvwHHL21UKTd1mqvChH7/Za5xzXBBKrUcB0TQ+Ulgkfbi/H/YT5EptrGzsEK7tR1B7ln9BBwckYfMiuSqklSznIuoIIOM42MQO+QnduCoFCI0bpkzjCjddHPN/F+2Yu+sd9bKNpVwHhbS3LluK/0zgfwD0xYI5dXuzlQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-warning.callout-style-default .callout-title {
+    background-color: #fcefdc
+  }
+
+  div.callout-tip {
+    border-left-color: #02b875 !important;
+  }
+
+  div.callout-tip .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAADr0lEQVRYCe1XTWgTQRj9ZjZV8a9SPIkKgj8I1bMHsUWrqYLVg4Ue6v9BwZOxSYsIerFao7UiUryIqJcqgtpimhbBXoSCVxUFe9CTiogUrUp2Pt+3aUI2u5vdNh4dmMzOzHvvezuz8xNFM0mjnbXaNu1MvFWRXkXEyE6aYOYJpdW4IXuA4r0fo8qqSMDBU0v1HJUgVieAXxzCsdE/YJTdFcVIZQNMyhruOMJKXYFoLfIfIvVIMWdsrd+Rpd86ZmyzzjJmLStqRn0v8lzkb4rVIXvnpScOJuAn2ACC65FkPzEdEy4TPWRLJ2h7z4cArXzzaOdKlbOvKKX25Wl00jSnrwVxAg3o4dRxhO13RBSdNvH0xSARv3adTXbBdTf64IWO2vH0LT+cv4GR1DJt+DUItaQogeBX/chhbTBxEiZ6gftlDNXTrvT7co4ub5A6gp9HIcHvzTa46OS5fBeP87Qm0fQkr4FsYgVQ7Qg+ZayaDg9jhg1GkWj8RG6lkeSacrrHgDaxdoBiZPg+NXV/KifMuB6//JmYH4CntVEHy/keA6x4h4CU5oFy8GzrBS18cLJMXcljAKB6INjWsRcuZBWVaS3GDrqB7rdapVIeA+isQ57Eev9eCqzqOa81CY05VLd6SamW2wA2H3SiTbnbSxmzfp7WtKZkqy4mdyAlGx7ennghYf8voqp9cLSgKdqNfa6RdRsAAkPwRuJZNbpByn+RrJi1RXTwdi8RQF6ymDwGMAtZ6TVE+4uoKh+MYkcLsT0Hk8eAienbiGdjJHZTpmNjlbFJNKDVAp2fJlYju6IreQxQ08UJDNYdoLSl6AadO+fFuCQqVMB1NJwPm69T04Wv5WhfcWyfXQB+wXRs1pt+nCknRa0LVzSA/2B+a9+zQJadb7IyyV24YAxKp2Jqs3emZTuNnKxsah+uabKbMk7CbTgJx/zIgQYErIeTKRQ9yD9wxVof5YolPHqaWo7TD6tJlh7jQnK5z2n3+fGdggIOx2kaa2YI9QWarc5Ce1ipNWMKeSG4DysFF52KBmTNMmn5HqCFkwy34rDg05gDwgH3bBi+sgFhN/e8QvRn8kbamCOhgrZ9GJhFDgfcMHzFb6BAtjKpFhzTjwv1KCVuxHvCbsSiEz4CANnj84cwHdFXAbAOJ4LTSAawGWFn5tDhLMYz6nWeU2wJfIhmIJBefcd/A5FWQWGgrWzyORZ3Q6HuV+Jf0Bj+BTX69fm1zWgK7By1YTXchFDORywnfQ7GpzOo6S+qECrsx2ifVQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-tip.callout-style-default .callout-title {
+    background-color: #ccf1e3
+  }
+
+  div.callout-caution {
+    border-left-color: #fd7e14 !important;
+  }
+
+  div.callout-caution .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAACV0lEQVRYCdVWzWoUQRCuqp2ICBLJXgITZL1EfQDBW/bkzUMUD7klD+ATSHBEfAIfQO+iXsWDxJsHL96EHAwhgzlkg8nBg25XWb0zIb0zs9muYYWkoKeru+vn664fBqElyZNuyh167NXJ8Ut8McjbmEraKHkd7uAnAFku+VWdb3reSmRV8PKSLfZ0Gjn3a6Xlcq9YGb6tADjn+lUfTXtVmaZ1KwBIvFI11rRXlWlatwIAAv2asaa9mlB9wwygiDX26qaw1yYPzFXg2N1GgG0FMF8Oj+VIx7E/03lHx8UhvYyNZLN7BwSPgekXXLribw7w5/c8EF+DBK5idvDVYtEEwMeYefjjLAdEyQ3M9nfOkgnPTEkYU+sxMq0BxNR6jExrAI31H1rzvLEfRIdgcv1XEdj6QTQAS2wtstEALLG1yEZ3QhH6oDX7ExBSFEkFINXH98NTrme5IOaaA7kIfiu2L8A3qhH9zRbukdCqdsA98TdElyeMe5BI8Rs2xHRIsoTSSVFfCFCWGPn9XHb4cdobRIWABNf0add9jakDjQJpJ1bTXOJXnnRXHRf+dNL1ZV1MBRCXhMbaHqGI1JkKIL7+i8uffuP6wVQAzO7+qVEbF6NbS0LJureYcWXUUhH66nLR5rYmva+2tjRFtojkM2aD76HEGAD3tPtKM309FJg5j/K682ywcWJ3PASCcycH/22u+Bh7Aa0ehM2Fu4z0SAE81HF9RkB21c5bEn4Dzw+/qNOyXr3DCTQDMBOdhi4nAgiFDGCinIa2owCEChUwD8qzd03PG+qdW/4fDzjUMcE1ZpIAAAAASUVORK5CYII=');
+  }
+
+  div.callout-caution.callout-style-default .callout-title {
+    background-color: #ffe5d0
+  }
+
+  </style>
   <style type="text/css">
     .reveal div.sourceCode {
       margin: 0;
@@ -324,23 +523,23 @@ Três encaminhamentos principais:</p>
 </section>
 <section class="slide level2">
 
-<h3 class="center" id="estratégia-a-grande-volume-de-dados">⚙️ Estratégia A: Grande volume de dados</h3>
-<ul>
-<li>Use <strong>ferramentas de linha de comando</strong> para OCR (ex: Tesseract).</li>
-<li>Se necessário, aplique ferramentas de <strong>pré-processamento</strong> (ex: OCR-D).</li>
-<li>Se as imagens forem de alta qualidade, use modelos prontos para o português (Tesseract).</li>
-<li>Se houver baixa qualidade, fontes variadas ou layouts complexos, pode ser necessário <strong>treinar modelos específicos</strong> — exigindo alto investimento computacional e humano.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 class="center" id="estratégia-b-volumes-reduzidos">🖱️ Estratégia B: Volumes reduzidos</h3>
+<h3 class="center" id="estratégia-a-volumes-reduzidos">🖱️ Estratégia A: Volumes reduzidos</h3>
 <p><br></p>
 <ul>
 <li>Utilize o <strong>gImageReader</strong> (interface gráfica, código aberto) ou outro programa de OCR com interface gráfica.</li>
 <li>Ideal para tratamento manual, permitindo correções personalizadas.</li>
 <li>Requer menos conhecimento técnico e permite correção manual dos resultados.</li>
 <li>Não exige treinamento de modelos específicos.</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 class="center" id="estratégia-b-grande-volume-de-dados">⚙️ Estratégia B: Grande volume de dados</h3>
+<ul>
+<li>Use <strong>ferramentas de linha de comando</strong> para OCR (ex: Tesseract).</li>
+<li>Se necessário, aplique ferramentas de <strong>pré-processamento</strong> (ex: OCR-D).</li>
+<li>Se as imagens forem de alta qualidade, use modelos prontos para o português (Tesseract).</li>
+<li>Se houver baixa qualidade, fontes variadas ou layouts complexos, pode ser necessário <strong>treinar modelos específicos</strong> — exigindo alto investimento computacional e humano.</li>
 </ul>
 </section>
 <section class="slide level2">
@@ -365,8 +564,95 @@ Três encaminhamentos principais:</p>
 </ul>
 <p>O fundamental é adaptar a estratégia <strong>às suas possibilidades e objetivos</strong>.</p>
 </section>
-<section id="estratégia-a-exemplos-práticos" class="slide level2 center">
-<h2>⚙️Estratégia A: Exemplos práticos</h2>
+<section id="imagem-utilizada-nos-exemplos" class="slide level2 center">
+<h2>🖼️ Imagem utilizada nos exemplos</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><br> A imagem ao lado (<code>ex01.jpg</code>) foi usada para ilustrar os exemplos práticos das estratégias A, B e C de OCR nesta oficina.</p>
+</div><div class="column" style="width:40%;">
+<p><img data-src="assets/sample1/ex01.jpg" class="center" style="width:60.0%"></p>
+</div></div>
+</section>
+<section id="exemplos-práticos-estratégia-b" class="slide level2 center">
+<h2>🖱️Exemplos práticos: Estratégia B</h2>
+<p>Caso sua pesquisa demande o tratamento e análise de <strong>centenas de páginas digitalizadas</strong> de jornais históricos,<br>
+o encaminhamento mais acertado é a utilização de <strong>interfaces gráficas de usuário (GUIs)</strong>.</p>
+</section>
+<section id="por-que-guis" class="slide level2 center">
+<h2>🖱️Por que GUIs?</h2>
+<ul>
+<li>Exigem menos conhecimento de programação</li>
+<li>Têm curva de aprendizagem mais rápida</li>
+<li>Resultados mais imediatos e acessíveis</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 class="center" id="ferramenta-recomendada-gimagereader">🖱️Ferramenta recomendada: gImageReader</h3>
+<div class="column" style="width:58%;">
+<ul>
+<li><strong>gImageReader</strong> é uma GUI open source que utiliza o Tesseract como motor de OCR.</li>
+<li>Desenvolvido por Sandro Mani (GNU GPL v3).</li>
+<li>Disponível para <strong>Windows e Linux</strong> e totalmente traduzido para português (brasileiro).</li>
+</ul>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:38%;">
+<p><img data-src="https://ericbrasil.com.br/hemdig-framework/_images/gimagereader.png"></p>
+<p><a href="https://github.com/manisandro/gImageReader/">Baixe o gImageReader</a></p>
+</div></section>
+<section class="slide level2">
+
+<h3 class="center" id="funcionalidades-do-gimagereader">🖱️Funcionalidades do gImageReader</h3>
+<ul>
+<li>Importa PDFs e imagens do disco, scanners, área de transferência e capturas de tela</li>
+<li>Processa múltiplas imagens/documentos em lote</li>
+<li>Permite definir áreas de reconhecimento manual ou automaticamente</li>
+<li>Reconhece para texto simples ou hOCR</li>
+<li>Exibe texto reconhecido ao lado da imagem</li>
+<li>Pós-processamento, incluindo correção ortográfica</li>
+<li>Gera PDFs a partir de hOCR</li>
+</ul>
+</section>
+<section id="instalação-ubuntu-22.04-lts" class="slide level2 center">
+<h2>Instalação: Ubuntu 22.04 LTS</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href=""></a><span class="fu">sudo</span> add-apt-repository ppa:sandromani/gimagereader</span>
+<span id="cb1-2"><a href=""></a><span class="fu">sudo</span> apt update</span>
+<span id="cb1-3"><a href=""></a><span class="fu">sudo</span> apt install gimagereader-gtk</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Ou instale via <a href="https://flathub.org/apps/io.github.manisandro.gImageReader">flatpack</a></p>
+<p>Após instalar, basta procurar por <strong>gImageReader</strong> no menu de aplicativos.</p>
+</section>
+<section id="instalação-windows-10" class="slide level2 center">
+<h2>Instalação: Windows 10</h2>
+<ul>
+<li>Baixe o instalador em: <a href="https://github.com/manisandro/gImageReader/releases/tag/v3.4.2">gImageReader Releases no GitHub</a></li>
+<li>Tutorial em vídeo: <a href="https://www.youtube.com/watch?v=_7eqj01Hn0M">Como instalar e usar gImageReader no Windows 10 (YouTube)</a></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 class="center" id="vantagens-do-gimagereader">Vantagens do gImageReader</h3>
+<ul>
+<li>Resultados positivos tanto em reconhecimento de layout quanto de caracteres</li>
+<li>Excelente opção quando <strong>não temos tempo, recursos ou conhecimento</strong> para treinar modelos de OCR</li>
+<li>Permite edição das imagens, trabalho em bloco e correção manual dos resultados</li>
+<li>Taxas de confiança por palavra</li>
+<li>Exportação em diversos formatos (txt, hocr, pdf)</li>
+<li>Metadados completos de cada palavra, linha, bloco e página</li>
+</ul>
+</section>
+<section id="resumindo" class="slide level2 center">
+<h2>🖱️Resumindo</h2>
+<p>O <strong>gImageReader</strong> é a solução ideal para pesquisadores/as que buscam:</p>
+<ul>
+<li>Facilidade de uso</li>
+<li>Código aberto</li>
+<li>Resultados rápidos e editáveis</li>
+<li>Integração total com o Tesseract</li>
+</ul>
+</section>
+<section id="estratégia-b-exemplos-práticos" class="slide level2 center">
+<h2>⚙️Estratégia B: Exemplos práticos</h2>
 <p>Caso sua pesquisa demande o tratamento e análise de <strong>milhares de páginas digitalizadas</strong> de jornais históricos,<br>
 o encaminhamento mais acertado é a utilização de <strong>interfaces de linha de comando</strong><br>
 que reúnam múltiplas ferramentas para:</p>
@@ -388,8 +674,8 @@ que reúnam múltiplas ferramentas para:</p>
 <h2>⚙️Exemplo básico com Tesseract</h2>
 <p>Instale o Tesseract e o idioma português:</p>
 <p><strong>No Ubuntu (Linux):</strong></p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href=""></a><span class="fu">sudo</span> apt update</span>
-<span id="cb1-2"><a href=""></a><span class="fu">sudo</span> apt install tesseract-ocr tesseract-ocr-por</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href=""></a><span class="fu">sudo</span> apt update</span>
+<span id="cb2-2"><a href=""></a><span class="fu">sudo</span> apt install tesseract-ocr tesseract-ocr-por</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="exemplo-básico-com-tesseract-1" class="slide level2 center">
 <h2>⚙️Exemplo básico com Tesseract</h2>
@@ -404,7 +690,7 @@ que reúnam múltiplas ferramentas para:</p>
 <section id="exemplo-básico-com-tesseract-2" class="slide level2 center">
 <h2>⚙️Exemplo básico com Tesseract</h2>
 <p>Processando uma única imagem:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href=""></a><span class="ex">tesseract</span> ex01.jpg ex01 <span class="at">-l</span> por</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href=""></a><span class="ex">tesseract</span> ex01.jpg ex01 <span class="at">-l</span> por</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li><code>ex01.jpg</code>: imagem de entrada</li>
 <li><code>ex01</code>: nome do arquivo de saída (formato .txt por padrão)</li>
@@ -422,27 +708,27 @@ que reúnam múltiplas ferramentas para:</p>
 <section class="slide level2">
 
 <h3 id="passo-1-navegue-até-a-pasta-das-imagens">Passo 1: Navegue até a pasta das imagens</h3>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href=""></a><span class="bu">cd</span> /caminho/para/sua/pasta</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href=""></a><span class="bu">cd</span> /caminho/para/sua/pasta</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><br></p>
 <h3 class="center" id="passo-2-execute-o-ocr-em-todas-as-imagens-jpg">Passo 2: Execute o OCR em todas as imagens JPG</h3>
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href=""></a><span class="cf">for</span> img <span class="kw">in</span> <span class="pp">*</span>.jpeg<span class="kw">;</span> <span class="cf">do</span></span>
-<span id="cb4-2"><a href=""></a>  <span class="ex">tesseract</span> <span class="st">"</span><span class="va">$img</span><span class="st">"</span> <span class="st">"</span><span class="va">${img</span><span class="op">%</span>.jpeg<span class="va">}</span><span class="st">"</span> <span class="at">-l</span> por</span>
-<span id="cb4-3"><a href=""></a><span class="cf">done</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href=""></a><span class="cf">for</span> img <span class="kw">in</span> <span class="pp">*</span>.jpeg<span class="kw">;</span> <span class="cf">do</span></span>
+<span id="cb5-2"><a href=""></a>  <span class="ex">tesseract</span> <span class="st">"</span><span class="va">$img</span><span class="st">"</span> <span class="st">"</span><span class="va">${img</span><span class="op">%</span>.jpeg<span class="va">}</span><span class="st">"</span> <span class="at">-l</span> por</span>
+<span id="cb5-3"><a href=""></a><span class="cf">done</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li><code>"$img"</code>: arquivo de entrada (imagem)</li>
 <li><code>"${img%.jpeg}"</code>: nome do arquivo de saída, mesmo nome da imagem mas extensão <code>.txt</code></li>
 <li><code>-l por</code>: usa o modelo de idioma português</li>
 </ul>
 </section>
-<section class="slide level2">
-
-<h3 class="center" id="resultado">Resultado</h3>
+<section id="resultado" class="slide level2 center">
+<h2>Resultado</h2>
 <ul>
 <li>Para cada imagem (ex: <code>pagina01.jpg</code>), será gerado um arquivo de texto (<code>pagina01.txt</code>) na mesma pasta.</li>
 <li>O conteúdo de cada <code>.txt</code> corresponderá ao texto extraído da respectiva imagem.</li>
 </ul>
-<p><br></p>
-<h3 class="center" id="observação">Observação</h3>
+</section>
+<section id="observação" class="slide level2 center">
+<h2>Observação</h2>
 <ul>
 <li>É importante garantir que o Tesseract está instalado e o idioma português disponível (<code>tesseract --list-langs</code>).</li>
 <li>Imagens com baixa qualidade podem gerar textos com muitos erros; revise os resultados!</li>
@@ -456,8 +742,8 @@ que reúnam múltiplas ferramentas para:</p>
 <li>Pode ser integrado com Docker para facilitar o uso em servidores.</li>
 </ul>
 </section>
-<section id="considerações-sobre-a-estratégia-a" class="slide level2 center">
-<h2>⚙️Considerações sobre a Estratégia A</h2>
+<section id="considerações-sobre-a-estratégia-b" class="slide level2 center">
+<h2>⚙️Considerações sobre a Estratégia B</h2>
 <ul>
 <li><strong>Vantagens:</strong> Alto grau de automação, ideal para grandes volumes, permite personalização do workflow.</li>
 <li><strong>Desvantagens:</strong> Exige conhecimento em linha de comando, tempo para configurar, maior curva de aprendizado.</li>
@@ -470,88 +756,6 @@ que reúnam múltiplas ferramentas para:</p>
 <li><a href="https://github.com/tesseract-ocr/tesseract">Tesseract OCR - GitHub</a></li>
 <li><a href="https://ocr-d.de/en/">OCR-D - Documentação</a></li>
 <li><a href="https://imagemagick.org/">Imagemagick - Ferramentas de imagem</a></li>
-</ul>
-</section>
-<section id="exemplos-práticos-estratégia-b" class="slide level2 center">
-<h2>🖱️Exemplos práticos: Estratégia B</h2>
-<p>Caso sua pesquisa demande o tratamento e análise de <strong>centenas de páginas digitalizadas</strong> de jornais históricos,<br>
-o encaminhamento mais acertado é a utilização de <strong>interfaces gráficas de usuário (GUIs)</strong>.</p>
-</section>
-<section class="slide level2">
-
-<h3 class="center" id="por-que-guis">🖱️Por que GUIs?</h3>
-<ul>
-<li>Exigem menos conhecimento de programação</li>
-<li>Têm curva de aprendizagem mais rápida</li>
-<li>Resultados mais imediatos e acessíveis</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 class="center" id="ferramenta-recomendada-gimagereader">🖱️Ferramenta recomendada: gImageReader</h3>
-<p><br></p>
-<div class="column" style="width:48%;">
-<ul>
-<li><strong>gImageReader</strong> é uma GUI open source que utiliza o Tesseract como motor de OCR.</li>
-<li>Desenvolvido por Sandro Mani (GNU GPL v3).</li>
-<li>Disponível para <strong>Windows e Linux</strong> e totalmente traduzido para português (brasileiro).</li>
-</ul>
-</div><div class="column" style="width:4%;">
-
-</div><div class="column" style="width:48%;">
-<p><img data-src="https://ericbrasil.com.br/hemdig-framework/_images/gimagereader.png"></p>
-<p><a href="https://github.com/manisandro/gImageReader/">Baixe o gImageReader</a></p>
-</div></section>
-<section id="funcionalidades-do-gimagereader" class="slide level2 center">
-<h2>🖱️Funcionalidades do gImageReader</h2>
-<ul>
-<li>Importa PDFs e imagens do disco, scanners, área de transferência e capturas de tela</li>
-<li>Processa múltiplas imagens/documentos em lote</li>
-<li>Permite definir áreas de reconhecimento manual ou automaticamente</li>
-<li>Reconhece para texto simples ou hOCR</li>
-<li>Exibe texto reconhecido ao lado da imagem</li>
-<li>Pós-processamento, incluindo correção ortográfica</li>
-<li>Gera PDFs a partir de hOCR</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 class="center" id="instalação-ubuntu-22.04-lts">Instalação: Ubuntu 22.04 LTS</h3>
-<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href=""></a><span class="fu">sudo</span> add-apt-repository ppa:sandromani/gimagereader</span>
-<span id="cb5-2"><a href=""></a><span class="fu">sudo</span> apt update</span>
-<span id="cb5-3"><a href=""></a><span class="fu">sudo</span> apt install gimagereader-gtk</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Ou instale via <a href="https://flathub.org/apps/io.github.manisandro.gImageReader">flatpack</a></p>
-<p>Após instalar, basta procurar por <strong>gImageReader</strong> no menu de aplicativos.</p>
-</section>
-<section class="slide level2">
-
-<h3 class="center" id="instalação-windows-10">Instalação: Windows 10</h3>
-<ul>
-<li>Baixe o instalador em: <a href="https://github.com/manisandro/gImageReader/releases/tag/v3.4.2">gImageReader Releases no GitHub</a></li>
-<li>Tutorial em vídeo: <a href="https://www.youtube.com/watch?v=_7eqj01Hn0M">Como instalar e usar gImageReader no Windows 10 (YouTube)</a></li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 class="center" id="vantagens-do-gimagereader">Vantagens do gImageReader</h3>
-<ul>
-<li>Resultados positivos tanto em reconhecimento de layout quanto de caracteres</li>
-<li>Excelente opção quando <strong>não temos tempo, recursos ou conhecimento</strong> para treinar modelos de OCR</li>
-<li>Permite edição das imagens, trabalho em bloco e correção manual dos resultados</li>
-<li>Taxas de confiança por palavra</li>
-<li>Exportação em diversos formatos (txt, hocr, pdf)</li>
-<li>Metadados completos de cada palavra, linha, bloco e página</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 class="center" id="resumindo">🖱️Resumindo</h3>
-<p>O <strong>gImageReader</strong> é a solução ideal para pesquisadores/as que buscam:</p>
-<ul>
-<li>Facilidade de uso</li>
-<li>Código aberto</li>
-<li>Resultados rápidos e editáveis</li>
-<li>Integração total com o Tesseract</li>
 </ul>
 </section>
 <section id="exemplos-práticos-estratégia-c" class="slide level2 center">
@@ -617,52 +821,102 @@ Ou seja, é uma ferramenta open source que <strong>aplica IA (especificamente de
 <h2>🤖 Exemplo prático (EasyOCR)</h2>
 <div class="sourceCode" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href=""></a><span class="im">import</span> easyocr</span>
 <span id="cb6-2"><a href=""></a></span>
-<span id="cb6-3"><a href=""></a>reader <span class="op">=</span> easyocr.Reader([<span class="st">'pt'</span>])  <span class="co"># reconhece português</span></span>
-<span id="cb6-4"><a href=""></a>result <span class="op">=</span> reader.readtext(<span class="st">'imagem_exemplo.jpg'</span>)</span>
-<span id="cb6-5"><a href=""></a><span class="cf">for</span> bbox, text, conf <span class="kw">in</span> result:</span>
-<span id="cb6-6"><a href=""></a>    <span class="bu">print</span>(<span class="ss">f"Texto: </span><span class="sc">{</span>text<span class="sc">}</span><span class="ss"> | Confiança: </span><span class="sc">{</span>conf<span class="sc">:.2f}</span><span class="ss">"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb6-3"><a href=""></a>img_path <span class="op">=</span> <span class="st">"assetssample1/ex01.jpg"</span></span>
+<span id="cb6-4"><a href=""></a>txt_path <span class="op">=</span> <span class="st">"resultado_easyocr.txt"</span></span>
+<span id="cb6-5"><a href=""></a></span>
+<span id="cb6-6"><a href=""></a>reader <span class="op">=</span> easyocr.Reader([<span class="st">'pt'</span>])</span>
+<span id="cb6-7"><a href=""></a>result <span class="op">=</span> reader.readtext(img_path, detail<span class="op">=</span><span class="dv">0</span>, paragraph<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb6-8"><a href=""></a></span>
+<span id="cb6-9"><a href=""></a><span class="cf">with</span> <span class="bu">open</span>(txt_path, <span class="st">"w"</span>, encoding<span class="op">=</span><span class="st">"utf-8"</span>) <span class="im">as</span> f:</span>
+<span id="cb6-10"><a href=""></a>    <span class="co"># Escreve todo o texto extraído (um parágrafo)</span></span>
+<span id="cb6-11"><a href=""></a>    f.write(<span class="st">"</span><span class="ch">\n</span><span class="st">"</span>.join(result))</span>
+<span id="cb6-12"><a href=""></a></span>
+<span id="cb6-13"><a href=""></a><span class="bu">print</span>(<span class="ss">f"OCR salvo em: </span><span class="sc">{</span>txt_path<span class="sc">}</span><span class="ss">"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="trocr-transformers" class="slide level2 center">
-<h2>🤖 <strong>TrOCR</strong> (Transformers)</h2>
-<ul>
-<li>Arquitetura de ponta, especialmente eficiente em manuscritos e textos complexos.</li>
-<li>Disponível via Hugging Face e Python, pode ser testado em notebooks online.</li>
-</ul>
-<h4 class="center" id="fontes-1">Fontes:</h4>
-<ul>
-<li><a href="https://huggingface.co/docs/transformers/model_doc/trocr">TrOCR Hugging Face</a></li>
-</ul>
-<aside class="notes">
-<p>Já o <strong>TrOCR</strong> (Transformer-based OCR) usa arquiteturas de Transformer, que são ainda mais recentes e potentes para tarefas complexas, incluindo manuscritos e layouts pouco convencionais.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
+<section id="transcrição-com-chatgpt-4o" class="slide level2 center">
+<h2>🤖 Transcrição com ChatGPT-4o</h2>
+<p><strong>Data:</strong> 23/04/2025</p>
+<p><strong>Prompt utilizado:</strong></p>
+<blockquote>
+<p>transcreva pra mim</p>
+</blockquote>
 </section>
-<section id="exemplo-prático-trocr" class="slide level2 center">
-<h2>🤖 Exemplo prático (TrOCR)</h2>
+<section id="tabela-comparativa-dos-resultados-de-b-e-c" class="slide level2 center">
+<h2>Tabela comparativa dos resultados de B e C</h2>
+<iframe src="https://ericbrasil.com.br/cclhm00114/aulas/tab_comp" width="100%" height="380px" style="border:none;">
+</iframe>
+</section>
+<section id="resumo-descritivo-da-comparação-dos-resultados-de-b-e-c" class="slide level2 center">
+<h2>Resumo descritivo da comparação dos resultados de B e C</h2>
+<p>Os resultados dos três métodos de OCR apresentam diferentes níveis de fidelidade ao texto padrão-ouro. Veja abaixo uma análise qualitativa de cada um:</p>
+</section>
+<section id="tesseract" class="slide level2 center">
+<h2>Tesseract</h2>
 <ul>
-<li>Para usar TrOCR, basta acessar <a href="https://huggingface.co/spaces/microsoft/trocr-demo">este notebook do Hugging Face</a> ou rodar em Python, se desejar:</li>
+<li><strong>Vantagens:</strong><br>
+O Tesseract produziu um texto bastante próximo do padrão-ouro, com boa reprodução da maioria das palavras, pontuação e formatação.<br>
+Os principais erros envolvem pequenas trocas de acentuação, confusão entre algumas letras (como “I” e “l” em “originaes”), e pequenas falhas em trechos de quebra de linha ou em nomes próprios.</li>
 </ul>
-<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href=""></a><span class="im">from</span> transformers <span class="im">import</span> TrOCRProcessor, VisionEncoderDecoderModel</span>
-<span id="cb7-2"><a href=""></a><span class="im">from</span> PIL <span class="im">import</span> Image</span>
-<span id="cb7-3"><a href=""></a><span class="im">import</span> requests</span>
-<span id="cb7-4"><a href=""></a></span>
-<span id="cb7-5"><a href=""></a>processor <span class="op">=</span> TrOCRProcessor.from_pretrained(<span class="st">'microsoft/trocr-base-handwritten'</span>)</span>
-<span id="cb7-6"><a href=""></a>model <span class="op">=</span> VisionEncoderDecoderModel.from_pretrained(<span class="st">'microsoft/trocr-base-handwritten'</span>)</span>
-<span id="cb7-7"><a href=""></a></span>
-<span id="cb7-8"><a href=""></a>image <span class="op">=</span> Image.<span class="bu">open</span>(<span class="st">'imagem_exemplo.jpg'</span>)</span>
-<span id="cb7-9"><a href=""></a>pixel_values <span class="op">=</span> processor(image, return_tensors<span class="op">=</span><span class="st">"pt"</span>).pixel_values</span>
-<span id="cb7-10"><a href=""></a>generated_ids <span class="op">=</span> model.generate(pixel_values)</span>
-<span id="cb7-11"><a href=""></a>text <span class="op">=</span> processor.batch_decode(generated_ids, skip_special_tokens<span class="op">=</span><span class="va">True</span>)[<span class="dv">0</span>]</span>
-<span id="cb7-12"><a href=""></a><span class="bu">print</span>(text)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="tesseract-1" class="slide level2 center">
+<h2>Tesseract</h2>
+<ul>
+<li><strong>Limitações:</strong><br>
+Alguns erros de segmentação de palavras (juntando ou separando de modo inadequado), além de dificuldades pontuais em trechos com ruídos visuais ou formatação diferenciada.<br>
+Apesar disso, o resultado é legível e fácil de revisar manualmente.</li>
+</ul>
+</section>
+<section id="easyocr" class="slide level2 center">
+<h2>EasyOCR</h2>
+<ul>
+<li><strong>Vantagens:</strong><br>
+O EasyOCR conseguiu reconhecer parte do conteúdo, mas apresenta muitos erros de leitura, especialmente em palavras com caracteres acentuados e letras “O” confundidas com “0” (zero), além de interpretações equivocadas em nomes e trechos complexos.</li>
+</ul>
+</section>
+<section id="easyocr-1" class="slide level2 center">
+<h2>EasyOCR</h2>
+<ul>
+<li><strong>Limitações:</strong><br>
+O texto extraído contém várias distorções: palavras inventadas, letras trocadas, nomes próprios alterados e confusão com numerais (“Veu caro Remos”, “origlnaes”, “Juntel a0s origina0s”).<br>
+O resultado exigiria uma revisão manual intensa para se tornar utilizável em pesquisa histórica.</li>
+</ul>
+</section>
+<section id="chatgpt-4o" class="slide level2 center">
+<h2>ChatGPT-4o</h2>
+<ul>
+<li><strong>Vantagens:</strong><br>
+O resultado gerado por ChatGPT-4o é o mais próximo do padrão-ouro.<br>
+O texto apresenta correção ortográfica, pontuação, segmentação e formatação adequadas. Pequenos ajustes de pontuação e atualização de termos são notados, mas o sentido e a estrutura original foram preservados.</li>
+</ul>
+</section>
+<section id="chatgpt-4o-1" class="slide level2 center">
+<h2>ChatGPT-4o</h2>
+<ul>
+<li><strong>Limitações:</strong><br>
+Pequenas diferenças em relação ao original podem ocorrer devido ao ajuste automático de pontuação ou normalização de nomes, mas são mínimas e não prejudicam o entendimento do conteúdo.</li>
+</ul>
+</section>
+<section id="section-2" class="slide level2 center">
+<h2></h2>
+<ul>
+<li><strong>Tesseract</strong> se mostrou o OCR tradicional mais fiel ao padrão, com boa precisão, mas ainda exigindo revisão.</li>
+<li><strong>EasyOCR</strong> apresentou o pior desempenho, sendo mais suscetível a ruídos, erros de segmentação e substituição de caracteres.</li>
+<li><strong>ChatGPT-4o</strong> entregou o melhor resultado em termos de qualidade de texto, aproximando-se da revisão humana, sendo especialmente útil para uso direto em pesquisa ou publicação, com pouca ou nenhuma edição adicional.</li>
+</ul>
+</section>
+<section id="tabela-quantitativa-dos-resultados-de-b-e-c" class="slide level2 center">
+<h2>Tabela quantitativa dos resultados de B e C</h2>
+<iframe src="https://ericbrasil.com.br/cclhm00114/aulas/tab_quant" width="100%" height="330px" style="border:none;">
+</iframe>
+</section>
+<section id="section-3" class="slide level2 center">
+<h2></h2>
+<p>Esses números reforçam as conclusões do resumo anterior:</p>
+<ul>
+<li><strong>ChatGPT-4o</strong> é praticamente idêntico ao padrão-ouro.</li>
+<li><strong>Tesseract</strong> é bastante preciso, mas requer revisão manual.</li>
+<li><strong>EasyOCR</strong> tem desempenho sensivelmente inferior nesse teste.</li>
+</ul>
 </section>
 <section id="dificuldades-gerais-no-ocr" class="slide level2 center">
 <h2>⚠️ Dificuldades Gerais no OCR</h2>
@@ -693,15 +947,15 @@ Ou seja, é uma ferramenta open source que <strong>aplica IA (especificamente de
 </section>
 <section class="slide level2">
 
-
-</section>
-    </div>
-  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="quarto-auto-generated-content">
 <p><img src="assets/ChatGPT_20250423_142039.png" class="slide-logo"></p>
 <div class="footer footer-default">
 <p>Eric Brasil | <a href="https://ericbrasil.com.br/contact/">Entre em contato</a> | CCLHM00114 - Introdução à História Digital</p>
 </div>
-</div></div>
+</div>
+</section>
+    </div>
+  </div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
   <script src="aula10_files/libs/revealjs/dist/reveal.js"></script>
@@ -731,8 +985,7 @@ Ou seja, é uma ferramenta open source que <strong>aplica IA (especificamente de
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-'jumpToSlide': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
 'chalkboard': {"buttons":true},
 'smaller': false,
  
@@ -887,7 +1140,7 @@ Ou seja, é uma ferramenta open source que <strong>aplica IA (especificamente de
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -992,6 +1245,8 @@ Ou seja, é uma ferramenta open source que <strong>aplica IA (especificamente de
       });
       clipboard.on('success', onCopySuccess);
       if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
         const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
           text: getTextToCopy,
           container: window.document.getElementById('quarto-embedded-source-code-modal')

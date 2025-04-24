@@ -159,22 +159,22 @@ Três encaminhamentos principais:
 
 ---
 
-### ⚙️ Estratégia A: Grande volume de dados  {.center}
-
-- Use **ferramentas de linha de comando** para OCR (ex: Tesseract).
-- Se necessário, aplique ferramentas de **pré-processamento** (ex: OCR-D).
-- Se as imagens forem de alta qualidade, use modelos prontos para o português (Tesseract).
-- Se houver baixa qualidade, fontes variadas ou layouts complexos, pode ser necessário **treinar modelos específicos** — exigindo alto investimento computacional e humano.
-
----
-
-### 🖱️ Estratégia B: Volumes reduzidos {.center}
+### 🖱️ Estratégia A: Volumes reduzidos {.center}
 <br>
 
 - Utilize o **gImageReader** (interface gráfica, código aberto) ou outro programa de OCR com interface gráfica.
 - Ideal para tratamento manual, permitindo correções personalizadas.
 - Requer menos conhecimento técnico e permite correção manual dos resultados.
 - Não exige treinamento de modelos específicos.
+
+---
+
+### ⚙️ Estratégia B: Grande volume de dados  {.center}
+
+- Use **ferramentas de linha de comando** para OCR (ex: Tesseract).
+- Se necessário, aplique ferramentas de **pré-processamento** (ex: OCR-D).
+- Se as imagens forem de alta qualidade, use modelos prontos para o português (Tesseract).
+- Se houver baixa qualidade, fontes variadas ou layouts complexos, pode ser necessário **treinar modelos específicos** — exigindo alto investimento computacional e humano.
 
 ---
 
@@ -199,7 +199,115 @@ O fundamental é adaptar a estratégia **às suas possibilidades e objetivos**.
 
 ---
 
-## ⚙️Estratégia A: Exemplos práticos {.center}
+## 🖼️ Imagem utilizada nos exemplos {.center}
+
+:::{.columns}
+::: {.column width="60%"}
+<br>
+A imagem ao lado (`ex01.jpg`) foi usada para ilustrar os exemplos práticos das estratégias A, B e C de OCR nesta oficina.
+:::
+
+::: {.column width="40%"}
+![](assets/sample1/ex01.jpg){width=60% .center}
+:::
+:::
+
+---
+
+## 🖱️Exemplos práticos: Estratégia B {.center}
+
+Caso sua pesquisa demande o tratamento e análise de **centenas de páginas digitalizadas** de jornais históricos,  
+o encaminhamento mais acertado é a utilização de **interfaces gráficas de usuário (GUIs)**.
+
+---
+
+## 🖱️Por que GUIs? {.center}
+
+- Exigem menos conhecimento de programação
+- Têm curva de aprendizagem mais rápida
+- Resultados mais imediatos e acessíveis
+
+---
+
+### 🖱️Ferramenta recomendada: gImageReader {.center}
+
+::: {.column width="58%"}
+- **gImageReader** é uma GUI open source que utiliza o Tesseract como motor de OCR.
+- Desenvolvido por Sandro Mani (GNU GPL v3).
+- Disponível para **Windows e Linux** e totalmente traduzido para português (brasileiro).
+:::
+
+::: {.column width="4%"}
+
+:::
+
+::: {.column width="38%"}
+
+![](https://ericbrasil.com.br/hemdig-framework/_images/gimagereader.png)
+
+[Baixe o gImageReader](https://github.com/manisandro/gImageReader/)
+
+
+:::
+
+---
+
+### 🖱️Funcionalidades do gImageReader {.center}
+
+- Importa PDFs e imagens do disco, scanners, área de transferência e capturas de tela
+- Processa múltiplas imagens/documentos em lote
+- Permite definir áreas de reconhecimento manual ou automaticamente
+- Reconhece para texto simples ou hOCR
+- Exibe texto reconhecido ao lado da imagem
+- Pós-processamento, incluindo correção ortográfica
+- Gera PDFs a partir de hOCR
+
+---
+
+## Instalação: Ubuntu 22.04 LTS {.center}
+
+```bash
+sudo add-apt-repository ppa:sandromani/gimagereader
+sudo apt update
+sudo apt install gimagereader-gtk
+```
+
+Ou instale via [flatpack](https://flathub.org/apps/io.github.manisandro.gImageReader)
+
+Após instalar, basta procurar por **gImageReader** no menu de aplicativos.
+
+---
+
+## Instalação: Windows 10 {.center}
+
+- Baixe o instalador em: [gImageReader Releases no GitHub](https://github.com/manisandro/gImageReader/releases/tag/v3.4.2)
+- Tutorial em vídeo: [Como instalar e usar gImageReader no Windows 10 (YouTube)](https://www.youtube.com/watch?v=_7eqj01Hn0M)
+
+---
+
+### Vantagens do gImageReader {.center}
+
+- Resultados positivos tanto em reconhecimento de layout quanto de caracteres
+- Excelente opção quando **não temos tempo, recursos ou conhecimento** para treinar modelos de OCR
+- Permite edição das imagens, trabalho em bloco e correção manual dos resultados
+- Taxas de confiança por palavra
+- Exportação em diversos formatos (txt, hocr, pdf)
+- Metadados completos de cada palavra, linha, bloco e página
+
+---
+
+## 🖱️Resumindo {.center}
+
+O **gImageReader** é a solução ideal para pesquisadores/as que buscam:
+
+- Facilidade de uso
+- Código aberto
+- Resultados rápidos e editáveis
+- Integração total com o Tesseract
+
+---
+
+## ⚙️Estratégia B: Exemplos práticos {.center}
 
 Caso sua pesquisa demande o tratamento e análise de **milhares de páginas digitalizadas** de jornais históricos,  
 o encaminhamento mais acertado é a utilização de **interfaces de linha de comando**  
@@ -286,14 +394,14 @@ done
 
 ---
 
-### Resultado {.center}
+## Resultado {.center}
 
 - Para cada imagem (ex: `pagina01.jpg`), será gerado um arquivo de texto (`pagina01.txt`) na mesma pasta.
 - O conteúdo de cada `.txt` corresponderá ao texto extraído da respectiva imagem.
 
-<br>
+---
 
-### Observação {.center}
+## Observação {.center}
 
 - É importante garantir que o Tesseract está instalado e o idioma português disponível (`tesseract --list-langs`).
 - Imagens com baixa qualidade podem gerar textos com muitos erros; revise os resultados!
@@ -308,7 +416,7 @@ done
 
 ---
 
-## ⚙️Considerações sobre a Estratégia A {.center}
+## ⚙️Considerações sobre a Estratégia B {.center}
 
 - **Vantagens:** Alto grau de automação, ideal para grandes volumes, permite personalização do workflow.
 - **Desvantagens:** Exige conhecimento em linha de comando, tempo para configurar, maior curva de aprendizado.
@@ -321,101 +429,6 @@ done
 - [Tesseract OCR - GitHub](https://github.com/tesseract-ocr/tesseract)
 - [OCR-D - Documentação](https://ocr-d.de/en/)
 - [Imagemagick - Ferramentas de imagem](https://imagemagick.org/)
-
----
-
-## 🖱️Exemplos práticos: Estratégia B {.center}
-
-Caso sua pesquisa demande o tratamento e análise de **centenas de páginas digitalizadas** de jornais históricos,  
-o encaminhamento mais acertado é a utilização de **interfaces gráficas de usuário (GUIs)**.
-
----
-
-### 🖱️Por que GUIs? {.center}
-
-- Exigem menos conhecimento de programação
-- Têm curva de aprendizagem mais rápida
-- Resultados mais imediatos e acessíveis
-
----
-
-### 🖱️Ferramenta recomendada: gImageReader {.center}
-
-<br>
-
-::: {.column width="48%"}
-- **gImageReader** é uma GUI open source que utiliza o Tesseract como motor de OCR.
-- Desenvolvido por Sandro Mani (GNU GPL v3).
-- Disponível para **Windows e Linux** e totalmente traduzido para português (brasileiro).
-:::
-
-::: {.column width="4%"}
-
-:::
-
-::: {.column width="48%"}
-
-![](https://ericbrasil.com.br/hemdig-framework/_images/gimagereader.png)
-
-[Baixe o gImageReader](https://github.com/manisandro/gImageReader/)
-
-
-:::
-
----
-
-## 🖱️Funcionalidades do gImageReader {.center}
-
-- Importa PDFs e imagens do disco, scanners, área de transferência e capturas de tela
-- Processa múltiplas imagens/documentos em lote
-- Permite definir áreas de reconhecimento manual ou automaticamente
-- Reconhece para texto simples ou hOCR
-- Exibe texto reconhecido ao lado da imagem
-- Pós-processamento, incluindo correção ortográfica
-- Gera PDFs a partir de hOCR
-
----
-
-### Instalação: Ubuntu 22.04 LTS {.center}
-
-```bash
-sudo add-apt-repository ppa:sandromani/gimagereader
-sudo apt update
-sudo apt install gimagereader-gtk
-```
-
-Ou instale via [flatpack](https://flathub.org/apps/io.github.manisandro.gImageReader)
-
-Após instalar, basta procurar por **gImageReader** no menu de aplicativos.
-
----
-
-### Instalação: Windows 10 {.center}
-
-- Baixe o instalador em: [gImageReader Releases no GitHub](https://github.com/manisandro/gImageReader/releases/tag/v3.4.2)
-- Tutorial em vídeo: [Como instalar e usar gImageReader no Windows 10 (YouTube)](https://www.youtube.com/watch?v=_7eqj01Hn0M)
-
----
-
-### Vantagens do gImageReader {.center}
-
-- Resultados positivos tanto em reconhecimento de layout quanto de caracteres
-- Excelente opção quando **não temos tempo, recursos ou conhecimento** para treinar modelos de OCR
-- Permite edição das imagens, trabalho em bloco e correção manual dos resultados
-- Taxas de confiança por palavra
-- Exportação em diversos formatos (txt, hocr, pdf)
-- Metadados completos de cada palavra, linha, bloco e página
-
----
-
-### 🖱️Resumindo {.center}
-
-O **gImageReader** é a solução ideal para pesquisadores/as que buscam:
-
-- Facilidade de uso
-- Código aberto
-- Resultados rápidos e editáveis
-- Integração total com o Tesseract
 
 ---
 
@@ -476,47 +489,109 @@ Ou seja, é uma ferramenta open source que **aplica IA (especificamente deep lea
 ```python
 import easyocr
 
-reader = easyocr.Reader(['pt'])  # reconhece português
-result = reader.readtext('imagem_exemplo.jpg')
-for bbox, text, conf in result:
-    print(f"Texto: {text} | Confiança: {conf:.2f}")
+img_path = "assetssample1/ex01.jpg"
+txt_path = "resultado_easyocr.txt"
+
+reader = easyocr.Reader(['pt'])
+result = reader.readtext(img_path, detail=0, paragraph=True)
+
+with open(txt_path, "w", encoding="utf-8") as f:
+    # Escreve todo o texto extraído (um parágrafo)
+    f.write("\n".join(result))
+
+print(f"OCR salvo em: {txt_path}")
 ```
 
 ---
 
-## 🤖 **TrOCR** (Transformers) {.center} 
+## 🤖 Transcrição com ChatGPT-4o {.center}
 
-- Arquitetura de ponta, especialmente eficiente em manuscritos e textos complexos.
-- Disponível via Hugging Face e Python, pode ser testado em notebooks online.
+**Data:** 23/04/2025
 
-#### Fontes: {.center}
+**Prompt utilizado:**
 
-- [TrOCR Hugging Face](https://huggingface.co/docs/transformers/model_doc/trocr)
-
-:::notes
-Já o **TrOCR** (Transformer-based OCR) usa arquiteturas de Transformer, que são ainda mais recentes e potentes para tarefas complexas, incluindo manuscritos e layouts pouco convencionais.
-:::
+> transcreva pra mim
 
 ---
 
-## 🤖 Exemplo prático (TrOCR) {.center} 
+## Tabela comparativa dos resultados de B e C {.center}
 
-- Para usar TrOCR, basta acessar [este notebook do Hugging Face](https://huggingface.co/spaces/microsoft/trocr-demo) ou rodar em Python, se desejar:
+<iframe src="https://ericbrasil.com.br/cclhm00114/aulas/tab_comp" width="100%" height="380px" style="border:none;"></iframe>
 
-```python
-from transformers import TrOCRProcessor, VisionEncoderDecoderModel
-from PIL import Image
-import requests
+---
 
-processor = TrOCRProcessor.from_pretrained('microsoft/trocr-base-handwritten')
-model = VisionEncoderDecoderModel.from_pretrained('microsoft/trocr-base-handwritten')
+## Resumo descritivo da comparação dos resultados de B e C {.center}
 
-image = Image.open('imagem_exemplo.jpg')
-pixel_values = processor(image, return_tensors="pt").pixel_values
-generated_ids = model.generate(pixel_values)
-text = processor.batch_decode(generated_ids, skip_special_tokens=True)[0]
-print(text)
-```
+Os resultados dos três métodos de OCR apresentam diferentes níveis de fidelidade ao texto padrão-ouro. Veja abaixo uma análise qualitativa de cada um:
+
+---
+
+## Tesseract {.center}
+
+- **Vantagens:**  
+  O Tesseract produziu um texto bastante próximo do padrão-ouro, com boa reprodução da maioria das palavras, pontuação e formatação.  
+  Os principais erros envolvem pequenas trocas de acentuação, confusão entre algumas letras (como “I” e “l” em “originaes”), e pequenas falhas em trechos de quebra de linha ou em nomes próprios.
+
+---
+
+## Tesseract {.center}
+
+- **Limitações:**  
+  Alguns erros de segmentação de palavras (juntando ou separando de modo inadequado), além de dificuldades pontuais em trechos com ruídos visuais ou formatação diferenciada.  
+  Apesar disso, o resultado é legível e fácil de revisar manualmente.
+
+---
+
+## EasyOCR {.center}
+
+- **Vantagens:**  
+  O EasyOCR conseguiu reconhecer parte do conteúdo, mas apresenta muitos erros de leitura, especialmente em palavras com caracteres acentuados e letras “O” confundidas com “0” (zero), além de interpretações equivocadas em nomes e trechos complexos.
+
+---
+
+## EasyOCR {.center}
+
+- **Limitações:**  
+  O texto extraído contém várias distorções: palavras inventadas, letras trocadas, nomes próprios alterados e confusão com numerais (“Veu caro Remos”, “origlnaes”, “Juntel a0s origina0s”).  
+  O resultado exigiria uma revisão manual intensa para se tornar utilizável em pesquisa histórica.
+
+---
+
+## ChatGPT-4o {.center}
+
+- **Vantagens:**  
+  O resultado gerado por ChatGPT-4o é o mais próximo do padrão-ouro.  
+  O texto apresenta correção ortográfica, pontuação, segmentação e formatação adequadas. Pequenos ajustes de pontuação e atualização de termos são notados, mas o sentido e a estrutura original foram preservados.
+
+---
+
+## ChatGPT-4o {.center}
+
+- **Limitações:**  
+  Pequenas diferenças em relação ao original podem ocorrer devido ao ajuste automático de pontuação ou normalização de nomes, mas são mínimas e não prejudicam o entendimento do conteúdo.
+
+---
+
+## {.center}
+
+- **Tesseract** se mostrou o OCR tradicional mais fiel ao padrão, com boa precisão, mas ainda exigindo revisão.
+- **EasyOCR** apresentou o pior desempenho, sendo mais suscetível a ruídos, erros de segmentação e substituição de caracteres.
+- **ChatGPT-4o** entregou o melhor resultado em termos de qualidade de texto, aproximando-se da revisão humana, sendo especialmente útil para uso direto em pesquisa ou publicação, com pouca ou nenhuma edição adicional.
+
+---
+
+## Tabela quantitativa dos resultados de B e C {.center}
+
+<iframe src="https://ericbrasil.com.br/cclhm00114/aulas/tab_quant" width="100%" height="330px" style="border:none;"></iframe>
+
+---
+
+## {.center}
+Esses números reforçam as conclusões do resumo anterior:  
+
+- **ChatGPT-4o** é praticamente idêntico ao padrão-ouro.
+- **Tesseract** é bastante preciso, mas requer revisão manual.
+- **EasyOCR** tem desempenho sensivelmente inferior nesse teste.
 
 ---
 
