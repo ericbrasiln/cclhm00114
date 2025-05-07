@@ -30,11 +30,11 @@ geometry:
 | --   | 06/03/2025   | **Sem aula - Carnaval**                             | -- | ⚠️                    |
 | 4    | 13/03/2025   | Passado, futuro e presente do digital na História   | 4  | Presencial 📖        |
 | 5    | 20/03/2025   | Fontes digitais, coleções e plataformas online      | 4  | Presencial 📖        |
-| 6    | 27/03/2025   | Oficina I: Zotero                                   | 4  | Presencial 🛠️       |
-| 7    | 03/04/2025   | Algoritmos, dataficação da sociedade e o ofício de historiadores/as | 4 | Presencial 📖 |
-| 8    | 10/04/2025   | Oficina II: OCR                                     | 4  | Presencial 🛠️       |
-| 9    | 17/04/2025   | Ética e questões legais na pesquisa digital         | 4  | Presencial 📖        |
-| 10   | 24/04/2025   | Oficina III: Inteligência Artificial                | 4  | Presencial 🛠️       |
+| 6    | 27/03/2025   | Oficina I: Zotero Parte 1                           | 4  | Presencial 🛠️       |
+| 7    | 03/04/2025   | Oficina I: Zotero Parte 2                           | 4  | Presencial 🛠️ |
+| 8    | 10/04/2025   | Oficina II: Inteligência Artificial                 | 4  | Presencial 🛠️     |
+| 9    | 17/04/2025   | Atividade Remota                                    | 4  | Presencial 💻        |
+| 10   | 24/04/2025   | Oficina III: OCR                                    | 4  | Presencial 🛠️       |
 | --   | 01/05/2025   | **Feriado - Dia do Trabalhador**                    | -- | ⚠️                    |
 | 11   | 08/05/2025   | O Ensino de história na Era das IAs e das Fake News | 4  | Presencial 📖        |
 | 12   | 15/05/2025   | Oficina IV: Versionamento e documentação            | 4  | Presencial 🛠️       |

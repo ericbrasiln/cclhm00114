@@ -18,6 +18,9 @@ toc: true
 - **AULA 2 (20/02/2025) 📖** - [História e tecnologia: do código Morse aos LLMs](https://ericbrasil.com.br/cclhm00114/aulas/aula2)
 - **AULA 4 (13/03/2025) 📖** - [Passado, futuro e presente do digital na História](https://ericbrasil.com.br/cclhm00114/aulas/aula4)
 - **AULA 5 (20/03/2025) 📖** - [Repositórios de fontes online e a pesquisa digital](https://ericbrasil.com.br/cclhm00114/aulas/aula5)
+- **AULA 8 (10/04/2025) 🛠️** - [Oficina II: Inteligência Artificial](https://ericbrasil.com.br/cclhm00114/aulas/aula7)
+- **AULA 10 (24/04/2025) 🛠️** - [Oficina III: OCR](https://ericbrasil.com.br/cclhm00114/aulas/aula10)
+- **AULA 11 (01/05/2025) 📖** - [O Ensino de História na Era das IAs e das Fake News](https://ericbrasil.com.br/cclhm00114/aulas/aula11)
 
 ---
 
