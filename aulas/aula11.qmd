@@ -1,0 +1,256 @@
+---
+title: "Aula 11: O Ensino de História na Era das IAs e das Fake News"
+subtitle: "<br>Aula 11<br>Prof. Eric Brasil"
+date: 2025-05-08
+date-format: full
+lang: pt-br
+format:
+  revealjs: 
+    theme: [default, custom.scss]
+    slide-number: true
+    chalkboard: 
+      buttons: true
+    footer: "Eric Brasil | <a href=https://ericbrasil.com.br/contact/>Entre em contato</a> | CCLHM00114 - Introdução à História Digital"
+    highlight-style: kate
+    logo: "assets/ChatGPT-logo-20250507_160143.png"
+---
+
+## Acesse essa aula com o QRCode {.center}
+
+::: {.column width="48%"}
+![](assets/ChatGPT-logo-20250507_160143.png)
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+
+![](assets/qrcode_aula11.png)
+:::
+
+---
+
+## Sobre esta apresentação {.center}
+
+<br>
+
+::: {.column width="38%"}
+![](assets/IA-BOT_ChatGPT_20250410_091806.png)
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="58%"}
+>Estes slides foram criados com o auxílio do **ChatGPT-4o** (em 07 de maio de 2025).
+>
+>A responsabilidade final pelo conteúdo, curadoria e seleção das informações é do autor.
+:::
+
+---
+
+## Objetivos {.center}
+
+* Discutir os desafios do ensino de História diante da desinformação digital
+* Compreender a relação entre redes sociais, fake news e ensino de História
+* Explorar estratégias didáticas para lidar com desinformação na sala de aula
+
+---
+
+## Leitura obrigatória {.center}
+
+**BRASIL, Eric; VALVERDE, Priscila; VELOSO, Ana Carolina.**
+Desafios e expectativas da prática da história na Era Digital: percepções de docentes de História nas instituições de ensino superior na Bahia.
+*Boletim do Tempo Presente*, v. 13, n. 2, p. 140–171, 2024.
+
+---
+
+## Objetivos do Artigo {.center}
+
+- Compreender como docentes de História em IES da Bahia percebem os desafios do ensino na Era Digital  
+- Investigar o uso e o domínio de ferramentas e tecnologias digitais no cotidiano docente  
+- Identificar expectativas de formação e propostas para integração das TDICs ao ensino de História  
+
+---
+
+## Metodologia do Artigo {.center}
+
+- Aplicação de questionário semi‑estruturado online via Google Forms 
+- Coleta de percepções docentes de História de IES da Bahia (2021‑2022)  
+- Análise quantitativa e qualitativa dos dados, embasada na proposta de “consciência da seletividade digital” de Coburn (2020)
+- Gerenciamento de dados e versionamento no GitHub para transparência e colaboração
+
+---
+
+## Conclusões principais do artigo {.center}
+
+* **Interesse elevado**: docentes universitários demonstram forte interesse em integrar ferramentas e tecnologias digitais ao ensino de História
+* **Lacuna formativa**: a maioria **ainda não possui formação** específica em ferramentas digitais (95,5% manifestaram desejo de capacitação)
+* **Demanda por metodologias**: há necessidade de inclusão de disciplinas ou oficinas que abordem conceitos, métodos e práticas digitais nos currículos de História
+
+---
+
+## Discussão {.center}
+
+::: {.incremental}
+1. Quais são os principais obstáculos que vocês enfrentam (ou imaginam enfrentar) ao usar ferramentas digitais em sala de aula?
+2. Como podemos incorporar atividades práticas que desenvolvam competências em tecnologias digitais para História?
+3. De que forma o uso crítico de IAs e a verificação de fontes podem ser trabalhados em exercícios de análise historiográfica?
+:::
+
+---
+
+## O que são fake news? {.center}
+
+- Informações falsas apresentadas como verdadeiras, com **intenção deliberada de enganar**  
+- Podem assumir diferentes formas: notícias inventadas, títulos sensacionalistas, imagens manipuladas, entre outras  
+- Diferença importante entre **desinformação** (intencional) e **informação incorreta** (erro não intencional)  
+
+---
+
+## O que são fake news? {.center}
+
+Definição mais aceita nos estudos críticos: *conteúdo fabricado com aparência de notícia jornalística, produzido com a intenção de enganar e gerar lucro ou manipulação ideológica*
+
+>[WARDLE, C.; DERAKHSHAN, H. *Information Disorder: Toward an interdisciplinary framework for research and policy making*. Strasbourg: Council of Europe, 2017](https://rm.coe.int/information-disorder-toward-an-interdisciplinary-framework-for-researc/168076277c).
+
+---
+
+## O que é negacionismo histórico? {.center}
+
+- Estratégia discursiva que **nega, distorce ou relativiza fatos históricos consolidados**  
+- Exemplo clássico: negação do Holocausto  
+- Instrumento político: muitas vezes usado para **reabilitar ideologias autoritárias** ou **rejeitar responsabilidades históricas**  
+
+---
+
+## O que é negacionismo histórico? {.center}
+
+- Difere de revisão histórica legítima: o negacionismo rejeita o método crítico e ignora evidências
+
+>[Rousso, Henry. Le syndrome de Vichy : de 1944 à nos jours](https://archive.org/details/lesyndromedevich0000rous)
+
+---
+
+## Redes sociais e a difusão da desinformação {.center}
+
+- **Algoritmos privilegiam o engajamento**, não a veracidade  
+- Conteúdos falsos têm maior alcance e velocidade de compartilhamento do que os verdadeiros  
+
+---
+
+## Redes sociais e a difusão da desinformação {.center}
+
+- Bolhas informacionais e câmaras de eco reforçam crenças pré-existentes  
+- A desinformação se espalha em formatos multimodais (memes, vídeos curtos, posts virais), dificultando a checagem
+
+>[VOSOUGHI, S.; ROY, D.; ARAL, S. The spread of true and false news online. *Science*, v. 359, n. 6380, p. 1146–1151, 2018.](https://www.science.org/doi/10.1126/science.aap9559)
+
+:::notes
+**Bolhas informacionais** são contextos digitais nos quais os usuários são expostos principalmente a conteúdos que confirmam suas crenças e interesses prévios, resultado da personalização algorítmica das plataformas. Já as **câmaras de eco** ocorrem quando grupos ou comunidades reforçam entre si as mesmas ideias, opiniões e narrativas, excluindo ou desqualificando visões divergentes. Ambos os fenômenos reduzem a diversidade informacional e ampliam a polarização, tornando mais difícil o confronto crítico com fontes confiáveis e a construção de saberes históricos fundamentados.
+:::
+
+---
+
+## O caso do Telegram {.center}
+### Ecossistema multiplataforma de desinformação
+
+[NASCIMENTO, Leonardo F. et al. *Públicos refratados: grupos de extrema-direita brasileiros na plataforma Telegram*. Revista do InternetLab, v. 3, n. 1, p. 31-60, ago. 2022](https://revista.internetlab.org.br/publicos-refratados-grupos-de-extrema-direita-brasileiros-na-plataforma-telegram/)
+
+---
+
+## O caso do Telegram {.center}
+### Ecossistema multiplataforma de desinformação
+
+- Atua como uma **“dobradiça digital”** entre plataformas tradicionais e espaços subterrâneos  
+- Permite a **reciclagem rápida de conteúdos** por usuários superativos ("talkatives")  
+- Apresenta forte presença de **links externos e práticas coordenadas**  
+
+---
+
+## O caso do Telegram {.center}
+### Ecossistema multiplataforma de desinformação
+
+- Reforça a **opacidade e resiliência** de redes desinformativas  
+- Elemento central na formação de **públicos refratados**
+
+:::notes
+**Públicos refratados** são coletividades que se constituem à margem dos circuitos informacionais dominantes, desenvolvendo formas próprias de engajamento, linguagem e circulação de conteúdos. No contexto analisado por Nascimento et al. (2022), esses públicos se organizam em torno de plataformas como o Telegram, onde produzem e compartilham sentidos alternativos — muitas vezes conspiratórios ou desinformativos — em oposição aos discursos legitimados por instituições tradicionais. São chamados “refratados” porque não apenas se isolam, mas reinterpretam criticamente (ou distorcem) o conteúdo do mainstream, formando ecossistemas paralelos de significação.
+:::
+
+---
+
+## Qual o papel do professor de História nesse cenário? {.center}
+
+::: {.incremental}
+- Atuar como **mediador crítico da informação**  
+- Ensinar alunos a **avaliar fontes, rastrear evidências e construir argumentos com base em dados confiáveis**  
+- Incorporar o debate sobre fake news e negacionismo no currículo  
+:::
+
+---
+
+## Qual o papel do professor de História nesse cenário? {.center}
+
+::: {.incremental}
+- Promover **práticas pedagógicas investigativas** e produção de conhecimento histórico crítico  
+- Ser exemplo de ética, responsabilidade e compromisso com a verdade histórica
+:::
+
+---
+
+## Discussão: IAs Generativas e os Desafios para a Democracia {.center}
+
+::: {.incremental}
+- Como a inclusão das IAs generativas (como ChatGPT, Gemini, Copilot etc.) no ecossistema digital transforma o processo sociotécnico de **criação e difusão de conteúdos**?  
+- Quais os riscos de automação da desinformação e manipulação de narrativas históricas por meio dessas ferramentas?  
+:::
+
+---
+
+## Discussão: IAs Generativas e os Desafios para a Democracia {.center}
+
+::: {.incremental}
+- De que maneira essas tecnologias afetam o debate público, a **formação da opinião** e a **estabilidade da democracia**?  
+- Qual o papel da educação histórica crítica nesse novo cenário?
+:::
+
+---
+
+## Atores não-humanos que produzem sentido? {.center}
+
+::: {.column width="48%"}
+![](assets/IA-BOT_ChatGPT_20250410_091806.png)
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+> Estamos diante de atores não-humanos que produzem sentido —  
+> mas com base em dados enviesados, algoritmos opacos  
+> e interesses econômicos.
+>  
+:::
+
+---
+
+## {.center}
+
+:::{.columns}
+::: {.column width="40%"}
+![](assets/ChatGPT-logo-20250507_160143.png){width=100% .center}
+:::
+
+::: {.column width="60%"}
+<br>
+**Obrigado pela participação!**
+
+Qualquer dúvida ou sugestão, entre em contato:
+
+[ericbrasil.com.br/contact](https://ericbrasil.com.br/contact)
+
+Até a próxima aula!
+:::
+:::
