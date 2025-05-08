@@ -60,9 +60,7 @@ format:
 
 ## Leitura obrigatória {.center}
 
-**BRASIL, Eric; VALVERDE, Priscila; VELOSO, Ana Carolina.**
-Desafios e expectativas da prática da história na Era Digital: percepções de docentes de História nas instituições de ensino superior na Bahia.
-*Boletim do Tempo Presente*, v. 13, n. 2, p. 140–171, 2024.
+**BRASIL, Eric; VALVERDE, Priscila; VELOSO, Ana Carolina.** Desafios e expectativas da prática da história na Era Digital: percepções de docentes de História nas instituições de ensino superior na Bahia. *Boletim do Tempo Presente*, v. 13, n. 2, p. 140–171, 2024. [Link](https://periodicos.ufs.br/tempopresente/article/view/22403)
 
 ---
 
@@ -101,11 +99,13 @@ Desafios e expectativas da prática da história na Era Digital: percepções de
 
 ---
 
+::: {.incremental}
 ## O que são fake news? {.center}
 
 - Informações falsas apresentadas como verdadeiras, com **intenção deliberada de enganar**  
 - Podem assumir diferentes formas: notícias inventadas, títulos sensacionalistas, imagens manipuladas, entre outras  
 - Diferença importante entre **desinformação** (intencional) e **informação incorreta** (erro não intencional)  
+:::
 
 ---
 
@@ -117,11 +117,13 @@ Definição mais aceita nos estudos críticos: *conteúdo fabricado com aparênc
 
 ---
 
+::: {.incremental}
 ## O que é negacionismo histórico? {.center}
 
 - Estratégia discursiva que **nega, distorce ou relativiza fatos históricos consolidados**  
 - Exemplo clássico: negação do Holocausto  
 - Instrumento político: muitas vezes usado para **reabilitar ideologias autoritárias** ou **rejeitar responsabilidades históricas**  
+:::
 
 ---
 
