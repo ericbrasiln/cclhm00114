@@ -1,11 +1,11 @@
 ---
-title: "Atividade Remota – Aula 9 (17/04/2025)"
+title: "Trabalho Final"
 subtitle: "Ética e o uso de Inteligência Artificial Generativa (IAG) no ensino e na pesquisa"
 author: "Professor: Eric Brasil"
 email: profericbrasil@unilab.edu.br
 institute: "Licenciatura em História, IHLM-UNILAB"
-date: "2025-04-17"
-description: "Atividade remota para a disciplina Introdução à História Digital. A atividade vale 2,0 ponto e deve ser entregue até 15/05/2025."
+date: "2025-05-26"
+description: "Atividade final para a disciplina Introdução à História Digital. A atividade vale 9,0 pontos e deve ser entregue até 03/06/2025."
 lang: pt-BR
 toc: true
 ---
@@ -13,23 +13,22 @@ toc: true
 
 |Tipo | Tema | Pontos | Prazo |Observações|
 |--------|----------------------|-----|------------|---------------------|
-| Remota | Ética e o uso de Inteligência Artificial Generativa (IAG) no ensino e na pesquisa.| 2,0 | 15/05/2025 | Atividade individual; entregar via SIGAA |
+| Remota | Ética e o uso de Inteligência Artificial Generativa (IAG) no ensino e na pesquisa.| 9,0 | 03/06/2025 | Atividade individual; entregar via SIGAA |
 
-## 💻 Aula 9 – Substituição de atividade presencial
-
-### Tema  
-Ética e o uso de Inteligência Artificial Generativa (IAG) no ensino e na pesquisa.
-
----
 
 ## 📚 Leituras obrigatórias
 
-- **FRANCO, Diego; VIEGAS, Luis Eduardo; RÖHE, Anderson.** *Guia Ético para a Inteligência Artificial Generativa no Ensino Superior*. _TECCOGS – Revista Digital de Tecnologias Cognitivas_, n. 28, 2023, p. 108-117. [link](blob:https://revistas.pucsp.br/9b559064-ea75-4bf1-a7de-0a8da961c480)
+- **FRANCO, Diego; VIEGAS, Luis Eduardo; RÖHE, Anderson.** *Guia Ético para a Inteligência Artificial Generativa no Ensino Superior*. _TECCOGS – Revista Digital de Tecnologias Cognitivas_, n. 28, 2023, p. 108-117. [link](https://doi.org/10.23925/1984-3585.2023i28p108-117)
 
 - **BRASIL.** *Lei Geral de Proteção de Dados Pessoais (LGPD)* – Lei n. 13.709/2018  
   📎 Disponível em: <https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm>
 
----
+## 📺 Material de apoio
+
+- Slides da aula sobre Inteligência Artificial: [link para os slides](https://ericbrasil.com.br/cclhm00114/aulas/aula7)
+- Vídeo de oficina na  XII Semana da África (2025): [link para o vídeo](https://drive.google.com/file/d/1ML-OVHqLsihIgickxXhi3hCsz7spoEZq/view?usp=sharing)
+
+----
 
 ## 🎯 Objetivo
 
@@ -55,15 +54,21 @@ Refletir criticamente sobre dilemas éticos e legais envolvendo o uso de IAG no 
        - transparência e consentimento,
        - proteção de dados,
        - impactos sobre o ensino e a pesquisa.
+4. Conclua com uma **reflexão pessoal** sobre o caso, considerando:
+
+   - Como a situação poderia ter sido evitada.
+   - O papel das instituições de ensino na prevenção de problemas semelhantes.
+   - A importância da ética no uso de IAG na educação.
+5. O uso de inteligência artificial generativa é permitido, desde que seja explicitado, citado e referenciado no trabalho. A ferramenta deve ser utilizada como apoio à pesquisa, organização de ideias, formatação ou revisão textual — e não para substituir a análise crítica e a reflexão do/a discente. Ao mencionar o uso de IA, é necessário indicar qual ferramenta foi utilizada e de que forma ela contribuiu para o trabalho. A autoria e a responsabilidade intelectual pelo conteúdo final permanecem inteiramente com o/a estudante.
 
 ---
 
 ## 📤 Entrega
 
-- **Prazo final:** 15 de maio de 2025 (quinta-feira)
-- **Valor:** até **2 pontos** na nota final
-- **Formato:** PDF (`.pdf`)
-- **Envio:** pela plataforma da disciplina
+- **Prazo final:** 03 de junho de 2025
+- **Valor:** até **9,0 pontos** na nota final
+- **Formato:** PDF (`.pdf`) ou markdown (`.md`)
+- **Envio:** pelo SIGAA.
 
 ---
 
