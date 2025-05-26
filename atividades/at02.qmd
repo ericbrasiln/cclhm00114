@@ -5,7 +5,7 @@ author: "Professor: Eric Brasil"
 email: profericbrasil@unilab.edu.br
 institute: "Licenciatura em História, IHLM-UNILAB"
 date: "2025-05-26"
-description: "Atividade final para a disciplina Introdução à História Digital. A atividade vale 10,0 pontos e deve ser entregue até 03/06/2025."
+description: "Atividade final para a disciplina Introdução à História Digital. A atividade vale 9,0 pontos e deve ser entregue até 03/06/2025."
 lang: pt-BR
 toc: true
 ---
@@ -13,7 +13,7 @@ toc: true
 
 |Tipo | Tema | Pontos | Prazo |Observações|
 |--------|----------------------|-----|------------|---------------------|
-| Remota | Ética e o uso de Inteligência Artificial Generativa (IAG) no ensino e na pesquisa.| 10,0 | 03/06/2025 | Atividade individual; entregar via SIGAA |
+| Remota | Ética e o uso de Inteligência Artificial Generativa (IAG) no ensino e na pesquisa.| 9,0 | 03/06/2025 | Atividade individual; entregar via SIGAA |
 
 
 ## 📚 Leituras obrigatórias
@@ -66,7 +66,7 @@ Refletir criticamente sobre dilemas éticos e legais envolvendo o uso de IAG no 
 ## 📤 Entrega
 
 - **Prazo final:** 03 de junho de 2025
-- **Valor:** até **10,0 pontos** na nota final
+- **Valor:** até **9,0 pontos** na nota final
 - **Formato:** PDF (`.pdf`) ou markdown (`.md`)
 - **Envio:** pelo SIGAA.
 
