@@ -1,0 +1,164 @@
+---
+title: "História Pública Digital e a Divulgação Científica"
+subtitle: "<br>Aula 14<br>Prof. Eric Brasil"
+date: 2025-05-29
+date-format: full
+lang: pt-br
+format:
+  revealjs: 
+    theme: [default, custom.scss]
+    slide-number: true
+    chalkboard: 
+      buttons: true
+    footer: "Eric Brasil | <a href=https://ericbrasil.com.br/contact/>Entre em contato</a> | CCLHM00114 - Introdução à História Digital"
+    highlight-style: kate
+    logo: "assets/ChatGPT-logo-20250507_160143.png"
+---
+
+## Acesse essa aula com o QRCode {.center}
+
+::: {.column width="48%"}
+![](assets/ChatGPT-logo-20250507_160143.png)
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+
+![](assets/qrcode_aula14.png)
+:::
+
+---
+
+## Sobre esta apresentação {.center}
+
+<br>
+
+::: {.column width="38%"}
+![](assets/IA-BOT_ChatGPT_20250410_091806.png)
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="58%"}
+>Estes slides foram criados com o auxílio do **ChatGPT-4o** (em 28 de maio de 2025).
+>
+>A responsabilidade final pelo conteúdo, curadoria e seleção das informações é do autor.
+:::
+
+---
+
+## 📚 Leituras báseicas {.center}
+
+- Lucchesi, Anita. *História Pública Digital*. Boletim do Tempo Presente, 2022.  
+  [https://periodicos.ufs.br/tempopresente/article/view/17464](https://periodicos.ufs.br/tempopresente/article/view/17464)
+
+- Barbosa Pires, M. F. *Estratégias e Desafios na Divulgação Científica em História*. Locus, 2024.  
+  [https://doi.org/10.34019/2594-8296.2024.v30.43183](https://doi.org/10.34019/2594-8296.2024.v30.43183)
+
+--- 
+
+## 🎯 Objetivos da Aula {.center}
+
+- Discutir o papel da história pública na era digital.  
+- Explorar as mídias digitais como espaços de divulgação da história.  
+- Avaliar o impacto de iniciativas de história digital na sociedade.  
+
+---
+
+## 1. O que é História Pública? {.center}
+
+- Práticas historiográficas voltadas ao público mais amplo.  
+- Relação entre historiadores/as e audiências não especializadas.  
+- Presença fora da academia: museus, exposições, internet, mídias sociais.
+
+---
+
+## 2. História Pública Digital (Lucchesi, 2022) {.center}
+
+
+- Uso de métodos digitais para construir e divulgar história pública.
+- Enfase na **participação ativa do público**, com práticas como *crowdsourcing*.
+- Crítica à neutralidade: documentar escolhas metodológicas = **hermenêutica da prática**.
+- Exemplo: projeto *Memorecord* no Luxemburgo.
+
+---
+
+## {.center}
+
+> “Documentar o processo é uma chave para a inteligibilidade e reprodutibilidade na história digital.”  
+> (Lucchesi, 2022)
+
+---
+
+## 3. O que é Divulgação Científica? {.center}
+
+- Processo de **didatização** do conhecimento científico.
+- Torna o saber acadêmico **acessível ao público leigo**.
+- Exige **tradução da linguagem especializada** para uma linguagem comum.
+- Não significa **simplificação**, mas **mediação qualificada**.
+
+---
+
+## 3. Divulgação Científica como Diálogo {.center}
+
+- O público é um **sujeito ativo**, não apenas receptor.
+- Deve ocupar **espaços digitais e midiáticos** (ex: YouTube).
+- Baseia-se em **interação, engajamento e troca de saberes**.
+- Fundamenta-se na ideia de **construção coletiva de sentidos**.
+
+---
+
+## {.center}
+
+> “Mais do que simplesmente transmitir conhecimento, é necessário estabelecer uma conexão com o público.”  
+> — Pires, 2024
+
+---
+
+## {.center}
+
+> “A lógica algorítmica precisa ser compreendida para que narrativas invisibilizadas ganhem espaço.”  
+> (Pires, 2024)
+
+---
+
+## 4. Ética, justiça e visibilidade {.center}
+
+
+- Que vozes são ouvidas? Quem decide o que é relevante?
+- **História pública digital como reparação** e denúncia.
+- Risco de reencenar silenciamentos ou fetichizar a dor.
+
+---
+
+## 5. Riscos: IA, Deepfake e Desinformaçã {.center}
+
+- IA pode ser usada para criar conteúdos falsos e enganosos.  
+- Riscos de manipulação da memória coletiva (deepfake históricos).  
+- Papel do/a historiador/a como mediador/a crítico/a da informação.
+
+---
+
+## {.center}
+
+> Precisamos formar uma cultura digital crítica e ética.
+
+---
+
+## Considerações finais {.center}
+
+- A história pública digital é um campo em construção.  
+- Pensar a divulgação científica exige reflexão ética, técnica e política.  
+- Que histórias queremos tornar públicas — e como?
+
+---
+
+## 📬 Contatos {.center}
+
+- 📧 E-mail: **profericbrasil@unilab.edu.br**  
+- 🌐 Site: [**ericbrasil.com.br**](https://ericbrasil.com.br)  
+- 📸 Instagram: [**@ericbrasiln**](https://instagram.com/ericbrasiln)
+
